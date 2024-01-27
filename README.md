@@ -1,36 +1,37 @@
-# Meorphis Test 4 Node API Library
+# Cloudflare Node API Library
 
-[![NPM version](https://img.shields.io/npm/v/meorphis-test-4.svg)](https://npmjs.org/package/meorphis-test-4)
+[![NPM version](https://img.shields.io/npm/v/cloudflare.svg)](https://npmjs.org/package/cloudflare)
 
-This library provides convenient access to the Meorphis Test 4 REST API from server-side TypeScript or JavaScript.
+This library provides convenient access to the Cloudflare REST API from server-side TypeScript or JavaScript.
 
-The REST API documentation can be found [on docs.meorphis-test-4.com](https://docs.meorphis-test-4.com). The full API of this library can be found in [api.md](https://www.github.com/meorphis/test-repo-2/blob/main/api.md).
+The REST API documentation can be found [on developers.cloudflare.com](https://developers.cloudflare.com/api/). The full API of this library can be found in [api.md](https://www.github.com/cloudflare/cloudflare-sdk-node/blob/main/api.md).
 
 ## Installation
 
 ```sh
-npm install --save meorphis-test-4
+npm install --save cloudflare
 # or
-yarn add meorphis-test-4
+yarn add cloudflare
 ```
 
 ## Usage
 
-The full API of this library can be found in [api.md](https://www.github.com/meorphis/test-repo-2/blob/main/api.md).
+The full API of this library can be found in [api.md](https://www.github.com/cloudflare/cloudflare-sdk-node/blob/main/api.md).
 
 <!-- prettier-ignore -->
 ```js
-import MeorphisTest4 from 'meorphis-test-4';
+import Cloudflare from 'cloudflare';
 
-const meorphisTest4 = new MeorphisTest4({
-  apiKey: process.env['MEORPHIS_TEST_4_API_KEY'], // This is the default and can be omitted
-  environment: 'environment_1', // defaults to 'production'
-});
+const cloudflare = new Cloudflare();
 
 async function main() {
-  const statusRetrieveResponse = await meorphisTest4.status.retrieve();
+  const zoneCreateResponse = await cloudflare.zones.create({
+    account: { id: '023e105f4ecef8ad9ca31a8372d0c353' },
+    name: 'example.com',
+    type: 'full',
+  });
 
-  console.log(statusRetrieveResponse.message);
+  console.log(zoneCreateResponse.result.id);
 }
 
 main();
@@ -42,15 +43,17 @@ This library includes TypeScript definitions for all request params and response
 
 <!-- prettier-ignore -->
 ```ts
-import MeorphisTest4 from 'meorphis-test-4';
+import Cloudflare from 'cloudflare';
 
-const meorphisTest4 = new MeorphisTest4({
-  apiKey: process.env['MEORPHIS_TEST_4_API_KEY'], // This is the default and can be omitted
-  environment: 'environment_1', // defaults to 'production'
-});
+const cloudflare = new Cloudflare();
 
 async function main() {
-  const statusRetrieveResponse: MeorphisTest4.StatusRetrieveResponse = await meorphisTest4.status.retrieve();
+  const params: Cloudflare.ZoneCreateParams = {
+    account: { id: '023e105f4ecef8ad9ca31a8372d0c353' },
+    name: 'example.com',
+    type: 'full',
+  };
+  const zoneCreateResponse: Cloudflare.ZoneCreateResponse = await cloudflare.zones.create(params);
 }
 
 main();
@@ -67,8 +70,8 @@ a subclass of `APIError` will be thrown:
 <!-- prettier-ignore -->
 ```ts
 async function main() {
-  const status = await meorphisTest4.status.retrieve().catch((err) => {
-    if (err instanceof MeorphisTest4.APIError) {
+  const zone = await cloudflare.zones.retrieve('023e105f4ecef8ad9ca31a8372d0c353').catch((err) => {
+    if (err instanceof Cloudflare.APIError) {
       console.log(err.status); // 400
       console.log(err.name); // BadRequestError
       console.log(err.headers); // {server: 'nginx', ...}
@@ -105,12 +108,12 @@ You can use the `maxRetries` option to configure or disable this:
 <!-- prettier-ignore -->
 ```js
 // Configure the default for all requests:
-const meorphisTest4 = new MeorphisTest4({
+const cloudflare = new Cloudflare({
   maxRetries: 0, // default is 2
 });
 
 // Or, configure per-request:
-await meorphisTest4.status.retrieve({
+await cloudflare.zones.retrieve('023e105f4ecef8ad9ca31a8372d0c353', {
   maxRetries: 5,
 });
 ```
@@ -122,12 +125,12 @@ Requests time out after 1 minute by default. You can configure this with a `time
 <!-- prettier-ignore -->
 ```ts
 // Configure the default for all requests:
-const meorphisTest4 = new MeorphisTest4({
+const cloudflare = new Cloudflare({
   timeout: 20 * 1000, // 20 seconds (default is 1 minute)
 });
 
 // Override per-request:
-await meorphisTest4.status.retrieve({
+await cloudflare.zones.update('023e105f4ecef8ad9ca31a8372d0c353', {
   timeout: 5 * 1000,
 });
 ```
@@ -146,15 +149,19 @@ You can also use the `.withResponse()` method to get the raw `Response` along wi
 
 <!-- prettier-ignore -->
 ```ts
-const meorphisTest4 = new MeorphisTest4();
+const cloudflare = new Cloudflare();
 
-const response = await meorphisTest4.status.retrieve().asResponse();
+const response = await cloudflare.zones
+  .create({ account: { id: '023e105f4ecef8ad9ca31a8372d0c353' }, name: 'example.com', type: 'full' })
+  .asResponse();
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: statusRetrieveResponse, response: raw } = await meorphisTest4.status.retrieve().withResponse();
+const { data: zoneCreateResponse, response: raw } = await cloudflare.zones
+  .create({ account: { id: '023e105f4ecef8ad9ca31a8372d0c353' }, name: 'example.com', type: 'full' })
+  .withResponse();
 console.log(raw.headers.get('X-My-Header'));
-console.log(statusRetrieveResponse.message);
+console.log(zoneCreateResponse.result.id);
 ```
 
 ## Customizing the fetch client
@@ -163,26 +170,26 @@ By default, this library uses `node-fetch` in Node, and expects a global `fetch`
 
 If you would prefer to use a global, web-standards-compliant `fetch` function even in a Node environment,
 (for example, if you are running Node with `--experimental-fetch` or using NextJS which polyfills with `undici`),
-add the following import before your first import `from "MeorphisTest4"`:
+add the following import before your first import `from "Cloudflare"`:
 
 ```ts
 // Tell TypeScript and the package to use the global web fetch instead of node-fetch.
 // Note, despite the name, this does not add any polyfills, but expects them to be provided if needed.
-import 'meorphis-test-4/shims/web';
-import MeorphisTest4 from 'meorphis-test-4';
+import 'cloudflare/shims/web';
+import Cloudflare from 'cloudflare';
 ```
 
-To do the inverse, add `import "meorphis-test-4/shims/node"` (which does import polyfills).
-This can also be useful if you are getting the wrong TypeScript types for `Response` - more details [here](https://github.com/meorphis/test-repo-2/tree/main/src/_shims#readme).
+To do the inverse, add `import "cloudflare/shims/node"` (which does import polyfills).
+This can also be useful if you are getting the wrong TypeScript types for `Response` - more details [here](https://github.com/cloudflare/cloudflare-sdk-node/tree/main/src/_shims#readme).
 
 You may also provide a custom `fetch` function when instantiating the client,
 which can be used to inspect or alter the `Request` or `Response` before/after each request:
 
 ```ts
 import { fetch } from 'undici'; // as one example
-import MeorphisTest4 from 'meorphis-test-4';
+import Cloudflare from 'cloudflare';
 
-const client = new MeorphisTest4({
+const client = new Cloudflare({
   fetch: async (url: RequestInfo, init?: RequestInfo): Promise<Response> => {
     console.log('About to make a request', url, init);
     const response = await fetch(url, init);
@@ -207,12 +214,12 @@ import http from 'http';
 import HttpsProxyAgent from 'https-proxy-agent';
 
 // Configure the default for all requests:
-const meorphisTest4 = new MeorphisTest4({
+const cloudflare = new Cloudflare({
   httpAgent: new HttpsProxyAgent(process.env.PROXY_URL),
 });
 
 // Override per-request:
-await meorphisTest4.status.retrieve({
+await cloudflare.zones.delete('023e105f4ecef8ad9ca31a8372d0c353', {
   baseURL: 'http://localhost:8080/test-api',
   httpAgent: new http.Agent({ keepAlive: false }),
 })
@@ -228,7 +235,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/meorphis/test-repo-2/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/cloudflare/cloudflare-sdk-node/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 
@@ -237,7 +244,7 @@ TypeScript >= 4.5 is supported.
 The following runtimes are supported:
 
 - Node.js 18 LTS or later ([non-EOL](https://endoflife.date/nodejs)) versions.
-- Deno v1.28.0 or higher, using `import MeorphisTest4 from "npm:meorphis-test-4"`.
+- Deno v1.28.0 or higher, using `import Cloudflare from "npm:cloudflare"`.
 - Bun 1.0 or later.
 - Cloudflare Workers.
 - Vercel Edge Runtime.

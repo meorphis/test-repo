@@ -1,8 +1,8 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import MeorphisTest4 from 'meorphis-test-4';
-import { APIUserAbortError } from 'meorphis-test-4';
-import { Headers } from 'meorphis-test-4/core';
+import Cloudflare from 'cloudflare';
+import { APIUserAbortError } from 'cloudflare';
+import { Headers } from 'cloudflare/core';
 import defaultFetch, { Response, type RequestInit, type RequestInfo } from 'node-fetch';
 
 describe('instantiate client', () => {
@@ -20,10 +20,13 @@ describe('instantiate client', () => {
   });
 
   describe('defaultHeaders', () => {
-    const client = new MeorphisTest4({
+    const client = new Cloudflare({
       baseURL: 'http://localhost:5000/',
       defaultHeaders: { 'X-My-Default-Header': '2' },
-      apiKey: 'My API Key',
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
     });
 
     test('they are used in the request', () => {
@@ -52,37 +55,49 @@ describe('instantiate client', () => {
 
   describe('defaultQuery', () => {
     test('with null query params given', () => {
-      const client = new MeorphisTest4({
+      const client = new Cloudflare({
         baseURL: 'http://localhost:5000/',
         defaultQuery: { apiVersion: 'foo' },
-        apiKey: 'My API Key',
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
       });
       expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/foo?apiVersion=foo');
     });
 
     test('multiple default query params', () => {
-      const client = new MeorphisTest4({
+      const client = new Cloudflare({
         baseURL: 'http://localhost:5000/',
         defaultQuery: { apiVersion: 'foo', hello: 'world' },
-        apiKey: 'My API Key',
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
       });
       expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/foo?apiVersion=foo&hello=world');
     });
 
     test('overriding with `undefined`', () => {
-      const client = new MeorphisTest4({
+      const client = new Cloudflare({
         baseURL: 'http://localhost:5000/',
         defaultQuery: { hello: 'world' },
-        apiKey: 'My API Key',
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
       });
       expect(client.buildURL('/foo', { hello: undefined })).toEqual('http://localhost:5000/foo');
     });
   });
 
   test('custom fetch', async () => {
-    const client = new MeorphisTest4({
+    const client = new Cloudflare({
       baseURL: 'http://localhost:5000/',
-      apiKey: 'My API Key',
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
       fetch: (url) => {
         return Promise.resolve(
           new Response(JSON.stringify({ url, custom: true }), {
@@ -97,9 +112,12 @@ describe('instantiate client', () => {
   });
 
   test('custom signal', async () => {
-    const client = new MeorphisTest4({
+    const client = new Cloudflare({
       baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010',
-      apiKey: 'My API Key',
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
       fetch: (...args) => {
         return new Promise((resolve, reject) =>
           setTimeout(
@@ -124,88 +142,135 @@ describe('instantiate client', () => {
 
   describe('baseUrl', () => {
     test('trailing slash', () => {
-      const client = new MeorphisTest4({
+      const client = new Cloudflare({
         baseURL: 'http://localhost:5000/custom/path/',
-        apiKey: 'My API Key',
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
       });
       expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/custom/path/foo');
     });
 
     test('no trailing slash', () => {
-      const client = new MeorphisTest4({
+      const client = new Cloudflare({
         baseURL: 'http://localhost:5000/custom/path',
-        apiKey: 'My API Key',
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
       });
       expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/custom/path/foo');
     });
 
     afterEach(() => {
-      process.env['MEORPHIS_TEST_4_BASE_URL'] = undefined;
+      process.env['CLOUDFLARE_BASE_URL'] = undefined;
     });
 
     test('explicit option', () => {
-      const client = new MeorphisTest4({ baseURL: 'https://example.com', apiKey: 'My API Key' });
+      const client = new Cloudflare({
+        baseURL: 'https://example.com',
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
+      });
       expect(client.baseURL).toEqual('https://example.com');
     });
 
     test('env variable', () => {
-      process.env['MEORPHIS_TEST_4_BASE_URL'] = 'https://example.com/from_env';
-      const client = new MeorphisTest4({ apiKey: 'My API Key' });
+      process.env['CLOUDFLARE_BASE_URL'] = 'https://example.com/from_env';
+      const client = new Cloudflare({
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
+      });
       expect(client.baseURL).toEqual('https://example.com/from_env');
     });
 
     test('empty env variable', () => {
-      process.env['MEORPHIS_TEST_4_BASE_URL'] = ''; // empty
-      const client = new MeorphisTest4({ apiKey: 'My API Key' });
-      expect(client.baseURL).toEqual('https://api.acme.com/v1');
+      process.env['CLOUDFLARE_BASE_URL'] = ''; // empty
+      const client = new Cloudflare({
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
+      });
+      expect(client.baseURL).toEqual('https://api.cloudflare.com/client/v4');
     });
 
     test('blank env variable', () => {
-      process.env['MEORPHIS_TEST_4_BASE_URL'] = '  '; // blank
-      const client = new MeorphisTest4({ apiKey: 'My API Key' });
-      expect(client.baseURL).toEqual('https://api.acme.com/v1');
-    });
-
-    test('env variable with environment', () => {
-      process.env['MEORPHIS_TEST_4_BASE_URL'] = 'https://example.com/from_env';
-
-      expect(
-        () => new MeorphisTest4({ apiKey: 'My API Key', environment: 'production' }),
-      ).toThrowErrorMatchingInlineSnapshot(
-        `"Ambiguous URL; The \`baseURL\` option (or MEORPHIS_TEST_4_BASE_URL env var) and the \`environment\` option are given. If you want to use the environment you must pass baseURL: null"`,
-      );
-
-      const client = new MeorphisTest4({ apiKey: 'My API Key', baseURL: null, environment: 'production' });
-      expect(client.baseURL).toEqual('https://api.acme.com/v1');
+      process.env['CLOUDFLARE_BASE_URL'] = '  '; // blank
+      const client = new Cloudflare({
+        apiEmail: 'dev@cloudflare.com',
+        apiKey: 'my-cloudflare-api-key',
+        apiToken: 'my-cloudflare-api-token',
+        userServiceKey: 'my-cloudflare-user-service-key',
+      });
+      expect(client.baseURL).toEqual('https://api.cloudflare.com/client/v4');
     });
   });
 
   test('maxRetries option is correctly set', () => {
-    const client = new MeorphisTest4({ maxRetries: 4, apiKey: 'My API Key' });
+    const client = new Cloudflare({
+      maxRetries: 4,
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
+    });
     expect(client.maxRetries).toEqual(4);
 
     // default
-    const client2 = new MeorphisTest4({ apiKey: 'My API Key' });
+    const client2 = new Cloudflare({
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
+    });
     expect(client2.maxRetries).toEqual(2);
   });
 
   test('with environment variable arguments', () => {
     // set options via env var
-    process.env['MEORPHIS_TEST_4_API_KEY'] = 'My API Key';
-    const client = new MeorphisTest4();
-    expect(client.apiKey).toBe('My API Key');
+    process.env['CLOUDFLARE_API_EMAIL'] = 'dev@cloudflare.com';
+    process.env['CLOUDFLARE_API_KEY'] = 'my-cloudflare-api-key';
+    process.env['CLOUDFLARE_API_TOKEN'] = 'my-cloudflare-api-token';
+    process.env['CLOUDFLARE_USER_SERVICE_KEY'] = 'my-cloudflare-user-service-key';
+    const client = new Cloudflare();
+    expect(client.apiEmail).toBe('dev@cloudflare.com');
+    expect(client.apiKey).toBe('my-cloudflare-api-key');
+    expect(client.apiToken).toBe('my-cloudflare-api-token');
+    expect(client.userServiceKey).toBe('my-cloudflare-user-service-key');
   });
 
   test('with overriden environment variable arguments', () => {
     // set options via env var
-    process.env['MEORPHIS_TEST_4_API_KEY'] = 'another My API Key';
-    const client = new MeorphisTest4({ apiKey: 'My API Key' });
-    expect(client.apiKey).toBe('My API Key');
+    process.env['CLOUDFLARE_API_EMAIL'] = 'another dev@cloudflare.com';
+    process.env['CLOUDFLARE_API_KEY'] = 'another my-cloudflare-api-key';
+    process.env['CLOUDFLARE_API_TOKEN'] = 'another my-cloudflare-api-token';
+    process.env['CLOUDFLARE_USER_SERVICE_KEY'] = 'another my-cloudflare-user-service-key';
+    const client = new Cloudflare({
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
+    });
+    expect(client.apiEmail).toBe('dev@cloudflare.com');
+    expect(client.apiKey).toBe('my-cloudflare-api-key');
+    expect(client.apiToken).toBe('my-cloudflare-api-token');
+    expect(client.userServiceKey).toBe('my-cloudflare-user-service-key');
   });
 });
 
 describe('request building', () => {
-  const client = new MeorphisTest4({ apiKey: 'My API Key' });
+  const client = new Cloudflare({
+    apiEmail: 'dev@cloudflare.com',
+    apiKey: 'my-cloudflare-api-key',
+    apiToken: 'my-cloudflare-api-token',
+    userServiceKey: 'my-cloudflare-user-service-key',
+  });
 
   describe('Content-Length', () => {
     test('handles multi-byte characters', () => {
@@ -247,7 +312,14 @@ describe('retries', () => {
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
 
-    const client = new MeorphisTest4({ apiKey: 'My API Key', timeout: 10, fetch: testFetch });
+    const client = new Cloudflare({
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
+      timeout: 10,
+      fetch: testFetch,
+    });
 
     expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
     expect(count).toEqual(2);
@@ -274,7 +346,13 @@ describe('retries', () => {
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
 
-    const client = new MeorphisTest4({ apiKey: 'My API Key', fetch: testFetch });
+    const client = new Cloudflare({
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
+      fetch: testFetch,
+    });
 
     expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
     expect(count).toEqual(2);
@@ -301,7 +379,13 @@ describe('retries', () => {
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
 
-    const client = new MeorphisTest4({ apiKey: 'My API Key', fetch: testFetch });
+    const client = new Cloudflare({
+      apiEmail: 'dev@cloudflare.com',
+      apiKey: 'my-cloudflare-api-key',
+      apiToken: 'my-cloudflare-api-token',
+      userServiceKey: 'my-cloudflare-user-service-key',
+      fetch: testFetch,
+    });
 
     expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
     expect(count).toEqual(2);

@@ -1,11 +1,11 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import type { MeorphisTest4 } from './index';
+import type { Cloudflare } from './index';
 
 export class APIResource {
-  protected _client: MeorphisTest4;
+  protected _client: Cloudflare;
 
-  constructor(client: MeorphisTest4) {
+  constructor(client: Cloudflare) {
     this._client = client;
   }
 }

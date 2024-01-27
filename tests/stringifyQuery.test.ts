@@ -1,4 +1,4 @@
-import { APIClient } from 'meorphis-test-4/core';
+import { APIClient } from 'cloudflare/core';
 
 const { stringifyQuery } = APIClient.prototype as any;
 

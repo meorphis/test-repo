@@ -1,6 +1,6 @@
-import { multipartFormRequestOptions, createForm } from 'meorphis-test-4/core';
-import { Blob } from 'meorphis-test-4/_shims/index';
-import { toFile } from 'meorphis-test-4';
+import { multipartFormRequestOptions, createForm } from 'cloudflare/core';
+import { Blob } from 'cloudflare/_shims/index';
+import { toFile } from 'cloudflare';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {

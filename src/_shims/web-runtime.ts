@@ -9,9 +9,9 @@ export function getRuntime({ manuallyImported }: { manuallyImported?: boolean } 
   const recommendation =
     manuallyImported ?
       `You may need to use polyfills`
-    : `Add one of these imports before your first \`import … from 'meorphis-test-4'\`:
-- \`import 'meorphis-test-4/shims/node'\` (if you're running on Node)
-- \`import 'meorphis-test-4/shims/web'\` (otherwise)
+    : `Add one of these imports before your first \`import … from 'cloudflare'\`:
+- \`import 'cloudflare/shims/node'\` (if you're running on Node)
+- \`import 'cloudflare/shims/web'\` (otherwise)
 `;
 
   let _fetch, _Request, _Response, _Headers;
@@ -95,7 +95,7 @@ export function getRuntime({ manuallyImported }: { manuallyImported?: boolean } 
     getDefaultAgent: (url: string) => undefined,
     fileFromPath: () => {
       throw new Error(
-        'The `fileFromPath` function is only supported in Node. See the README for more details: https://www.github.com/meorphis/test-repo-2#file-uploads',
+        'The `fileFromPath` function is only supported in Node. See the README for more details: https://www.github.com/cloudflare/cloudflare-sdk-node#file-uploads',
       );
     },
     isFsReadStream: (value: any) => false,
