@@ -1,19 +1,33 @@
-ZGVjbGFyZSBtb2R1bGUgJ2RpZ2VzdC1mZXRjaCc7CgppbXBvcnQgdHlwZSB7
-IFJlcXVlc3RJbmZvLCBSZXF1ZXN0SW5pdCwgUmVzcG9uc2UgfSBmcm9tICdu
-b2RlLWZldGNoJzsKCnR5cGUgQWxnb3JpdGhtID0gJ01ENScgfCAnTUQ1LXNl
-c3MnOwoKdHlwZSBPcHRpb25zID0gewogIGFsZ29yaXRobT86IEFsZ29yaXRo
-bTsKICBzdGF0dXNDb2RlPzogbnVtYmVyOwogIGNub25jZVNpemU/OiBudW1i
-ZXI7CiAgYmFzaWM/OiBib29sZWFuOwogIHByZWNvbXB1dGVIYXNoPzogYm9v
-bGVhbjsKICBsb2dnZXI/OiB0eXBlb2YgY29uc29sZTsKfTsKCmNsYXNzIERp
-Z2VzdENsaWVudCB7CiAgdXNlcjogc3RyaW5nOwogIHBhc3N3b3JkOiBzdHJp
-bmc7CgogIHByaXZhdGUgbm9uY2VSYXc6IHN0cmluZzsKICBwcml2YXRlIGxv
-Z2dlcj86IHR5cGVvZiBjb25zb2xlOwogIHByaXZhdGUgcHJlY29tcHV0ZWRI
-YXNoPzogYm9vbGVhbjsKICBwcml2YXRlIHN0YXR1c0NvZGU/OiBudW1iZXI7
-CiAgcHJpdmF0ZSBiYXNpYzogYm9vbGVhbjsKICBwcml2YXRlIGNub25jZVNp
-emU6IG51bWJlcjsKICBwcml2YXRlIGhhc0F1dGg6IGJvb2xlYW47CiAgcHJp
-dmF0ZSBkaWdlc3Q6IHsgbmM6IG51bWJlcjsgYWxnb3JpdGhtOiBBbGdvcml0
-aG07IHJlYWxtOiBzdHJpbmcgfTsKCiAgY29uc3RydWN0b3IodXNlcjogc3Ry
-aW5nLCBwYXNzd29yZDogc3RyaW5nLCBvcHRpb25zOiBPcHRpb25zID0ge30p
-OwogIGFzeW5jIGZldGNoKHVybDogUmVxdWVzdEluZm8sIG9wdGlvbnM6IFJl
-cXVlc3RJbml0ID0ge30pOiBQcm9taXNlPFJlc3BvbnNlPjsKfQoKZXhwb3J0
-IGRlZmF1bHQgRGlnZXN0Q2xpZW50Owo=
+declare module 'digest-fetch';
+
+import type { RequestInfo, RequestInit, Response } from 'node-fetch';
+
+type Algorithm = 'MD5' | 'MD5-sess';
+
+type Options = {
+  algorithm?: Algorithm;
+  statusCode?: number;
+  cnonceSize?: number;
+  basic?: boolean;
+  precomputeHash?: boolean;
+  logger?: typeof console;
+};
+
+class DigestClient {
+  user: string;
+  password: string;
+
+  private nonceRaw: string;
+  private logger?: typeof console;
+  private precomputedHash?: boolean;
+  private statusCode?: number;
+  private basic: boolean;
+  private cnonceSize: number;
+  private hasAuth: boolean;
+  private digest: { nc: number; algorithm: Algorithm; realm: string };
+
+  constructor(user: string, password: string, options: Options = {});
+  async fetch(url: RequestInfo, options: RequestInit = {}): Promise<Response>;
+}
+
+export default DigestClient;

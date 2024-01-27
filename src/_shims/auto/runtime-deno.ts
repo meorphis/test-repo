@@ -1,3 +1,4 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwpleHBv
-cnQgKiBmcm9tICcuLi93ZWItcnVudGltZSc7Cg==
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */
+export * from '../web-runtime';

@@ -1,12 +1,21 @@
-ewogICJleHRlbmRzIjogIi4vdHNjb25maWcuanNvbiIsCiAgImluY2x1ZGUi
-OiBbImRlbm8iXSwKICAiZXhjbHVkZSI6IFtdLAogICJjb21waWxlck9wdGlv
-bnMiOiB7CiAgICAicm9vdERpciI6ICIuL2Rlbm8iLAogICAgImxpYiI6IFsi
-ZXMyMDIwIiwgIkRPTSJdLAogICAgInBhdGhzIjogewogICAgICAibWVvcnBo
-aXMtdGVzdC00L19zaGltcy9hdXRvLyoiOiBbImRlbm8vX3NoaW1zL2F1dG8v
-Ki1kZW5vIl0sCiAgICAgICJtZW9ycGhpcy10ZXN0LTQvKiI6IFsiZGVuby8q
-Il0sCiAgICAgICJtZW9ycGhpcy10ZXN0LTQiOiBbImRlbm8vaW5kZXgudHMi
-XSwKICAgICAgImRpZ2VzdC1mZXRjaCI6IFsiLi90eXBpbmdzL2RpZ2VzdC1m
-ZXRjaCJdCiAgICB9LAogICAgIm5vRW1pdCI6IHRydWUsCiAgICAiZGVjbGFy
-YXRpb24iOiB0cnVlLAogICAgImRlY2xhcmF0aW9uTWFwIjogdHJ1ZSwKICAg
-ICJvdXREaXIiOiAiZGVubyIsCiAgICAicHJldHR5IjogdHJ1ZSwKICAgICJz
-b3VyY2VNYXAiOiB0cnVlCiAgfQp9Cg==
+{
+  "extends": "./tsconfig.json",
+  "include": ["deno"],
+  "exclude": [],
+  "compilerOptions": {
+    "rootDir": "./deno",
+    "lib": ["es2020", "DOM"],
+    "paths": {
+      "meorphis-test-4/_shims/auto/*": ["deno/_shims/auto/*-deno"],
+      "meorphis-test-4/*": ["deno/*"],
+      "meorphis-test-4": ["deno/index.ts"],
+      "digest-fetch": ["./typings/digest-fetch"]
+    },
+    "noEmit": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "deno",
+    "pretty": true,
+    "sourceMap": true
+  }
+}

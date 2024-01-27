@@ -1,15 +1,21 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCAqIGFzIENvcmUgZnJvbSAnbWVvcnBoaXMtdGVz
-dC00L2NvcmUnOwppbXBvcnQgeyBBUElSZXNvdXJjZSB9IGZyb20gJ21lb3Jw
-aGlzLXRlc3QtNC9yZXNvdXJjZSc7CmltcG9ydCAqIGFzIENhcmRzQVBJIGZy
-b20gJ21lb3JwaGlzLXRlc3QtNC9yZXNvdXJjZXMvY2FyZHMvY2FyZHMnOwoK
-ZXhwb3J0IGNsYXNzIEZpbmFuY2lhbFRyYW5zYWN0aW9ucyBleHRlbmRzIEFQ
-SVJlc291cmNlIHsKICAvKioKICAgKiBHZXQgdGhlIGNhcmQgZmluYW5jaWFs
-IHRyYW5zYWN0aW9uIGZvciB0aGUgcHJvdmlkZWQgdG9rZW4uCiAgICovCiAg
-cmV0cmlldmUoCiAgICBjYXJkVG9rZW46IHN0cmluZywKICAgIGZpbmFuY2lh
-bFRyYW5zYWN0aW9uVG9rZW46IHN0cmluZywKICAgIG9wdGlvbnM/OiBDb3Jl
-LlJlcXVlc3RPcHRpb25zLAogICk6IENvcmUuQVBJUHJvbWlzZTxDYXJkc0FQ
-SS5GaW5hbmNpYWx0cmFuc2FjdGlvbj4gewogICAgcmV0dXJuIHRoaXMuX2Ns
-aWVudC5nZXQoCiAgICAgIGAvY2FyZHMvJHtjYXJkVG9rZW59L2ZpbmFuY2lh
-bF90cmFuc2FjdGlvbnMvJHtmaW5hbmNpYWxUcmFuc2FjdGlvblRva2VufWAs
-CiAgICAgIG9wdGlvbnMsCiAgICApOwogIH0KfQo=
+// File generated from our OpenAPI spec by Stainless.
+
+import * as Core from 'meorphis-test-4/core';
+import { APIResource } from 'meorphis-test-4/resource';
+import * as CardsAPI from 'meorphis-test-4/resources/cards/cards';
+
+export class FinancialTransactions extends APIResource {
+  /**
+   * Get the card financial transaction for the provided token.
+   */
+  retrieve(
+    cardToken: string,
+    financialTransactionToken: string,
+    options?: Core.RequestOptions,
+  ): Core.APIPromise<CardsAPI.Financialtransaction> {
+    return this._client.get(
+      `/cards/${cardToken}/financial_transactions/${financialTransactionToken}`,
+      options,
+    );
+  }
+}

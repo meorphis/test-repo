@@ -1,86 +1,146 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCB7IGNhc3RUb0Vycm9yLCBIZWFkZXJzIH0gZnJv
-bSAnLi9jb3JlJzsKCmV4cG9ydCBjbGFzcyBNZW9ycGhpc1Rlc3Q0RXJyb3Ig
-ZXh0ZW5kcyBFcnJvciB7fQoKZXhwb3J0IGNsYXNzIEFQSUVycm9yIGV4dGVu
-ZHMgTWVvcnBoaXNUZXN0NEVycm9yIHsKICByZWFkb25seSBzdGF0dXM6IG51
-bWJlciB8IHVuZGVmaW5lZDsKICByZWFkb25seSBoZWFkZXJzOiBIZWFkZXJz
-IHwgdW5kZWZpbmVkOwogIHJlYWRvbmx5IGVycm9yOiBPYmplY3QgfCB1bmRl
-ZmluZWQ7CgogIGNvbnN0cnVjdG9yKAogICAgc3RhdHVzOiBudW1iZXIgfCB1
-bmRlZmluZWQsCiAgICBlcnJvcjogT2JqZWN0IHwgdW5kZWZpbmVkLAogICAg
-bWVzc2FnZTogc3RyaW5nIHwgdW5kZWZpbmVkLAogICAgaGVhZGVyczogSGVh
-ZGVycyB8IHVuZGVmaW5lZCwKICApIHsKICAgIHN1cGVyKGAke0FQSUVycm9y
-Lm1ha2VNZXNzYWdlKHN0YXR1cywgZXJyb3IsIG1lc3NhZ2UpfWApOwogICAg
-dGhpcy5zdGF0dXMgPSBzdGF0dXM7CiAgICB0aGlzLmhlYWRlcnMgPSBoZWFk
-ZXJzOwogICAgdGhpcy5lcnJvciA9IGVycm9yOwogIH0KCiAgcHJpdmF0ZSBz
-dGF0aWMgbWFrZU1lc3NhZ2Uoc3RhdHVzOiBudW1iZXIgfCB1bmRlZmluZWQs
-IGVycm9yOiBhbnksIG1lc3NhZ2U6IHN0cmluZyB8IHVuZGVmaW5lZCkgewog
-ICAgY29uc3QgbXNnID0KICAgICAgZXJyb3I/Lm1lc3NhZ2UgPwogICAgICAg
-IHR5cGVvZiBlcnJvci5tZXNzYWdlID09PSAnc3RyaW5nJyA/CiAgICAgICAg
-ICBlcnJvci5tZXNzYWdlCiAgICAgICAgOiBKU09OLnN0cmluZ2lmeShlcnJv
-ci5tZXNzYWdlKQogICAgICA6IGVycm9yID8gSlNPTi5zdHJpbmdpZnkoZXJy
-b3IpCiAgICAgIDogbWVzc2FnZTsKCiAgICBpZiAoc3RhdHVzICYmIG1zZykg
-ewogICAgICByZXR1cm4gYCR7c3RhdHVzfSAke21zZ31gOwogICAgfQogICAg
-aWYgKHN0YXR1cykgewogICAgICByZXR1cm4gYCR7c3RhdHVzfSBzdGF0dXMg
-Y29kZSAobm8gYm9keSlgOwogICAgfQogICAgaWYgKG1zZykgewogICAgICBy
-ZXR1cm4gbXNnOwogICAgfQogICAgcmV0dXJuICcobm8gc3RhdHVzIGNvZGUg
-b3IgYm9keSknOwogIH0KCiAgc3RhdGljIGdlbmVyYXRlKAogICAgc3RhdHVz
-OiBudW1iZXIgfCB1bmRlZmluZWQsCiAgICBlcnJvclJlc3BvbnNlOiBPYmpl
-Y3QgfCB1bmRlZmluZWQsCiAgICBtZXNzYWdlOiBzdHJpbmcgfCB1bmRlZmlu
-ZWQsCiAgICBoZWFkZXJzOiBIZWFkZXJzIHwgdW5kZWZpbmVkLAogICkgewog
-ICAgaWYgKCFzdGF0dXMpIHsKICAgICAgcmV0dXJuIG5ldyBBUElDb25uZWN0
-aW9uRXJyb3IoeyBjYXVzZTogY2FzdFRvRXJyb3IoZXJyb3JSZXNwb25zZSkg
-fSk7CiAgICB9CgogICAgY29uc3QgZXJyb3IgPSBlcnJvclJlc3BvbnNlIGFz
-IFJlY29yZDxzdHJpbmcsIGFueT47CgogICAgaWYgKHN0YXR1cyA9PT0gNDAw
-KSB7CiAgICAgIHJldHVybiBuZXcgQmFkUmVxdWVzdEVycm9yKHN0YXR1cywg
-ZXJyb3IsIG1lc3NhZ2UsIGhlYWRlcnMpOwogICAgfQoKICAgIGlmIChzdGF0
-dXMgPT09IDQwMSkgewogICAgICByZXR1cm4gbmV3IEF1dGhlbnRpY2F0aW9u
-RXJyb3Ioc3RhdHVzLCBlcnJvciwgbWVzc2FnZSwgaGVhZGVycyk7CiAgICB9
-CgogICAgaWYgKHN0YXR1cyA9PT0gNDAzKSB7CiAgICAgIHJldHVybiBuZXcg
-UGVybWlzc2lvbkRlbmllZEVycm9yKHN0YXR1cywgZXJyb3IsIG1lc3NhZ2Us
-IGhlYWRlcnMpOwogICAgfQoKICAgIGlmIChzdGF0dXMgPT09IDQwNCkgewog
-ICAgICByZXR1cm4gbmV3IE5vdEZvdW5kRXJyb3Ioc3RhdHVzLCBlcnJvciwg
-bWVzc2FnZSwgaGVhZGVycyk7CiAgICB9CgogICAgaWYgKHN0YXR1cyA9PT0g
-NDA5KSB7CiAgICAgIHJldHVybiBuZXcgQ29uZmxpY3RFcnJvcihzdGF0dXMs
-IGVycm9yLCBtZXNzYWdlLCBoZWFkZXJzKTsKICAgIH0KCiAgICBpZiAoc3Rh
-dHVzID09PSA0MjIpIHsKICAgICAgcmV0dXJuIG5ldyBVbnByb2Nlc3NhYmxl
-RW50aXR5RXJyb3Ioc3RhdHVzLCBlcnJvciwgbWVzc2FnZSwgaGVhZGVycyk7
-CiAgICB9CgogICAgaWYgKHN0YXR1cyA9PT0gNDI5KSB7CiAgICAgIHJldHVy
-biBuZXcgUmF0ZUxpbWl0RXJyb3Ioc3RhdHVzLCBlcnJvciwgbWVzc2FnZSwg
-aGVhZGVycyk7CiAgICB9CgogICAgaWYgKHN0YXR1cyA+PSA1MDApIHsKICAg
-ICAgcmV0dXJuIG5ldyBJbnRlcm5hbFNlcnZlckVycm9yKHN0YXR1cywgZXJy
-b3IsIG1lc3NhZ2UsIGhlYWRlcnMpOwogICAgfQoKICAgIHJldHVybiBuZXcg
-QVBJRXJyb3Ioc3RhdHVzLCBlcnJvciwgbWVzc2FnZSwgaGVhZGVycyk7CiAg
-fQp9CgpleHBvcnQgY2xhc3MgQVBJVXNlckFib3J0RXJyb3IgZXh0ZW5kcyBB
-UElFcnJvciB7CiAgb3ZlcnJpZGUgcmVhZG9ubHkgc3RhdHVzOiB1bmRlZmlu
-ZWQgPSB1bmRlZmluZWQ7CgogIGNvbnN0cnVjdG9yKHsgbWVzc2FnZSB9OiB7
-IG1lc3NhZ2U/OiBzdHJpbmcgfSA9IHt9KSB7CiAgICBzdXBlcih1bmRlZmlu
-ZWQsIHVuZGVmaW5lZCwgbWVzc2FnZSB8fCAnUmVxdWVzdCB3YXMgYWJvcnRl
-ZC4nLCB1bmRlZmluZWQpOwogIH0KfQoKZXhwb3J0IGNsYXNzIEFQSUNvbm5l
-Y3Rpb25FcnJvciBleHRlbmRzIEFQSUVycm9yIHsKICBvdmVycmlkZSByZWFk
-b25seSBzdGF0dXM6IHVuZGVmaW5lZCA9IHVuZGVmaW5lZDsKCiAgY29uc3Ry
-dWN0b3IoeyBtZXNzYWdlLCBjYXVzZSB9OiB7IG1lc3NhZ2U/OiBzdHJpbmc7
-IGNhdXNlPzogRXJyb3IgfCB1bmRlZmluZWQgfSkgewogICAgc3VwZXIodW5k
-ZWZpbmVkLCB1bmRlZmluZWQsIG1lc3NhZ2UgfHwgJ0Nvbm5lY3Rpb24gZXJy
-b3IuJywgdW5kZWZpbmVkKTsKICAgIC8vIGluIHNvbWUgZW52aXJvbm1lbnRz
-IHRoZSAnY2F1c2UnIHByb3BlcnR5IGlzIGFscmVhZHkgZGVjbGFyZWQKICAg
-IC8vIEB0cy1pZ25vcmUKICAgIGlmIChjYXVzZSkgdGhpcy5jYXVzZSA9IGNh
-dXNlOwogIH0KfQoKZXhwb3J0IGNsYXNzIEFQSUNvbm5lY3Rpb25UaW1lb3V0
-RXJyb3IgZXh0ZW5kcyBBUElDb25uZWN0aW9uRXJyb3IgewogIGNvbnN0cnVj
-dG9yKHsgbWVzc2FnZSB9OiB7IG1lc3NhZ2U/OiBzdHJpbmcgfSA9IHt9KSB7
-CiAgICBzdXBlcih7IG1lc3NhZ2U6IG1lc3NhZ2UgPz8gJ1JlcXVlc3QgdGlt
-ZWQgb3V0LicgfSk7CiAgfQp9CgpleHBvcnQgY2xhc3MgQmFkUmVxdWVzdEVy
-cm9yIGV4dGVuZHMgQVBJRXJyb3IgewogIG92ZXJyaWRlIHJlYWRvbmx5IHN0
-YXR1czogNDAwID0gNDAwOwp9CgpleHBvcnQgY2xhc3MgQXV0aGVudGljYXRp
-b25FcnJvciBleHRlbmRzIEFQSUVycm9yIHsKICBvdmVycmlkZSByZWFkb25s
-eSBzdGF0dXM6IDQwMSA9IDQwMTsKfQoKZXhwb3J0IGNsYXNzIFBlcm1pc3Np
-b25EZW5pZWRFcnJvciBleHRlbmRzIEFQSUVycm9yIHsKICBvdmVycmlkZSBy
-ZWFkb25seSBzdGF0dXM6IDQwMyA9IDQwMzsKfQoKZXhwb3J0IGNsYXNzIE5v
-dEZvdW5kRXJyb3IgZXh0ZW5kcyBBUElFcnJvciB7CiAgb3ZlcnJpZGUgcmVh
-ZG9ubHkgc3RhdHVzOiA0MDQgPSA0MDQ7Cn0KCmV4cG9ydCBjbGFzcyBDb25m
-bGljdEVycm9yIGV4dGVuZHMgQVBJRXJyb3IgewogIG92ZXJyaWRlIHJlYWRv
-bmx5IHN0YXR1czogNDA5ID0gNDA5Owp9CgpleHBvcnQgY2xhc3MgVW5wcm9j
-ZXNzYWJsZUVudGl0eUVycm9yIGV4dGVuZHMgQVBJRXJyb3IgewogIG92ZXJy
-aWRlIHJlYWRvbmx5IHN0YXR1czogNDIyID0gNDIyOwp9CgpleHBvcnQgY2xh
-c3MgUmF0ZUxpbWl0RXJyb3IgZXh0ZW5kcyBBUElFcnJvciB7CiAgb3ZlcnJp
-ZGUgcmVhZG9ubHkgc3RhdHVzOiA0MjkgPSA0Mjk7Cn0KCmV4cG9ydCBjbGFz
-cyBJbnRlcm5hbFNlcnZlckVycm9yIGV4dGVuZHMgQVBJRXJyb3Ige30K
+// File generated from our OpenAPI spec by Stainless.
+
+import { castToError, Headers } from './core';
+
+export class MeorphisTest4Error extends Error {}
+
+export class APIError extends MeorphisTest4Error {
+  readonly status: number | undefined;
+  readonly headers: Headers | undefined;
+  readonly error: Object | undefined;
+
+  constructor(
+    status: number | undefined,
+    error: Object | undefined,
+    message: string | undefined,
+    headers: Headers | undefined,
+  ) {
+    super(`${APIError.makeMessage(status, error, message)}`);
+    this.status = status;
+    this.headers = headers;
+    this.error = error;
+  }
+
+  private static makeMessage(status: number | undefined, error: any, message: string | undefined) {
+    const msg =
+      error?.message ?
+        typeof error.message === 'string' ?
+          error.message
+        : JSON.stringify(error.message)
+      : error ? JSON.stringify(error)
+      : message;
+
+    if (status && msg) {
+      return `${status} ${msg}`;
+    }
+    if (status) {
+      return `${status} status code (no body)`;
+    }
+    if (msg) {
+      return msg;
+    }
+    return '(no status code or body)';
+  }
+
+  static generate(
+    status: number | undefined,
+    errorResponse: Object | undefined,
+    message: string | undefined,
+    headers: Headers | undefined,
+  ) {
+    if (!status) {
+      return new APIConnectionError({ cause: castToError(errorResponse) });
+    }
+
+    const error = errorResponse as Record<string, any>;
+
+    if (status === 400) {
+      return new BadRequestError(status, error, message, headers);
+    }
+
+    if (status === 401) {
+      return new AuthenticationError(status, error, message, headers);
+    }
+
+    if (status === 403) {
+      return new PermissionDeniedError(status, error, message, headers);
+    }
+
+    if (status === 404) {
+      return new NotFoundError(status, error, message, headers);
+    }
+
+    if (status === 409) {
+      return new ConflictError(status, error, message, headers);
+    }
+
+    if (status === 422) {
+      return new UnprocessableEntityError(status, error, message, headers);
+    }
+
+    if (status === 429) {
+      return new RateLimitError(status, error, message, headers);
+    }
+
+    if (status >= 500) {
+      return new InternalServerError(status, error, message, headers);
+    }
+
+    return new APIError(status, error, message, headers);
+  }
+}
+
+export class APIUserAbortError extends APIError {
+  override readonly status: undefined = undefined;
+
+  constructor({ message }: { message?: string } = {}) {
+    super(undefined, undefined, message || 'Request was aborted.', undefined);
+  }
+}
+
+export class APIConnectionError extends APIError {
+  override readonly status: undefined = undefined;
+
+  constructor({ message, cause }: { message?: string; cause?: Error | undefined }) {
+    super(undefined, undefined, message || 'Connection error.', undefined);
+    // in some environments the 'cause' property is already declared
+    // @ts-ignore
+    if (cause) this.cause = cause;
+  }
+}
+
+export class APIConnectionTimeoutError extends APIConnectionError {
+  constructor({ message }: { message?: string } = {}) {
+    super({ message: message ?? 'Request timed out.' });
+  }
+}
+
+export class BadRequestError extends APIError {
+  override readonly status: 400 = 400;
+}
+
+export class AuthenticationError extends APIError {
+  override readonly status: 401 = 401;
+}
+
+export class PermissionDeniedError extends APIError {
+  override readonly status: 403 = 403;
+}
+
+export class NotFoundError extends APIError {
+  override readonly status: 404 = 404;
+}
+
+export class ConflictError extends APIError {
+  override readonly status: 409 = 409;
+}
+
+export class UnprocessableEntityError extends APIError {
+  override readonly status: 422 = 422;
+}
+
+export class RateLimitError extends APIError {
+  override readonly status: 429 = 429;
+}
+
+export class InternalServerError extends APIError {}

@@ -1,5 +1,9 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwpleHBv
-cnQgY2xhc3MgTXVsdGlwYXJ0Qm9keSB7CiAgY29uc3RydWN0b3IocHVibGlj
-IGJvZHk6IGFueSkge30KICBnZXQgW1N5bWJvbC50b1N0cmluZ1RhZ10oKTog
-c3RyaW5nIHsKICAgIHJldHVybiAnTXVsdGlwYXJ0Qm9keSc7CiAgfQp9Cg==
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */
+export class MultipartBody {
+  constructor(public body: any) {}
+  get [Symbol.toStringTag](): string {
+    return 'MultipartBody';
+  }
+}

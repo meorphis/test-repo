@@ -1,36 +1,50 @@
-Ly8gQHRzLWlnbm9yZQppbXBvcnQgKiBhcyB0eXBlcyBmcm9tICcuLi9fc2hp
-bXMvd2ViLXR5cGVzJzsKaW1wb3J0IHsgc2V0U2hpbXMgfSBmcm9tICcuLi9f
-c2hpbXMvcmVnaXN0cnknOwppbXBvcnQgeyBnZXRSdW50aW1lIH0gZnJvbSAn
-Li4vX3NoaW1zL3dlYi1ydW50aW1lJzsKc2V0U2hpbXMoZ2V0UnVudGltZSh7
-IG1hbnVhbGx5SW1wb3J0ZWQ6IHRydWUgfSkpOwoKZGVjbGFyZSBtb2R1bGUg
-Jy4uL19zaGltcy9tYW51YWwtdHlwZXMnIHsKICBleHBvcnQgbmFtZXNwYWNl
-IG1hbnVhbCB7CiAgICAvLyBAdHMtaWdub3JlCiAgICBleHBvcnQgdHlwZSBB
-Z2VudCA9IHR5cGVzLkFnZW50OwogICAgLy8gQHRzLWlnbm9yZQogICAgZXhw
-b3J0IGltcG9ydCBmZXRjaCA9IHR5cGVzLmZldGNoOwogICAgLy8gQHRzLWln
-bm9yZQogICAgZXhwb3J0IHR5cGUgUmVxdWVzdCA9IHR5cGVzLlJlcXVlc3Q7
-CiAgICAvLyBAdHMtaWdub3JlCiAgICBleHBvcnQgdHlwZSBSZXF1ZXN0SW5m
-byA9IHR5cGVzLlJlcXVlc3RJbmZvOwogICAgLy8gQHRzLWlnbm9yZQogICAg
-ZXhwb3J0IHR5cGUgUmVxdWVzdEluaXQgPSB0eXBlcy5SZXF1ZXN0SW5pdDsK
-ICAgIC8vIEB0cy1pZ25vcmUKICAgIGV4cG9ydCB0eXBlIFJlc3BvbnNlID0g
-dHlwZXMuUmVzcG9uc2U7CiAgICAvLyBAdHMtaWdub3JlCiAgICBleHBvcnQg
-dHlwZSBSZXNwb25zZUluaXQgPSB0eXBlcy5SZXNwb25zZUluaXQ7CiAgICAv
-LyBAdHMtaWdub3JlCiAgICBleHBvcnQgdHlwZSBSZXNwb25zZVR5cGUgPSB0
-eXBlcy5SZXNwb25zZVR5cGU7CiAgICAvLyBAdHMtaWdub3JlCiAgICBleHBv
-cnQgdHlwZSBCb2R5SW5pdCA9IHR5cGVzLkJvZHlJbml0OwogICAgLy8gQHRz
-LWlnbm9yZQogICAgZXhwb3J0IHR5cGUgSGVhZGVycyA9IHR5cGVzLkhlYWRl
-cnM7CiAgICAvLyBAdHMtaWdub3JlCiAgICBleHBvcnQgdHlwZSBIZWFkZXJz
-SW5pdCA9IHR5cGVzLkhlYWRlcnNJbml0OwogICAgLy8gQHRzLWlnbm9yZQog
-ICAgZXhwb3J0IHR5cGUgQmxvYlByb3BlcnR5QmFnID0gdHlwZXMuQmxvYlBy
-b3BlcnR5QmFnOwogICAgLy8gQHRzLWlnbm9yZQogICAgZXhwb3J0IHR5cGUg
-RmlsZVByb3BlcnR5QmFnID0gdHlwZXMuRmlsZVByb3BlcnR5QmFnOwogICAg
-Ly8gQHRzLWlnbm9yZQogICAgZXhwb3J0IHR5cGUgRmlsZUZyb21QYXRoT3B0
-aW9ucyA9IHR5cGVzLkZpbGVGcm9tUGF0aE9wdGlvbnM7CiAgICAvLyBAdHMt
-aWdub3JlCiAgICBleHBvcnQgaW1wb3J0IEZvcm1EYXRhID0gdHlwZXMuRm9y
-bURhdGE7CiAgICAvLyBAdHMtaWdub3JlCiAgICBleHBvcnQgaW1wb3J0IEZp
-bGUgPSB0eXBlcy5GaWxlOwogICAgLy8gQHRzLWlnbm9yZQogICAgZXhwb3J0
-IGltcG9ydCBCbG9iID0gdHlwZXMuQmxvYjsKICAgIC8vIEB0cy1pZ25vcmUK
-ICAgIGV4cG9ydCB0eXBlIFJlYWRhYmxlID0gdHlwZXMuUmVhZGFibGU7CiAg
-ICAvLyBAdHMtaWdub3JlCiAgICBleHBvcnQgdHlwZSBGc1JlYWRTdHJlYW0g
-PSB0eXBlcy5Gc1JlYWRTdHJlYW07CiAgICAvLyBAdHMtaWdub3JlCiAgICBl
-eHBvcnQgaW1wb3J0IFJlYWRhYmxlU3RyZWFtID0gdHlwZXMuUmVhZGFibGVT
-dHJlYW07CiAgfQp9Cg==
+// @ts-ignore
+import * as types from '../_shims/web-types';
+import { setShims } from '../_shims/registry';
+import { getRuntime } from '../_shims/web-runtime';
+setShims(getRuntime({ manuallyImported: true }));
+
+declare module '../_shims/manual-types' {
+  export namespace manual {
+    // @ts-ignore
+    export type Agent = types.Agent;
+    // @ts-ignore
+    export import fetch = types.fetch;
+    // @ts-ignore
+    export type Request = types.Request;
+    // @ts-ignore
+    export type RequestInfo = types.RequestInfo;
+    // @ts-ignore
+    export type RequestInit = types.RequestInit;
+    // @ts-ignore
+    export type Response = types.Response;
+    // @ts-ignore
+    export type ResponseInit = types.ResponseInit;
+    // @ts-ignore
+    export type ResponseType = types.ResponseType;
+    // @ts-ignore
+    export type BodyInit = types.BodyInit;
+    // @ts-ignore
+    export type Headers = types.Headers;
+    // @ts-ignore
+    export type HeadersInit = types.HeadersInit;
+    // @ts-ignore
+    export type BlobPropertyBag = types.BlobPropertyBag;
+    // @ts-ignore
+    export type FilePropertyBag = types.FilePropertyBag;
+    // @ts-ignore
+    export type FileFromPathOptions = types.FileFromPathOptions;
+    // @ts-ignore
+    export import FormData = types.FormData;
+    // @ts-ignore
+    export import File = types.File;
+    // @ts-ignore
+    export import Blob = types.Blob;
+    // @ts-ignore
+    export type Readable = types.Readable;
+    // @ts-ignore
+    export type FsReadStream = types.FsReadStream;
+    // @ts-ignore
+    export import ReadableStream = types.ReadableStream;
+  }
+}

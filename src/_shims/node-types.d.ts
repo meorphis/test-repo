@@ -1,28 +1,42 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwppbXBv
-cnQgKiBhcyBuZiBmcm9tICdub2RlLWZldGNoJzsKaW1wb3J0ICogYXMgZmQg
-ZnJvbSAnZm9ybWRhdGEtbm9kZSc7CgpleHBvcnQgeyB0eXBlIEFnZW50IH0g
-ZnJvbSAnbm9kZTpodHRwJzsKZXhwb3J0IHsgdHlwZSBSZWFkYWJsZSB9IGZy
-b20gJ25vZGU6c3RyZWFtJzsKZXhwb3J0IHsgdHlwZSBSZWFkU3RyZWFtIGFz
-IEZzUmVhZFN0cmVhbSB9IGZyb20gJ25vZGU6ZnMnOwpleHBvcnQgeyBSZWFk
-YWJsZVN0cmVhbSB9IGZyb20gJ3dlYi1zdHJlYW1zLXBvbHlmaWxsJzsKCmV4
-cG9ydCBjb25zdCBmZXRjaDogdHlwZW9mIG5mLmRlZmF1bHQ7CgpleHBvcnQg
-dHlwZSBSZXF1ZXN0ID0gbmYuUmVxdWVzdDsKZXhwb3J0IHR5cGUgUmVxdWVz
-dEluZm8gPSBuZi5SZXF1ZXN0SW5mbzsKZXhwb3J0IHR5cGUgUmVxdWVzdElu
-aXQgPSBuZi5SZXF1ZXN0SW5pdDsKCmV4cG9ydCB0eXBlIFJlc3BvbnNlID0g
-bmYuUmVzcG9uc2U7CmV4cG9ydCB0eXBlIFJlc3BvbnNlSW5pdCA9IG5mLlJl
-c3BvbnNlSW5pdDsKZXhwb3J0IHR5cGUgUmVzcG9uc2VUeXBlID0gbmYuUmVz
-cG9uc2VUeXBlOwpleHBvcnQgdHlwZSBCb2R5SW5pdCA9IG5mLkJvZHlJbml0
-OwpleHBvcnQgdHlwZSBIZWFkZXJzID0gbmYuSGVhZGVyczsKZXhwb3J0IHR5
-cGUgSGVhZGVyc0luaXQgPSBuZi5IZWFkZXJzSW5pdDsKCnR5cGUgRW5kaW5n
-VHlwZSA9ICduYXRpdmUnIHwgJ3RyYW5zcGFyZW50JzsKZXhwb3J0IGludGVy
-ZmFjZSBCbG9iUHJvcGVydHlCYWcgewogIGVuZGluZ3M/OiBFbmRpbmdUeXBl
-OwogIHR5cGU/OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRmlsZVBy
-b3BlcnR5QmFnIGV4dGVuZHMgQmxvYlByb3BlcnR5QmFnIHsKICBsYXN0TW9k
-aWZpZWQ/OiBudW1iZXI7Cn0KCmV4cG9ydCB0eXBlIEZpbGVGcm9tUGF0aE9w
-dGlvbnMgPSBPbWl0PEZpbGVQcm9wZXJ0eUJhZywgJ2xhc3RNb2RpZmllZCc+
-OwoKZXhwb3J0IHR5cGUgRm9ybURhdGEgPSBmZC5Gb3JtRGF0YTsKZXhwb3J0
-IGNvbnN0IEZvcm1EYXRhOiB0eXBlb2YgZmQuRm9ybURhdGE7CmV4cG9ydCB0
-eXBlIEZpbGUgPSBmZC5GaWxlOwpleHBvcnQgY29uc3QgRmlsZTogdHlwZW9m
-IGZkLkZpbGU7CmV4cG9ydCB0eXBlIEJsb2IgPSBmZC5CbG9iOwpleHBvcnQg
-Y29uc3QgQmxvYjogdHlwZW9mIGZkLkJsb2I7Cg==
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */
+import * as nf from 'node-fetch';
+import * as fd from 'formdata-node';
+
+export { type Agent } from 'node:http';
+export { type Readable } from 'node:stream';
+export { type ReadStream as FsReadStream } from 'node:fs';
+export { ReadableStream } from 'web-streams-polyfill';
+
+export const fetch: typeof nf.default;
+
+export type Request = nf.Request;
+export type RequestInfo = nf.RequestInfo;
+export type RequestInit = nf.RequestInit;
+
+export type Response = nf.Response;
+export type ResponseInit = nf.ResponseInit;
+export type ResponseType = nf.ResponseType;
+export type BodyInit = nf.BodyInit;
+export type Headers = nf.Headers;
+export type HeadersInit = nf.HeadersInit;
+
+type EndingType = 'native' | 'transparent';
+export interface BlobPropertyBag {
+  endings?: EndingType;
+  type?: string;
+}
+
+export interface FilePropertyBag extends BlobPropertyBag {
+  lastModified?: number;
+}
+
+export type FileFromPathOptions = Omit<FilePropertyBag, 'lastModified'>;
+
+export type FormData = fd.FormData;
+export const FormData: typeof fd.FormData;
+export type File = fd.File;
+export const File: typeof fd.File;
+export type Blob = fd.Blob;
+export const Blob: typeof fd.Blob;

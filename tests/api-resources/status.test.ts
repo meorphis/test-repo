@@ -1,26 +1,29 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCBNZW9ycGhpc1Rlc3Q0IGZyb20gJ21lb3JwaGlz
-LXRlc3QtNCc7CmltcG9ydCB7IFJlc3BvbnNlIH0gZnJvbSAnbm9kZS1mZXRj
-aCc7Cgpjb25zdCBtZW9ycGhpc1Rlc3Q0ID0gbmV3IE1lb3JwaGlzVGVzdDQo
-ewogIGFwaUtleTogJ015IEFQSSBLZXknLAogIGJhc2VVUkw6IHByb2Nlc3Mu
-ZW52WydURVNUX0FQSV9CQVNFX1VSTCddID8/ICdodHRwOi8vMTI3LjAuMC4x
-OjQwMTAnLAp9KTsKCmRlc2NyaWJlKCdyZXNvdXJjZSBzdGF0dXMnLCAoKSA9
-PiB7CiAgdGVzdCgncmV0cmlldmUnLCBhc3luYyAoKSA9PiB7CiAgICBjb25z
-dCByZXNwb25zZVByb21pc2UgPSBtZW9ycGhpc1Rlc3Q0LnN0YXR1cy5yZXRy
-aWV2ZSgpOwogICAgY29uc3QgcmF3UmVzcG9uc2UgPSBhd2FpdCByZXNwb25z
-ZVByb21pc2UuYXNSZXNwb25zZSgpOwogICAgZXhwZWN0KHJhd1Jlc3BvbnNl
-KS50b0JlSW5zdGFuY2VPZihSZXNwb25zZSk7CiAgICBjb25zdCByZXNwb25z
-ZSA9IGF3YWl0IHJlc3BvbnNlUHJvbWlzZTsKICAgIGV4cGVjdChyZXNwb25z
-ZSkubm90LnRvQmVJbnN0YW5jZU9mKFJlc3BvbnNlKTsKICAgIGNvbnN0IGRh
-dGFBbmRSZXNwb25zZSA9IGF3YWl0IHJlc3BvbnNlUHJvbWlzZS53aXRoUmVz
-cG9uc2UoKTsKICAgIGV4cGVjdChkYXRhQW5kUmVzcG9uc2UuZGF0YSkudG9C
-ZShyZXNwb25zZSk7CiAgICBleHBlY3QoZGF0YUFuZFJlc3BvbnNlLnJlc3Bv
-bnNlKS50b0JlKHJhd1Jlc3BvbnNlKTsKICB9KTsKCiAgdGVzdCgncmV0cmll
-dmU6IHJlcXVlc3Qgb3B0aW9ucyBpbnN0ZWFkIG9mIHBhcmFtcyBhcmUgcGFz
-c2VkIGNvcnJlY3RseScsIGFzeW5jICgpID0+IHsKICAgIC8vIGVuc3VyZSB0
-aGUgcmVxdWVzdCBvcHRpb25zIGFyZSBiZWluZyBwYXNzZWQgY29ycmVjdGx5
-IGJ5IHBhc3NpbmcgYW4gaW52YWxpZCBIVFRQIG1ldGhvZCBpbiBvcmRlciB0
-byBjYXVzZSBhbiBlcnJvcgogICAgYXdhaXQgZXhwZWN0KG1lb3JwaGlzVGVz
-dDQuc3RhdHVzLnJldHJpZXZlKHsgcGF0aDogJy9fc3RhaW5sZXNzX3Vua25v
-d25fcGF0aCcgfSkpLnJlamVjdHMudG9UaHJvdygKICAgICAgTWVvcnBoaXNU
-ZXN0NC5Ob3RGb3VuZEVycm9yLAogICAgKTsKICB9KTsKfSk7Cg==
+// File generated from our OpenAPI spec by Stainless.
+
+import MeorphisTest4 from 'meorphis-test-4';
+import { Response } from 'node-fetch';
+
+const meorphisTest4 = new MeorphisTest4({
+  apiKey: 'My API Key',
+  baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010',
+});
+
+describe('resource status', () => {
+  test('retrieve', async () => {
+    const responsePromise = meorphisTest4.status.retrieve();
+    const rawResponse = await responsePromise.asResponse();
+    expect(rawResponse).toBeInstanceOf(Response);
+    const response = await responsePromise;
+    expect(response).not.toBeInstanceOf(Response);
+    const dataAndResponse = await responsePromise.withResponse();
+    expect(dataAndResponse.data).toBe(response);
+    expect(dataAndResponse.response).toBe(rawResponse);
+  });
+
+  test('retrieve: request options instead of params are passed correctly', async () => {
+    // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
+    await expect(meorphisTest4.status.retrieve({ path: '/_stainless_unknown_path' })).rejects.toThrow(
+      MeorphisTest4.NotFoundError,
+    );
+  });
+});

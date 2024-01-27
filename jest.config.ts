@@ -1,12 +1,19 @@
-aW1wb3J0IHR5cGUgeyBKZXN0Q29uZmlnV2l0aFRzSmVzdCB9IGZyb20gJ3Rz
-LWplc3QnOwoKY29uc3QgY29uZmlnOiBKZXN0Q29uZmlnV2l0aFRzSmVzdCA9
-IHsKICBwcmVzZXQ6ICd0cy1qZXN0L3ByZXNldHMvZGVmYXVsdC1lc20nLAog
-IHRlc3RFbnZpcm9ubWVudDogJ25vZGUnLAogIG1vZHVsZU5hbWVNYXBwZXI6
-IHsKICAgICdebWVvcnBoaXMtdGVzdC00JCc6ICc8cm9vdERpcj4vc3JjL2lu
-ZGV4LnRzJywKICAgICdebWVvcnBoaXMtdGVzdC00L19zaGltcy9hdXRvLygu
-KikkJzogJzxyb290RGlyPi9zcmMvX3NoaW1zL2F1dG8vJDEtbm9kZScsCiAg
-ICAnXm1lb3JwaGlzLXRlc3QtNC8oLiopJCc6ICc8cm9vdERpcj4vc3JjLyQx
-JywKICB9LAogIG1vZHVsZVBhdGhJZ25vcmVQYXR0ZXJuczogWwogICAgJzxy
-b290RGlyPi9lY29zeXN0ZW0tdGVzdHMvJywKICAgICc8cm9vdERpcj4vZGlz
-dC8nLAogICAgJzxyb290RGlyPi9kZW5vLycsCiAgICAnPHJvb3REaXI+L2Rl
-bm9fdGVzdHMvJywKICBdLAp9OwoKZXhwb3J0IGRlZmF1bHQgY29uZmlnOwo=
+import type { JestConfigWithTsJest } from 'ts-jest';
+
+const config: JestConfigWithTsJest = {
+  preset: 'ts-jest/presets/default-esm',
+  testEnvironment: 'node',
+  moduleNameMapper: {
+    '^meorphis-test-4$': '<rootDir>/src/index.ts',
+    '^meorphis-test-4/_shims/auto/(.*)$': '<rootDir>/src/_shims/auto/$1-node',
+    '^meorphis-test-4/(.*)$': '<rootDir>/src/$1',
+  },
+  modulePathIgnorePatterns: [
+    '<rootDir>/ecosystem-tests/',
+    '<rootDir>/dist/',
+    '<rootDir>/deno/',
+    '<rootDir>/deno_tests/',
+  ],
+};
+
+export default config;

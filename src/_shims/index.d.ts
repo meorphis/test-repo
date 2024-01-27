@@ -1,70 +1,81 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwppbXBv
-cnQgeyBtYW51YWwgfSBmcm9tICcuL21hbnVhbC10eXBlcyc7CmltcG9ydCAq
-IGFzIGF1dG8gZnJvbSAnbWVvcnBoaXMtdGVzdC00L19zaGltcy9hdXRvL3R5
-cGVzJzsKaW1wb3J0IHsgdHlwZSBSZXF1ZXN0T3B0aW9ucyB9IGZyb20gJy4u
-L2NvcmUnOwoKdHlwZSBTZWxlY3RUeXBlPE1hbnVhbCwgQXV0bz4gPSB1bmtu
-b3duIGV4dGVuZHMgTWFudWFsID8gQXV0byA6IE1hbnVhbDsKCmV4cG9ydCBj
-b25zdCBraW5kOiBzdHJpbmc7CgovLyBAdHMtaWdub3JlCmV4cG9ydCB0eXBl
-IEFnZW50ID0gU2VsZWN0VHlwZTxtYW51YWwuQWdlbnQsIGF1dG8uQWdlbnQ+
-OwoKLy8gQHRzLWlnbm9yZQpleHBvcnQgY29uc3QgZmV0Y2g6IFNlbGVjdFR5
-cGU8dHlwZW9mIG1hbnVhbC5mZXRjaCwgdHlwZW9mIGF1dG8uZmV0Y2g+OwoK
-Ly8gQHRzLWlnbm9yZQpleHBvcnQgdHlwZSBSZXF1ZXN0ID0gU2VsZWN0VHlw
-ZTxtYW51YWwuUmVxdWVzdCwgYXV0by5SZXF1ZXN0PjsKLy8gQHRzLWlnbm9y
-ZQpleHBvcnQgdHlwZSBSZXF1ZXN0SW5mbyA9IFNlbGVjdFR5cGU8bWFudWFs
-LlJlcXVlc3RJbmZvLCBhdXRvLlJlcXVlc3RJbmZvPjsKLy8gQHRzLWlnbm9y
-ZQpleHBvcnQgdHlwZSBSZXF1ZXN0SW5pdCA9IFNlbGVjdFR5cGU8bWFudWFs
-LlJlcXVlc3RJbml0LCBhdXRvLlJlcXVlc3RJbml0PjsKCi8vIEB0cy1pZ25v
-cmUKZXhwb3J0IHR5cGUgUmVzcG9uc2UgPSBTZWxlY3RUeXBlPG1hbnVhbC5S
-ZXNwb25zZSwgYXV0by5SZXNwb25zZT47Ci8vIEB0cy1pZ25vcmUKZXhwb3J0
-IHR5cGUgUmVzcG9uc2VJbml0ID0gU2VsZWN0VHlwZTxtYW51YWwuUmVzcG9u
-c2VJbml0LCBhdXRvLlJlc3BvbnNlSW5pdD47Ci8vIEB0cy1pZ25vcmUKZXhw
-b3J0IHR5cGUgUmVzcG9uc2VUeXBlID0gU2VsZWN0VHlwZTxtYW51YWwuUmVz
-cG9uc2VUeXBlLCBhdXRvLlJlc3BvbnNlVHlwZT47Ci8vIEB0cy1pZ25vcmUK
-ZXhwb3J0IHR5cGUgQm9keUluaXQgPSBTZWxlY3RUeXBlPG1hbnVhbC5Cb2R5
-SW5pdCwgYXV0by5Cb2R5SW5pdD47Ci8vIEB0cy1pZ25vcmUKZXhwb3J0IHR5
-cGUgSGVhZGVycyA9IFNlbGVjdFR5cGU8bWFudWFsLkhlYWRlcnMsIGF1dG8u
-SGVhZGVycz47Ci8vIEB0cy1pZ25vcmUKZXhwb3J0IGNvbnN0IEhlYWRlcnM6
-IFNlbGVjdFR5cGU8dHlwZW9mIG1hbnVhbC5IZWFkZXJzLCB0eXBlb2YgYXV0
-by5IZWFkZXJzPjsKLy8gQHRzLWlnbm9yZQpleHBvcnQgdHlwZSBIZWFkZXJz
-SW5pdCA9IFNlbGVjdFR5cGU8bWFudWFsLkhlYWRlcnNJbml0LCBhdXRvLkhl
-YWRlcnNJbml0PjsKCi8vIEB0cy1pZ25vcmUKZXhwb3J0IHR5cGUgQmxvYlBy
-b3BlcnR5QmFnID0gU2VsZWN0VHlwZTxtYW51YWwuQmxvYlByb3BlcnR5QmFn
-LCBhdXRvLkJsb2JQcm9wZXJ0eUJhZz47Ci8vIEB0cy1pZ25vcmUKZXhwb3J0
-IHR5cGUgRmlsZVByb3BlcnR5QmFnID0gU2VsZWN0VHlwZTxtYW51YWwuRmls
-ZVByb3BlcnR5QmFnLCBhdXRvLkZpbGVQcm9wZXJ0eUJhZz47Ci8vIEB0cy1p
-Z25vcmUKZXhwb3J0IHR5cGUgRmlsZUZyb21QYXRoT3B0aW9ucyA9IFNlbGVj
-dFR5cGU8bWFudWFsLkZpbGVGcm9tUGF0aE9wdGlvbnMsIGF1dG8uRmlsZUZy
-b21QYXRoT3B0aW9ucz47Ci8vIEB0cy1pZ25vcmUKZXhwb3J0IHR5cGUgRm9y
-bURhdGEgPSBTZWxlY3RUeXBlPG1hbnVhbC5Gb3JtRGF0YSwgYXV0by5Gb3Jt
-RGF0YT47Ci8vIEB0cy1pZ25vcmUKZXhwb3J0IGNvbnN0IEZvcm1EYXRhOiBT
-ZWxlY3RUeXBlPHR5cGVvZiBtYW51YWwuRm9ybURhdGEsIHR5cGVvZiBhdXRv
-LkZvcm1EYXRhPjsKLy8gQHRzLWlnbm9yZQpleHBvcnQgdHlwZSBGaWxlID0g
-U2VsZWN0VHlwZTxtYW51YWwuRmlsZSwgYXV0by5GaWxlPjsKLy8gQHRzLWln
-bm9yZQpleHBvcnQgY29uc3QgRmlsZTogU2VsZWN0VHlwZTx0eXBlb2YgbWFu
-dWFsLkZpbGUsIHR5cGVvZiBhdXRvLkZpbGU+OwovLyBAdHMtaWdub3JlCmV4
-cG9ydCB0eXBlIEJsb2IgPSBTZWxlY3RUeXBlPG1hbnVhbC5CbG9iLCBhdXRv
-LkJsb2I+OwovLyBAdHMtaWdub3JlCmV4cG9ydCBjb25zdCBCbG9iOiBTZWxl
-Y3RUeXBlPHR5cGVvZiBtYW51YWwuQmxvYiwgdHlwZW9mIGF1dG8uQmxvYj47
-CgovLyBAdHMtaWdub3JlCmV4cG9ydCB0eXBlIFJlYWRhYmxlID0gU2VsZWN0
-VHlwZTxtYW51YWwuUmVhZGFibGUsIGF1dG8uUmVhZGFibGU+OwovLyBAdHMt
-aWdub3JlCmV4cG9ydCB0eXBlIEZzUmVhZFN0cmVhbSA9IFNlbGVjdFR5cGU8
-bWFudWFsLkZzUmVhZFN0cmVhbSwgYXV0by5Gc1JlYWRTdHJlYW0+OwovLyBA
-dHMtaWdub3JlCmV4cG9ydCB0eXBlIFJlYWRhYmxlU3RyZWFtID0gU2VsZWN0
-VHlwZTxtYW51YWwuUmVhZGFibGVTdHJlYW0sIGF1dG8uUmVhZGFibGVTdHJl
-YW0+OwovLyBAdHMtaWdub3JlCmV4cG9ydCBjb25zdCBSZWFkYWJsZVN0cmVh
-bTogU2VsZWN0VHlwZTx0eXBlb2YgbWFudWFsLlJlYWRhYmxlU3RyZWFtLCB0
-eXBlb2YgYXV0by5SZWFkYWJsZVN0cmVhbT47CgpleHBvcnQgZnVuY3Rpb24g
-Z2V0TXVsdGlwYXJ0UmVxdWVzdE9wdGlvbnM8VCA9IFJlY29yZDxzdHJpbmcs
-IHVua25vd24+PigKICBmb3JtOiBGb3JtRGF0YSwKICBvcHRzOiBSZXF1ZXN0
-T3B0aW9uczxUPiwKKTogUHJvbWlzZTxSZXF1ZXN0T3B0aW9uczxUPj47Cgpl
-eHBvcnQgZnVuY3Rpb24gZ2V0RGVmYXVsdEFnZW50KHVybDogc3RyaW5nKTog
-YW55OwoKLy8gQHRzLWlnbm9yZQpleHBvcnQgdHlwZSBGaWxlRnJvbVBhdGhP
-cHRpb25zID0gU2VsZWN0VHlwZTxtYW51YWwuRmlsZUZyb21QYXRoT3B0aW9u
-cywgYXV0by5GaWxlRnJvbVBhdGhPcHRpb25zPjsKCmV4cG9ydCBmdW5jdGlv
-biBmaWxlRnJvbVBhdGgocGF0aDogc3RyaW5nLCBvcHRpb25zPzogRmlsZUZy
-b21QYXRoT3B0aW9ucyk6IFByb21pc2U8RmlsZT47CmV4cG9ydCBmdW5jdGlv
-biBmaWxlRnJvbVBhdGgocGF0aDogc3RyaW5nLCBmaWxlbmFtZT86IHN0cmlu
-Zywgb3B0aW9ucz86IEZpbGVGcm9tUGF0aE9wdGlvbnMpOiBQcm9taXNlPEZp
-bGU+OwoKZXhwb3J0IGZ1bmN0aW9uIGlzRnNSZWFkU3RyZWFtKHZhbHVlOiBh
-bnkpOiB2YWx1ZSBpcyBGc1JlYWRTdHJlYW07Cg==
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */
+import { manual } from './manual-types';
+import * as auto from 'meorphis-test-4/_shims/auto/types';
+import { type RequestOptions } from '../core';
+
+type SelectType<Manual, Auto> = unknown extends Manual ? Auto : Manual;
+
+export const kind: string;
+
+// @ts-ignore
+export type Agent = SelectType<manual.Agent, auto.Agent>;
+
+// @ts-ignore
+export const fetch: SelectType<typeof manual.fetch, typeof auto.fetch>;
+
+// @ts-ignore
+export type Request = SelectType<manual.Request, auto.Request>;
+// @ts-ignore
+export type RequestInfo = SelectType<manual.RequestInfo, auto.RequestInfo>;
+// @ts-ignore
+export type RequestInit = SelectType<manual.RequestInit, auto.RequestInit>;
+
+// @ts-ignore
+export type Response = SelectType<manual.Response, auto.Response>;
+// @ts-ignore
+export type ResponseInit = SelectType<manual.ResponseInit, auto.ResponseInit>;
+// @ts-ignore
+export type ResponseType = SelectType<manual.ResponseType, auto.ResponseType>;
+// @ts-ignore
+export type BodyInit = SelectType<manual.BodyInit, auto.BodyInit>;
+// @ts-ignore
+export type Headers = SelectType<manual.Headers, auto.Headers>;
+// @ts-ignore
+export const Headers: SelectType<typeof manual.Headers, typeof auto.Headers>;
+// @ts-ignore
+export type HeadersInit = SelectType<manual.HeadersInit, auto.HeadersInit>;
+
+// @ts-ignore
+export type BlobPropertyBag = SelectType<manual.BlobPropertyBag, auto.BlobPropertyBag>;
+// @ts-ignore
+export type FilePropertyBag = SelectType<manual.FilePropertyBag, auto.FilePropertyBag>;
+// @ts-ignore
+export type FileFromPathOptions = SelectType<manual.FileFromPathOptions, auto.FileFromPathOptions>;
+// @ts-ignore
+export type FormData = SelectType<manual.FormData, auto.FormData>;
+// @ts-ignore
+export const FormData: SelectType<typeof manual.FormData, typeof auto.FormData>;
+// @ts-ignore
+export type File = SelectType<manual.File, auto.File>;
+// @ts-ignore
+export const File: SelectType<typeof manual.File, typeof auto.File>;
+// @ts-ignore
+export type Blob = SelectType<manual.Blob, auto.Blob>;
+// @ts-ignore
+export const Blob: SelectType<typeof manual.Blob, typeof auto.Blob>;
+
+// @ts-ignore
+export type Readable = SelectType<manual.Readable, auto.Readable>;
+// @ts-ignore
+export type FsReadStream = SelectType<manual.FsReadStream, auto.FsReadStream>;
+// @ts-ignore
+export type ReadableStream = SelectType<manual.ReadableStream, auto.ReadableStream>;
+// @ts-ignore
+export const ReadableStream: SelectType<typeof manual.ReadableStream, typeof auto.ReadableStream>;
+
+export function getMultipartRequestOptions<T = Record<string, unknown>>(
+  form: FormData,
+  opts: RequestOptions<T>,
+): Promise<RequestOptions<T>>;
+
+export function getDefaultAgent(url: string): any;
+
+// @ts-ignore
+export type FileFromPathOptions = SelectType<manual.FileFromPathOptions, auto.FileFromPathOptions>;
+
+export function fileFromPath(path: string, options?: FileFromPathOptions): Promise<File>;
+export function fileFromPath(path: string, filename?: string, options?: FileFromPathOptions): Promise<File>;
+
+export function isFsReadStream(value: any): value is FsReadStream;

@@ -1,15 +1,20 @@
-Ly8gRm9yIGZvcm1hdCBkZXRhaWxzLCBzZWUgaHR0cHM6Ly9ha2EubXMvZGV2
-Y29udGFpbmVyLmpzb24uIEZvciBjb25maWcgb3B0aW9ucywgc2VlIHRoZQov
-LyBSRUFETUUgYXQ6IGh0dHBzOi8vZ2l0aHViLmNvbS9kZXZjb250YWluZXJz
-L3RlbXBsYXRlcy90cmVlL21haW4vc3JjL2RlYmlhbgp7CiAgIm5hbWUiOiAi
-RGViaWFuIiwKICAiYnVpbGQiOiB7CiAgICAiZG9ja2VyZmlsZSI6ICJEb2Nr
-ZXJmaWxlIgogIH0KCiAgLy8gRmVhdHVyZXMgdG8gYWRkIHRvIHRoZSBkZXYg
-Y29udGFpbmVyLiBNb3JlIGluZm86IGh0dHBzOi8vY29udGFpbmVycy5kZXYv
-ZmVhdHVyZXMuCiAgLy8gImZlYXR1cmVzIjoge30sCgogIC8vIFVzZSAnZm9y
-d2FyZFBvcnRzJyB0byBtYWtlIGEgbGlzdCBvZiBwb3J0cyBpbnNpZGUgdGhl
-IGNvbnRhaW5lciBhdmFpbGFibGUgbG9jYWxseS4KICAvLyAiZm9yd2FyZFBv
-cnRzIjogW10sCgogIC8vIENvbmZpZ3VyZSB0b29sLXNwZWNpZmljIHByb3Bl
-cnRpZXMuCiAgLy8gImN1c3RvbWl6YXRpb25zIjoge30sCgogIC8vIFVuY29t
-bWVudCB0byBjb25uZWN0IGFzIHJvb3QgaW5zdGVhZC4gTW9yZSBpbmZvOiBo
-dHRwczovL2FrYS5tcy9kZXYtY29udGFpbmVycy1ub24tcm9vdC4KICAvLyAi
-cmVtb3RlVXNlciI6ICJyb290Igp9Cg==
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+  "name": "Debian",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Configure tool-specific properties.
+  // "customizations": {},
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}

@@ -1,198 +1,249 @@
-IyBNZW9ycGhpcyBUZXN0IDQgTm9kZSBBUEkgTGlicmFyeQoKWyFbTlBNIHZl
-cnNpb25dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vbnBtL3YvbWVvcnBoaXMt
-dGVzdC00LnN2ZyldKGh0dHBzOi8vbnBtanMub3JnL3BhY2thZ2UvbWVvcnBo
-aXMtdGVzdC00KQoKVGhpcyBsaWJyYXJ5IHByb3ZpZGVzIGNvbnZlbmllbnQg
-YWNjZXNzIHRvIHRoZSBNZW9ycGhpcyBUZXN0IDQgUkVTVCBBUEkgZnJvbSBz
-ZXJ2ZXItc2lkZSBUeXBlU2NyaXB0IG9yIEphdmFTY3JpcHQuCgpUaGUgUkVT
-VCBBUEkgZG9jdW1lbnRhdGlvbiBjYW4gYmUgZm91bmQgW29uIGRvY3MubWVv
-cnBoaXMtdGVzdC00LmNvbV0oaHR0cHM6Ly9kb2NzLm1lb3JwaGlzLXRlc3Qt
-NC5jb20pLiBUaGUgZnVsbCBBUEkgb2YgdGhpcyBsaWJyYXJ5IGNhbiBiZSBm
-b3VuZCBpbiBbYXBpLm1kXShodHRwczovL3d3dy5naXRodWIuY29tL21lb3Jw
-aGlzLXRlc3QtNC9tZW9ycGhpcy10ZXN0LTQtbm9kZS9ibG9iL21haW4vYXBp
-Lm1kKS4KCiMjIEluc3RhbGxhdGlvbgoKYGBgc2gKbnBtIGluc3RhbGwgLS1z
-YXZlIG1lb3JwaGlzLXRlc3QtNAojIG9yCnlhcm4gYWRkIG1lb3JwaGlzLXRl
-c3QtNApgYGAKCiMjIFVzYWdlCgpUaGUgZnVsbCBBUEkgb2YgdGhpcyBsaWJy
-YXJ5IGNhbiBiZSBmb3VuZCBpbiBbYXBpLm1kXShodHRwczovL3d3dy5naXRo
-dWIuY29tL21lb3JwaGlzLXRlc3QtNC9tZW9ycGhpcy10ZXN0LTQtbm9kZS9i
-bG9iL21haW4vYXBpLm1kKS4KCjwhLS0gcHJldHRpZXItaWdub3JlIC0tPgpg
-YGBqcwppbXBvcnQgTWVvcnBoaXNUZXN0NCBmcm9tICdtZW9ycGhpcy10ZXN0
-LTQnOwoKY29uc3QgbWVvcnBoaXNUZXN0NCA9IG5ldyBNZW9ycGhpc1Rlc3Q0
-KHsKICBhcGlLZXk6IHByb2Nlc3MuZW52WydNRU9SUEhJU19URVNUXzRfQVBJ
-X0tFWSddLCAvLyBUaGlzIGlzIHRoZSBkZWZhdWx0IGFuZCBjYW4gYmUgb21p
-dHRlZAogIGVudmlyb25tZW50OiAnZW52aXJvbm1lbnRfMScsIC8vIGRlZmF1
-bHRzIHRvICdwcm9kdWN0aW9uJwp9KTsKCmFzeW5jIGZ1bmN0aW9uIG1haW4o
-KSB7CiAgY29uc3Qgc3RhdHVzUmV0cmlldmVSZXNwb25zZSA9IGF3YWl0IG1l
-b3JwaGlzVGVzdDQuc3RhdHVzLnJldHJpZXZlKCk7CgogIGNvbnNvbGUubG9n
-KHN0YXR1c1JldHJpZXZlUmVzcG9uc2UubWVzc2FnZSk7Cn0KCm1haW4oKTsK
-YGBgCgojIyMgUmVxdWVzdCAmIFJlc3BvbnNlIHR5cGVzCgpUaGlzIGxpYnJh
-cnkgaW5jbHVkZXMgVHlwZVNjcmlwdCBkZWZpbml0aW9ucyBmb3IgYWxsIHJl
-cXVlc3QgcGFyYW1zIGFuZCByZXNwb25zZSBmaWVsZHMuIFlvdSBtYXkgaW1w
-b3J0IGFuZCB1c2UgdGhlbSBsaWtlIHNvOgoKPCEtLSBwcmV0dGllci1pZ25v
-cmUgLS0+CmBgYHRzCmltcG9ydCBNZW9ycGhpc1Rlc3Q0IGZyb20gJ21lb3Jw
-aGlzLXRlc3QtNCc7Cgpjb25zdCBtZW9ycGhpc1Rlc3Q0ID0gbmV3IE1lb3Jw
-aGlzVGVzdDQoewogIGFwaUtleTogcHJvY2Vzcy5lbnZbJ01FT1JQSElTX1RF
-U1RfNF9BUElfS0VZJ10sIC8vIFRoaXMgaXMgdGhlIGRlZmF1bHQgYW5kIGNh
-biBiZSBvbWl0dGVkCiAgZW52aXJvbm1lbnQ6ICdlbnZpcm9ubWVudF8xJywg
-Ly8gZGVmYXVsdHMgdG8gJ3Byb2R1Y3Rpb24nCn0pOwoKYXN5bmMgZnVuY3Rp
-b24gbWFpbigpIHsKICBjb25zdCBzdGF0dXNSZXRyaWV2ZVJlc3BvbnNlOiBN
-ZW9ycGhpc1Rlc3Q0LlN0YXR1c1JldHJpZXZlUmVzcG9uc2UgPSBhd2FpdCBt
-ZW9ycGhpc1Rlc3Q0LnN0YXR1cy5yZXRyaWV2ZSgpOwp9CgptYWluKCk7CmBg
-YAoKRG9jdW1lbnRhdGlvbiBmb3IgZWFjaCBtZXRob2QsIHJlcXVlc3QgcGFy
-YW0sIGFuZCByZXNwb25zZSBmaWVsZCBhcmUgYXZhaWxhYmxlIGluIGRvY3N0
-cmluZ3MgYW5kIHdpbGwgYXBwZWFyIG9uIGhvdmVyIGluIG1vc3QgbW9kZXJu
-IGVkaXRvcnMuCgojIyBIYW5kbGluZyBlcnJvcnMKCldoZW4gdGhlIGxpYnJh
-cnkgaXMgdW5hYmxlIHRvIGNvbm5lY3QgdG8gdGhlIEFQSSwKb3IgaWYgdGhl
-IEFQSSByZXR1cm5zIGEgbm9uLXN1Y2Nlc3Mgc3RhdHVzIGNvZGUgKGkuZS4s
-IDR4eCBvciA1eHggcmVzcG9uc2UpLAphIHN1YmNsYXNzIG9mIGBBUElFcnJv
-cmAgd2lsbCBiZSB0aHJvd246Cgo8IS0tIHByZXR0aWVyLWlnbm9yZSAtLT4K
-YGBgdHMKYXN5bmMgZnVuY3Rpb24gbWFpbigpIHsKICBjb25zdCBzdGF0dXMg
-PSBhd2FpdCBtZW9ycGhpc1Rlc3Q0LnN0YXR1cy5yZXRyaWV2ZSgpLmNhdGNo
-KChlcnIpID0+IHsKICAgIGlmIChlcnIgaW5zdGFuY2VvZiBNZW9ycGhpc1Rl
-c3Q0LkFQSUVycm9yKSB7CiAgICAgIGNvbnNvbGUubG9nKGVyci5zdGF0dXMp
-OyAvLyA0MDAKICAgICAgY29uc29sZS5sb2coZXJyLm5hbWUpOyAvLyBCYWRS
-ZXF1ZXN0RXJyb3IKICAgICAgY29uc29sZS5sb2coZXJyLmhlYWRlcnMpOyAv
-LyB7c2VydmVyOiAnbmdpbngnLCAuLi59CiAgICB9IGVsc2UgewogICAgICB0
-aHJvdyBlcnI7CiAgICB9CiAgfSk7Cn0KCm1haW4oKTsKYGBgCgpFcnJvciBj
-b2RlcyBhcmUgYXMgZm9sbG93ZWQ6Cgp8IFN0YXR1cyBDb2RlIHwgRXJyb3Ig
-VHlwZSAgICAgICAgICAgICAgICAgfAp8IC0tLS0tLS0tLS0tIHwgLS0tLS0t
-LS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IDQwMCAgICAgICAgIHwgYEJhZFJl
-cXVlc3RFcnJvcmAgICAgICAgICAgfAp8IDQwMSAgICAgICAgIHwgYEF1dGhl
-bnRpY2F0aW9uRXJyb3JgICAgICAgfAp8IDQwMyAgICAgICAgIHwgYFBlcm1p
-c3Npb25EZW5pZWRFcnJvcmAgICAgfAp8IDQwNCAgICAgICAgIHwgYE5vdEZv
-dW5kRXJyb3JgICAgICAgICAgICAgfAp8IDQyMiAgICAgICAgIHwgYFVucHJv
-Y2Vzc2FibGVFbnRpdHlFcnJvcmAgfAp8IDQyOSAgICAgICAgIHwgYFJhdGVM
-aW1pdEVycm9yYCAgICAgICAgICAgfAp8ID49NTAwICAgICAgIHwgYEludGVy
-bmFsU2VydmVyRXJyb3JgICAgICAgfAp8IE4vQSAgICAgICAgIHwgYEFQSUNv
-bm5lY3Rpb25FcnJvcmAgICAgICAgfAoKIyMjIFJldHJpZXMKCkNlcnRhaW4g
-ZXJyb3JzIHdpbGwgYmUgYXV0b21hdGljYWxseSByZXRyaWVkIDIgdGltZXMg
-YnkgZGVmYXVsdCwgd2l0aCBhIHNob3J0IGV4cG9uZW50aWFsIGJhY2tvZmYu
-CkNvbm5lY3Rpb24gZXJyb3JzIChmb3IgZXhhbXBsZSwgZHVlIHRvIGEgbmV0
-d29yayBjb25uZWN0aXZpdHkgcHJvYmxlbSksIDQwOCBSZXF1ZXN0IFRpbWVv
-dXQsIDQwOSBDb25mbGljdCwKNDI5IFJhdGUgTGltaXQsIGFuZCA+PTUwMCBJ
-bnRlcm5hbCBlcnJvcnMgd2lsbCBhbGwgYmUgcmV0cmllZCBieSBkZWZhdWx0
-LgoKWW91IGNhbiB1c2UgdGhlIGBtYXhSZXRyaWVzYCBvcHRpb24gdG8gY29u
-ZmlndXJlIG9yIGRpc2FibGUgdGhpczoKCjwhLS0gcHJldHRpZXItaWdub3Jl
-IC0tPgpgYGBqcwovLyBDb25maWd1cmUgdGhlIGRlZmF1bHQgZm9yIGFsbCBy
-ZXF1ZXN0czoKY29uc3QgbWVvcnBoaXNUZXN0NCA9IG5ldyBNZW9ycGhpc1Rl
-c3Q0KHsKICBtYXhSZXRyaWVzOiAwLCAvLyBkZWZhdWx0IGlzIDIKfSk7Cgov
-LyBPciwgY29uZmlndXJlIHBlci1yZXF1ZXN0Ogphd2FpdCBtZW9ycGhpc1Rl
-c3Q0LnN0YXR1cy5yZXRyaWV2ZSh7CiAgbWF4UmV0cmllczogNSwKfSk7CmBg
-YAoKIyMjIFRpbWVvdXRzCgpSZXF1ZXN0cyB0aW1lIG91dCBhZnRlciAxIG1p
-bnV0ZSBieSBkZWZhdWx0LiBZb3UgY2FuIGNvbmZpZ3VyZSB0aGlzIHdpdGgg
-YSBgdGltZW91dGAgb3B0aW9uOgoKPCEtLSBwcmV0dGllci1pZ25vcmUgLS0+
-CmBgYHRzCi8vIENvbmZpZ3VyZSB0aGUgZGVmYXVsdCBmb3IgYWxsIHJlcXVl
-c3RzOgpjb25zdCBtZW9ycGhpc1Rlc3Q0ID0gbmV3IE1lb3JwaGlzVGVzdDQo
-ewogIHRpbWVvdXQ6IDIwICogMTAwMCwgLy8gMjAgc2Vjb25kcyAoZGVmYXVs
-dCBpcyAxIG1pbnV0ZSkKfSk7CgovLyBPdmVycmlkZSBwZXItcmVxdWVzdDoK
-YXdhaXQgbWVvcnBoaXNUZXN0NC5zdGF0dXMucmV0cmlldmUoewogIHRpbWVv
-dXQ6IDUgKiAxMDAwLAp9KTsKYGBgCgpPbiB0aW1lb3V0LCBhbiBgQVBJQ29u
-bmVjdGlvblRpbWVvdXRFcnJvcmAgaXMgdGhyb3duLgoKTm90ZSB0aGF0IHJl
-cXVlc3RzIHdoaWNoIHRpbWUgb3V0IHdpbGwgYmUgW3JldHJpZWQgdHdpY2Ug
-YnkgZGVmYXVsdF0oI3JldHJpZXMpLgoKIyMgQWR2YW5jZWQgVXNhZ2UKCiMj
-IyBBY2Nlc3NpbmcgcmF3IFJlc3BvbnNlIGRhdGEgKGUuZy4sIGhlYWRlcnMp
-CgpUaGUgInJhdyIgYFJlc3BvbnNlYCByZXR1cm5lZCBieSBgZmV0Y2goKWAg
-Y2FuIGJlIGFjY2Vzc2VkIHRocm91Z2ggdGhlIGAuYXNSZXNwb25zZSgpYCBt
-ZXRob2Qgb24gdGhlIGBBUElQcm9taXNlYCB0eXBlIHRoYXQgYWxsIG1ldGhv
-ZHMgcmV0dXJuLgoKWW91IGNhbiBhbHNvIHVzZSB0aGUgYC53aXRoUmVzcG9u
-c2UoKWAgbWV0aG9kIHRvIGdldCB0aGUgcmF3IGBSZXNwb25zZWAgYWxvbmcg
-d2l0aCB0aGUgcGFyc2VkIGRhdGEuCgo8IS0tIHByZXR0aWVyLWlnbm9yZSAt
-LT4KYGBgdHMKY29uc3QgbWVvcnBoaXNUZXN0NCA9IG5ldyBNZW9ycGhpc1Rl
-c3Q0KCk7Cgpjb25zdCByZXNwb25zZSA9IGF3YWl0IG1lb3JwaGlzVGVzdDQu
-c3RhdHVzLnJldHJpZXZlKCkuYXNSZXNwb25zZSgpOwpjb25zb2xlLmxvZyhy
-ZXNwb25zZS5oZWFkZXJzLmdldCgnWC1NeS1IZWFkZXInKSk7CmNvbnNvbGUu
-bG9nKHJlc3BvbnNlLnN0YXR1c1RleHQpOyAvLyBhY2Nlc3MgdGhlIHVuZGVy
-bHlpbmcgUmVzcG9uc2Ugb2JqZWN0Cgpjb25zdCB7IGRhdGE6IHN0YXR1c1Jl
-dHJpZXZlUmVzcG9uc2UsIHJlc3BvbnNlOiByYXcgfSA9IGF3YWl0IG1lb3Jw
-aGlzVGVzdDQuc3RhdHVzLnJldHJpZXZlKCkud2l0aFJlc3BvbnNlKCk7CmNv
-bnNvbGUubG9nKHJhdy5oZWFkZXJzLmdldCgnWC1NeS1IZWFkZXInKSk7CmNv
-bnNvbGUubG9nKHN0YXR1c1JldHJpZXZlUmVzcG9uc2UubWVzc2FnZSk7CmBg
-YAoKIyMgQ3VzdG9taXppbmcgdGhlIGZldGNoIGNsaWVudAoKQnkgZGVmYXVs
-dCwgdGhpcyBsaWJyYXJ5IHVzZXMgYG5vZGUtZmV0Y2hgIGluIE5vZGUsIGFu
-ZCBleHBlY3RzIGEgZ2xvYmFsIGBmZXRjaGAgZnVuY3Rpb24gaW4gb3RoZXIg
-ZW52aXJvbm1lbnRzLgoKSWYgeW91IHdvdWxkIHByZWZlciB0byB1c2UgYSBn
-bG9iYWwsIHdlYi1zdGFuZGFyZHMtY29tcGxpYW50IGBmZXRjaGAgZnVuY3Rp
-b24gZXZlbiBpbiBhIE5vZGUgZW52aXJvbm1lbnQsCihmb3IgZXhhbXBsZSwg
-aWYgeW91IGFyZSBydW5uaW5nIE5vZGUgd2l0aCBgLS1leHBlcmltZW50YWwt
-ZmV0Y2hgIG9yIHVzaW5nIE5leHRKUyB3aGljaCBwb2x5ZmlsbHMgd2l0aCBg
-dW5kaWNpYCksCmFkZCB0aGUgZm9sbG93aW5nIGltcG9ydCBiZWZvcmUgeW91
-ciBmaXJzdCBpbXBvcnQgYGZyb20gIk1lb3JwaGlzVGVzdDQiYDoKCmBgYHRz
-Ci8vIFRlbGwgVHlwZVNjcmlwdCBhbmQgdGhlIHBhY2thZ2UgdG8gdXNlIHRo
-ZSBnbG9iYWwgd2ViIGZldGNoIGluc3RlYWQgb2Ygbm9kZS1mZXRjaC4KLy8g
-Tm90ZSwgZGVzcGl0ZSB0aGUgbmFtZSwgdGhpcyBkb2VzIG5vdCBhZGQgYW55
-IHBvbHlmaWxscywgYnV0IGV4cGVjdHMgdGhlbSB0byBiZSBwcm92aWRlZCBp
-ZiBuZWVkZWQuCmltcG9ydCAnbWVvcnBoaXMtdGVzdC00L3NoaW1zL3dlYic7
-CmltcG9ydCBNZW9ycGhpc1Rlc3Q0IGZyb20gJ21lb3JwaGlzLXRlc3QtNCc7
-CmBgYAoKVG8gZG8gdGhlIGludmVyc2UsIGFkZCBgaW1wb3J0ICJtZW9ycGhp
-cy10ZXN0LTQvc2hpbXMvbm9kZSJgICh3aGljaCBkb2VzIGltcG9ydCBwb2x5
-ZmlsbHMpLgpUaGlzIGNhbiBhbHNvIGJlIHVzZWZ1bCBpZiB5b3UgYXJlIGdl
-dHRpbmcgdGhlIHdyb25nIFR5cGVTY3JpcHQgdHlwZXMgZm9yIGBSZXNwb25z
-ZWAgLcKgbW9yZSBkZXRhaWxzIFtoZXJlXShodHRwczovL2dpdGh1Yi5jb20v
-bWVvcnBoaXMtdGVzdC00L3RyZWUvbWFpbi9zcmMvX3NoaW1zI3JlYWRtZSku
-CgpZb3UgbWF5IGFsc28gcHJvdmlkZSBhIGN1c3RvbSBgZmV0Y2hgIGZ1bmN0
-aW9uIHdoZW4gaW5zdGFudGlhdGluZyB0aGUgY2xpZW50LAp3aGljaCBjYW4g
-YmUgdXNlZCB0byBpbnNwZWN0IG9yIGFsdGVyIHRoZSBgUmVxdWVzdGAgb3Ig
-YFJlc3BvbnNlYCBiZWZvcmUvYWZ0ZXIgZWFjaCByZXF1ZXN0OgoKYGBgdHMK
-aW1wb3J0IHsgZmV0Y2ggfSBmcm9tICd1bmRpY2knOyAvLyBhcyBvbmUgZXhh
-bXBsZQppbXBvcnQgTWVvcnBoaXNUZXN0NCBmcm9tICdtZW9ycGhpcy10ZXN0
-LTQnOwoKY29uc3QgY2xpZW50ID0gbmV3IE1lb3JwaGlzVGVzdDQoewogIGZl
-dGNoOiBhc3luYyAodXJsOiBSZXF1ZXN0SW5mbywgaW5pdD86IFJlcXVlc3RJ
-bmZvKTogUHJvbWlzZTxSZXNwb25zZT4gPT4gewogICAgY29uc29sZS5sb2co
-J0Fib3V0IHRvIG1ha2UgYSByZXF1ZXN0JywgdXJsLCBpbml0KTsKICAgIGNv
-bnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2godXJsLCBpbml0KTsKICAgIGNv
-bnNvbGUubG9nKCdHb3QgcmVzcG9uc2UnLCByZXNwb25zZSk7CiAgICByZXR1
-cm4gcmVzcG9uc2U7CiAgfSwKfSk7CmBgYAoKTm90ZSB0aGF0IGlmIGdpdmVu
-IGEgYERFQlVHPXRydWVgIGVudmlyb25tZW50IHZhcmlhYmxlLCB0aGlzIGxp
-YnJhcnkgd2lsbCBsb2cgYWxsIHJlcXVlc3RzIGFuZCByZXNwb25zZXMgYXV0
-b21hdGljYWxseS4KVGhpcyBpcyBpbnRlbmRlZCBmb3IgZGVidWdnaW5nIHB1
-cnBvc2VzIG9ubHkgYW5kIG1heSBjaGFuZ2UgaW4gdGhlIGZ1dHVyZSB3aXRo
-b3V0IG5vdGljZS4KCiMjIENvbmZpZ3VyaW5nIGFuIEhUVFAoUykgQWdlbnQg
-KGUuZy4sIGZvciBwcm94aWVzKQoKQnkgZGVmYXVsdCwgdGhpcyBsaWJyYXJ5
-IHVzZXMgYSBzdGFibGUgYWdlbnQgZm9yIGFsbCBodHRwL2h0dHBzIHJlcXVl
-c3RzIHRvIHJldXNlIFRDUCBjb25uZWN0aW9ucywgZWxpbWluYXRpbmcgbWFu
-eSBUQ1AgJiBUTFMgaGFuZHNoYWtlcyBhbmQgc2hhdmluZyBhcm91bmQgMTAw
-bXMgb2ZmIG1vc3QgcmVxdWVzdHMuCgpJZiB5b3Ugd291bGQgbGlrZSB0byBk
-aXNhYmxlIG9yIGN1c3RvbWl6ZSB0aGlzIGJlaGF2aW9yLCBmb3IgZXhhbXBs
-ZSB0byB1c2UgdGhlIEFQSSBiZWhpbmQgYSBwcm94eSwgeW91IGNhbiBwYXNz
-IGFuIGBodHRwQWdlbnRgIHdoaWNoIGlzIHVzZWQgZm9yIGFsbCByZXF1ZXN0
-cyAoYmUgdGhleSBodHRwIG9yIGh0dHBzKSwgZm9yIGV4YW1wbGU6Cgo8IS0t
-IHByZXR0aWVyLWlnbm9yZSAtLT4KYGBgdHMKaW1wb3J0IGh0dHAgZnJvbSAn
-aHR0cCc7CmltcG9ydCBIdHRwc1Byb3h5QWdlbnQgZnJvbSAnaHR0cHMtcHJv
-eHktYWdlbnQnOwoKLy8gQ29uZmlndXJlIHRoZSBkZWZhdWx0IGZvciBhbGwg
-cmVxdWVzdHM6CmNvbnN0IG1lb3JwaGlzVGVzdDQgPSBuZXcgTWVvcnBoaXNU
-ZXN0NCh7CiAgaHR0cEFnZW50OiBuZXcgSHR0cHNQcm94eUFnZW50KHByb2Nl
-c3MuZW52LlBST1hZX1VSTCksCn0pOwoKLy8gT3ZlcnJpZGUgcGVyLXJlcXVl
-c3Q6CmF3YWl0IG1lb3JwaGlzVGVzdDQuc3RhdHVzLnJldHJpZXZlKHsKICBi
-YXNlVVJMOiAnaHR0cDovL2xvY2FsaG9zdDo4MDgwL3Rlc3QtYXBpJywKICBo
-dHRwQWdlbnQ6IG5ldyBodHRwLkFnZW50KHsga2VlcEFsaXZlOiBmYWxzZSB9
-KSwKfSkKYGBgCgojIyBTZW1hbnRpYyBWZXJzaW9uaW5nCgpUaGlzIHBhY2th
-Z2UgZ2VuZXJhbGx5IGZvbGxvd3MgW1NlbVZlcl0oaHR0cHM6Ly9zZW12ZXIu
-b3JnL3NwZWMvdjIuMC4wLmh0bWwpIGNvbnZlbnRpb25zLCB0aG91Z2ggY2Vy
-dGFpbiBiYWNrd2FyZHMtaW5jb21wYXRpYmxlIGNoYW5nZXMgbWF5IGJlIHJl
-bGVhc2VkIGFzIG1pbm9yIHZlcnNpb25zOgoKMS4gQ2hhbmdlcyB0aGF0IG9u
-bHkgYWZmZWN0IHN0YXRpYyB0eXBlcywgd2l0aG91dCBicmVha2luZyBydW50
-aW1lIGJlaGF2aW9yLgoyLiBDaGFuZ2VzIHRvIGxpYnJhcnkgaW50ZXJuYWxz
-IHdoaWNoIGFyZSB0ZWNobmljYWxseSBwdWJsaWMgYnV0IG5vdCBpbnRlbmRl
-ZCBvciBkb2N1bWVudGVkIGZvciBleHRlcm5hbCB1c2UuIF8oUGxlYXNlIG9w
-ZW4gYSBHaXRIdWIgaXNzdWUgdG8gbGV0IHVzIGtub3cgaWYgeW91IGFyZSBy
-ZWx5aW5nIG9uIHN1Y2ggaW50ZXJuYWxzKV8uCjMuIENoYW5nZXMgdGhhdCB3
-ZSBkbyBub3QgZXhwZWN0IHRvIGltcGFjdCB0aGUgdmFzdCBtYWpvcml0eSBv
-ZiB1c2VycyBpbiBwcmFjdGljZS4KCldlIHRha2UgYmFja3dhcmRzLWNvbXBh
-dGliaWxpdHkgc2VyaW91c2x5IGFuZCB3b3JrIGhhcmQgdG8gZW5zdXJlIHlv
-dSBjYW4gcmVseSBvbiBhIHNtb290aCB1cGdyYWRlIGV4cGVyaWVuY2UuCgpX
-ZSBhcmUga2VlbiBmb3IgeW91ciBmZWVkYmFjazsgcGxlYXNlIG9wZW4gYW4g
-W2lzc3VlXShodHRwczovL3d3dy5naXRodWIuY29tL21lb3JwaGlzLXRlc3Qt
-NC9tZW9ycGhpcy10ZXN0LTQtbm9kZS9pc3N1ZXMpIHdpdGggcXVlc3Rpb25z
-LCBidWdzLCBvciBzdWdnZXN0aW9ucy4KCiMjIFJlcXVpcmVtZW50cwoKVHlw
-ZVNjcmlwdCA+PSA0LjUgaXMgc3VwcG9ydGVkLgoKVGhlIGZvbGxvd2luZyBy
-dW50aW1lcyBhcmUgc3VwcG9ydGVkOgoKLSBOb2RlLmpzIDE4IExUUyBvciBs
-YXRlciAoW25vbi1FT0xdKGh0dHBzOi8vZW5kb2ZsaWZlLmRhdGUvbm9kZWpz
-KSkgdmVyc2lvbnMuCi0gRGVubyB2MS4yOC4wIG9yIGhpZ2hlciwgdXNpbmcg
-YGltcG9ydCBNZW9ycGhpc1Rlc3Q0IGZyb20gIm5wbTptZW9ycGhpcy10ZXN0
-LTQiYC4KLSBCdW4gMS4wIG9yIGxhdGVyLgotIENsb3VkZmxhcmUgV29ya2Vy
-cy4KLSBWZXJjZWwgRWRnZSBSdW50aW1lLgotIEplc3QgMjggb3IgZ3JlYXRl
-ciB3aXRoIHRoZSBgIm5vZGUiYCBlbnZpcm9ubWVudCAoYCJqc2RvbSJgIGlz
-IG5vdCBzdXBwb3J0ZWQgYXQgdGhpcyB0aW1lKS4KLSBOaXRybyB2Mi42IG9y
-IGdyZWF0ZXIuCgpOb3RlIHRoYXQgUmVhY3QgTmF0aXZlIGlzIG5vdCBzdXBw
-b3J0ZWQgYXQgdGhpcyB0aW1lLgoKSWYgeW91IGFyZSBpbnRlcmVzdGVkIGlu
-IG90aGVyIHJ1bnRpbWUgZW52aXJvbm1lbnRzLCBwbGVhc2Ugb3BlbiBvciB1
-cHZvdGUgYW4gaXNzdWUgb24gR2l0SHViLgo=
+# Meorphis Test 4 Node API Library
+
+[![NPM version](https://img.shields.io/npm/v/meorphis-test-4.svg)](https://npmjs.org/package/meorphis-test-4)
+
+This library provides convenient access to the Meorphis Test 4 REST API from server-side TypeScript or JavaScript.
+
+The REST API documentation can be found [on docs.meorphis-test-4.com](https://docs.meorphis-test-4.com). The full API of this library can be found in [api.md](https://www.github.com/meorphis/test-repo-2/blob/main/api.md).
+
+## Installation
+
+```sh
+npm install --save meorphis-test-4
+# or
+yarn add meorphis-test-4
+```
+
+## Usage
+
+The full API of this library can be found in [api.md](https://www.github.com/meorphis/test-repo-2/blob/main/api.md).
+
+<!-- prettier-ignore -->
+```js
+import MeorphisTest4 from 'meorphis-test-4';
+
+const meorphisTest4 = new MeorphisTest4({
+  apiKey: process.env['MEORPHIS_TEST_4_API_KEY'], // This is the default and can be omitted
+  environment: 'environment_1', // defaults to 'production'
+});
+
+async function main() {
+  const statusRetrieveResponse = await meorphisTest4.status.retrieve();
+
+  console.log(statusRetrieveResponse.message);
+}
+
+main();
+```
+
+### Request & Response types
+
+This library includes TypeScript definitions for all request params and response fields. You may import and use them like so:
+
+<!-- prettier-ignore -->
+```ts
+import MeorphisTest4 from 'meorphis-test-4';
+
+const meorphisTest4 = new MeorphisTest4({
+  apiKey: process.env['MEORPHIS_TEST_4_API_KEY'], // This is the default and can be omitted
+  environment: 'environment_1', // defaults to 'production'
+});
+
+async function main() {
+  const statusRetrieveResponse: MeorphisTest4.StatusRetrieveResponse = await meorphisTest4.status.retrieve();
+}
+
+main();
+```
+
+Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
+
+## Handling errors
+
+When the library is unable to connect to the API,
+or if the API returns a non-success status code (i.e., 4xx or 5xx response),
+a subclass of `APIError` will be thrown:
+
+<!-- prettier-ignore -->
+```ts
+async function main() {
+  const status = await meorphisTest4.status.retrieve().catch((err) => {
+    if (err instanceof MeorphisTest4.APIError) {
+      console.log(err.status); // 400
+      console.log(err.name); // BadRequestError
+      console.log(err.headers); // {server: 'nginx', ...}
+    } else {
+      throw err;
+    }
+  });
+}
+
+main();
+```
+
+Error codes are as followed:
+
+| Status Code | Error Type                 |
+| ----------- | -------------------------- |
+| 400         | `BadRequestError`          |
+| 401         | `AuthenticationError`      |
+| 403         | `PermissionDeniedError`    |
+| 404         | `NotFoundError`            |
+| 422         | `UnprocessableEntityError` |
+| 429         | `RateLimitError`           |
+| >=500       | `InternalServerError`      |
+| N/A         | `APIConnectionError`       |
+
+### Retries
+
+Certain errors will be automatically retried 2 times by default, with a short exponential backoff.
+Connection errors (for example, due to a network connectivity problem), 408 Request Timeout, 409 Conflict,
+429 Rate Limit, and >=500 Internal errors will all be retried by default.
+
+You can use the `maxRetries` option to configure or disable this:
+
+<!-- prettier-ignore -->
+```js
+// Configure the default for all requests:
+const meorphisTest4 = new MeorphisTest4({
+  maxRetries: 0, // default is 2
+});
+
+// Or, configure per-request:
+await meorphisTest4.status.retrieve({
+  maxRetries: 5,
+});
+```
+
+### Timeouts
+
+Requests time out after 1 minute by default. You can configure this with a `timeout` option:
+
+<!-- prettier-ignore -->
+```ts
+// Configure the default for all requests:
+const meorphisTest4 = new MeorphisTest4({
+  timeout: 20 * 1000, // 20 seconds (default is 1 minute)
+});
+
+// Override per-request:
+await meorphisTest4.status.retrieve({
+  timeout: 5 * 1000,
+});
+```
+
+On timeout, an `APIConnectionTimeoutError` is thrown.
+
+Note that requests which time out will be [retried twice by default](#retries).
+
+## Advanced Usage
+
+### Accessing raw Response data (e.g., headers)
+
+The "raw" `Response` returned by `fetch()` can be accessed through the `.asResponse()` method on the `APIPromise` type that all methods return.
+
+You can also use the `.withResponse()` method to get the raw `Response` along with the parsed data.
+
+<!-- prettier-ignore -->
+```ts
+const meorphisTest4 = new MeorphisTest4();
+
+const response = await meorphisTest4.status.retrieve().asResponse();
+console.log(response.headers.get('X-My-Header'));
+console.log(response.statusText); // access the underlying Response object
+
+const { data: statusRetrieveResponse, response: raw } = await meorphisTest4.status.retrieve().withResponse();
+console.log(raw.headers.get('X-My-Header'));
+console.log(statusRetrieveResponse.message);
+```
+
+## Customizing the fetch client
+
+By default, this library uses `node-fetch` in Node, and expects a global `fetch` function in other environments.
+
+If you would prefer to use a global, web-standards-compliant `fetch` function even in a Node environment,
+(for example, if you are running Node with `--experimental-fetch` or using NextJS which polyfills with `undici`),
+add the following import before your first import `from "MeorphisTest4"`:
+
+```ts
+// Tell TypeScript and the package to use the global web fetch instead of node-fetch.
+// Note, despite the name, this does not add any polyfills, but expects them to be provided if needed.
+import 'meorphis-test-4/shims/web';
+import MeorphisTest4 from 'meorphis-test-4';
+```
+
+To do the inverse, add `import "meorphis-test-4/shims/node"` (which does import polyfills).
+This can also be useful if you are getting the wrong TypeScript types for `Response` - more details [here](https://github.com/meorphis/test-repo-2/tree/main/src/_shims#readme).
+
+You may also provide a custom `fetch` function when instantiating the client,
+which can be used to inspect or alter the `Request` or `Response` before/after each request:
+
+```ts
+import { fetch } from 'undici'; // as one example
+import MeorphisTest4 from 'meorphis-test-4';
+
+const client = new MeorphisTest4({
+  fetch: async (url: RequestInfo, init?: RequestInfo): Promise<Response> => {
+    console.log('About to make a request', url, init);
+    const response = await fetch(url, init);
+    console.log('Got response', response);
+    return response;
+  },
+});
+```
+
+Note that if given a `DEBUG=true` environment variable, this library will log all requests and responses automatically.
+This is intended for debugging purposes only and may change in the future without notice.
+
+## Configuring an HTTP(S) Agent (e.g., for proxies)
+
+By default, this library uses a stable agent for all http/https requests to reuse TCP connections, eliminating many TCP & TLS handshakes and shaving around 100ms off most requests.
+
+If you would like to disable or customize this behavior, for example to use the API behind a proxy, you can pass an `httpAgent` which is used for all requests (be they http or https), for example:
+
+<!-- prettier-ignore -->
+```ts
+import http from 'http';
+import HttpsProxyAgent from 'https-proxy-agent';
+
+// Configure the default for all requests:
+const meorphisTest4 = new MeorphisTest4({
+  httpAgent: new HttpsProxyAgent(process.env.PROXY_URL),
+});
+
+// Override per-request:
+await meorphisTest4.status.retrieve({
+  baseURL: 'http://localhost:8080/test-api',
+  httpAgent: new http.Agent({ keepAlive: false }),
+})
+```
+
+## Semantic Versioning
+
+This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) conventions, though certain backwards-incompatible changes may be released as minor versions:
+
+1. Changes that only affect static types, without breaking runtime behavior.
+2. Changes to library internals which are technically public but not intended or documented for external use. _(Please open a GitHub issue to let us know if you are relying on such internals)_.
+3. Changes that we do not expect to impact the vast majority of users in practice.
+
+We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
+
+We are keen for your feedback; please open an [issue](https://www.github.com/meorphis/test-repo-2/issues) with questions, bugs, or suggestions.
+
+## Requirements
+
+TypeScript >= 4.5 is supported.
+
+The following runtimes are supported:
+
+- Node.js 18 LTS or later ([non-EOL](https://endoflife.date/nodejs)) versions.
+- Deno v1.28.0 or higher, using `import MeorphisTest4 from "npm:meorphis-test-4"`.
+- Bun 1.0 or later.
+- Cloudflare Workers.
+- Vercel Edge Runtime.
+- Jest 28 or greater with the `"node"` environment (`"jsdom"` is not supported at this time).
+- Nitro v2.6 or greater.
+
+Note that React Native is not supported at this time.
+
+If you are interested in other runtime environments, please open or upvote an issue on GitHub.

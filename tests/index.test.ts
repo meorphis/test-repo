@@ -1,243 +1,316 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCBNZW9ycGhpc1Rlc3Q0IGZyb20gJ21lb3JwaGlz
-LXRlc3QtNCc7CmltcG9ydCB7IEFQSVVzZXJBYm9ydEVycm9yIH0gZnJvbSAn
-bWVvcnBoaXMtdGVzdC00JzsKaW1wb3J0IHsgSGVhZGVycyB9IGZyb20gJ21l
-b3JwaGlzLXRlc3QtNC9jb3JlJzsKaW1wb3J0IGRlZmF1bHRGZXRjaCwgeyBS
-ZXNwb25zZSwgdHlwZSBSZXF1ZXN0SW5pdCwgdHlwZSBSZXF1ZXN0SW5mbyB9
-IGZyb20gJ25vZGUtZmV0Y2gnOwoKZGVzY3JpYmUoJ2luc3RhbnRpYXRlIGNs
-aWVudCcsICgpID0+IHsKICBjb25zdCBlbnYgPSBwcm9jZXNzLmVudjsKCiAg
-YmVmb3JlRWFjaCgoKSA9PiB7CiAgICBqZXN0LnJlc2V0TW9kdWxlcygpOwog
-ICAgcHJvY2Vzcy5lbnYgPSB7IC4uLmVudiB9OwoKICAgIGNvbnNvbGUud2Fy
-biA9IGplc3QuZm4oKTsKICB9KTsKCiAgYWZ0ZXJFYWNoKCgpID0+IHsKICAg
-IHByb2Nlc3MuZW52ID0gZW52OwogIH0pOwoKICBkZXNjcmliZSgnZGVmYXVs
-dEhlYWRlcnMnLCAoKSA9PiB7CiAgICBjb25zdCBjbGllbnQgPSBuZXcgTWVv
-cnBoaXNUZXN0NCh7CiAgICAgIGJhc2VVUkw6ICdodHRwOi8vbG9jYWxob3N0
-OjUwMDAvJywKICAgICAgZGVmYXVsdEhlYWRlcnM6IHsgJ1gtTXktRGVmYXVs
-dC1IZWFkZXInOiAnMicgfSwKICAgICAgYXBpS2V5OiAnTXkgQVBJIEtleScs
-CiAgICB9KTsKCiAgICB0ZXN0KCd0aGV5IGFyZSB1c2VkIGluIHRoZSByZXF1
-ZXN0JywgKCkgPT4gewogICAgICBjb25zdCB7IHJlcSB9ID0gY2xpZW50LmJ1
-aWxkUmVxdWVzdCh7IHBhdGg6ICcvZm9vJywgbWV0aG9kOiAncG9zdCcgfSk7
-CiAgICAgIGV4cGVjdCgocmVxLmhlYWRlcnMgYXMgSGVhZGVycylbJ3gtbXkt
-ZGVmYXVsdC1oZWFkZXInXSkudG9FcXVhbCgnMicpOwogICAgfSk7CgogICAg
-dGVzdCgnY2FuIGlnbm9yZSBgdW5kZWZpbmVkYCBhbmQgbGVhdmUgdGhlIGRl
-ZmF1bHQnLCAoKSA9PiB7CiAgICAgIGNvbnN0IHsgcmVxIH0gPSBjbGllbnQu
-YnVpbGRSZXF1ZXN0KHsKICAgICAgICBwYXRoOiAnL2ZvbycsCiAgICAgICAg
-bWV0aG9kOiAncG9zdCcsCiAgICAgICAgaGVhZGVyczogeyAnWC1NeS1EZWZh
-dWx0LUhlYWRlcic6IHVuZGVmaW5lZCB9LAogICAgICB9KTsKICAgICAgZXhw
-ZWN0KChyZXEuaGVhZGVycyBhcyBIZWFkZXJzKVsneC1teS1kZWZhdWx0LWhl
-YWRlciddKS50b0VxdWFsKCcyJyk7CiAgICB9KTsKCiAgICB0ZXN0KCdjYW4g
-YmUgcmVtb3ZlZCB3aXRoIGBudWxsYCcsICgpID0+IHsKICAgICAgY29uc3Qg
-eyByZXEgfSA9IGNsaWVudC5idWlsZFJlcXVlc3QoewogICAgICAgIHBhdGg6
-ICcvZm9vJywKICAgICAgICBtZXRob2Q6ICdwb3N0JywKICAgICAgICBoZWFk
-ZXJzOiB7ICdYLU15LURlZmF1bHQtSGVhZGVyJzogbnVsbCB9LAogICAgICB9
-KTsKICAgICAgZXhwZWN0KHJlcS5oZWFkZXJzIGFzIEhlYWRlcnMpLm5vdC50
-b0hhdmVQcm9wZXJ0eSgneC1teS1kZWZhdWx0LWhlYWRlcicpOwogICAgfSk7
-CiAgfSk7CgogIGRlc2NyaWJlKCdkZWZhdWx0UXVlcnknLCAoKSA9PiB7CiAg
-ICB0ZXN0KCd3aXRoIG51bGwgcXVlcnkgcGFyYW1zIGdpdmVuJywgKCkgPT4g
-ewogICAgICBjb25zdCBjbGllbnQgPSBuZXcgTWVvcnBoaXNUZXN0NCh7CiAg
-ICAgICAgYmFzZVVSTDogJ2h0dHA6Ly9sb2NhbGhvc3Q6NTAwMC8nLAogICAg
-ICAgIGRlZmF1bHRRdWVyeTogeyBhcGlWZXJzaW9uOiAnZm9vJyB9LAogICAg
-ICAgIGFwaUtleTogJ015IEFQSSBLZXknLAogICAgICB9KTsKICAgICAgZXhw
-ZWN0KGNsaWVudC5idWlsZFVSTCgnL2ZvbycsIG51bGwpKS50b0VxdWFsKCdo
-dHRwOi8vbG9jYWxob3N0OjUwMDAvZm9vP2FwaVZlcnNpb249Zm9vJyk7CiAg
-ICB9KTsKCiAgICB0ZXN0KCdtdWx0aXBsZSBkZWZhdWx0IHF1ZXJ5IHBhcmFt
-cycsICgpID0+IHsKICAgICAgY29uc3QgY2xpZW50ID0gbmV3IE1lb3JwaGlz
-VGVzdDQoewogICAgICAgIGJhc2VVUkw6ICdodHRwOi8vbG9jYWxob3N0OjUw
-MDAvJywKICAgICAgICBkZWZhdWx0UXVlcnk6IHsgYXBpVmVyc2lvbjogJ2Zv
-bycsIGhlbGxvOiAnd29ybGQnIH0sCiAgICAgICAgYXBpS2V5OiAnTXkgQVBJ
-IEtleScsCiAgICAgIH0pOwogICAgICBleHBlY3QoY2xpZW50LmJ1aWxkVVJM
-KCcvZm9vJywgbnVsbCkpLnRvRXF1YWwoJ2h0dHA6Ly9sb2NhbGhvc3Q6NTAw
-MC9mb28/YXBpVmVyc2lvbj1mb28maGVsbG89d29ybGQnKTsKICAgIH0pOwoK
-ICAgIHRlc3QoJ292ZXJyaWRpbmcgd2l0aCBgdW5kZWZpbmVkYCcsICgpID0+
-IHsKICAgICAgY29uc3QgY2xpZW50ID0gbmV3IE1lb3JwaGlzVGVzdDQoewog
-ICAgICAgIGJhc2VVUkw6ICdodHRwOi8vbG9jYWxob3N0OjUwMDAvJywKICAg
-ICAgICBkZWZhdWx0UXVlcnk6IHsgaGVsbG86ICd3b3JsZCcgfSwKICAgICAg
-ICBhcGlLZXk6ICdNeSBBUEkgS2V5JywKICAgICAgfSk7CiAgICAgIGV4cGVj
-dChjbGllbnQuYnVpbGRVUkwoJy9mb28nLCB7IGhlbGxvOiB1bmRlZmluZWQg
-fSkpLnRvRXF1YWwoJ2h0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9mb28nKTsKICAg
-IH0pOwogIH0pOwoKICB0ZXN0KCdjdXN0b20gZmV0Y2gnLCBhc3luYyAoKSA9
-PiB7CiAgICBjb25zdCBjbGllbnQgPSBuZXcgTWVvcnBoaXNUZXN0NCh7CiAg
-ICAgIGJhc2VVUkw6ICdodHRwOi8vbG9jYWxob3N0OjUwMDAvJywKICAgICAg
-YXBpS2V5OiAnTXkgQVBJIEtleScsCiAgICAgIGZldGNoOiAodXJsKSA9PiB7
-CiAgICAgICAgcmV0dXJuIFByb21pc2UucmVzb2x2ZSgKICAgICAgICAgIG5l
-dyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IHVybCwgY3VzdG9tOiB0cnVl
-IH0pLCB7CiAgICAgICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6
-ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgICAgfSksCiAgICAgICAg
-KTsKICAgICAgfSwKICAgIH0pOwoKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdh
-aXQgY2xpZW50LmdldCgnL2ZvbycpOwogICAgZXhwZWN0KHJlc3BvbnNlKS50
-b0VxdWFsKHsgdXJsOiAnaHR0cDovL2xvY2FsaG9zdDo1MDAwL2ZvbycsIGN1
-c3RvbTogdHJ1ZSB9KTsKICB9KTsKCiAgdGVzdCgnY3VzdG9tIHNpZ25hbCcs
-IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhp
-c1Rlc3Q0KHsKICAgICAgYmFzZVVSTDogcHJvY2Vzcy5lbnZbJ1RFU1RfQVBJ
-X0JBU0VfVVJMJ10gPz8gJ2h0dHA6Ly8xMjcuMC4wLjE6NDAxMCcsCiAgICAg
-IGFwaUtleTogJ015IEFQSSBLZXknLAogICAgICBmZXRjaDogKC4uLmFyZ3Mp
-ID0+IHsKICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJl
-amVjdCkgPT4KICAgICAgICAgIHNldFRpbWVvdXQoCiAgICAgICAgICAgICgp
-ID0+CiAgICAgICAgICAgICAgZGVmYXVsdEZldGNoKC4uLmFyZ3MpCiAgICAg
-ICAgICAgICAgICAudGhlbihyZXNvbHZlKQogICAgICAgICAgICAgICAgLmNh
-dGNoKHJlamVjdCksCiAgICAgICAgICAgIDMwMCwKICAgICAgICAgICksCiAg
-ICAgICAgKTsKICAgICAgfSwKICAgIH0pOwoKICAgIGNvbnN0IGNvbnRyb2xs
-ZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBzZXRUaW1lb3V0KCgp
-ID0+IGNvbnRyb2xsZXIuYWJvcnQoKSwgMjAwKTsKCiAgICBjb25zdCBzcHkg
-PSBqZXN0LnNweU9uKGNsaWVudCwgJ3JlcXVlc3QnKTsKCiAgICBhd2FpdCBl
-eHBlY3QoY2xpZW50LmdldCgnL2ZvbycsIHsgc2lnbmFsOiBjb250cm9sbGVy
-LnNpZ25hbCB9KSkucmVqZWN0cy50b1Rocm93RXJyb3IoQVBJVXNlckFib3J0
-RXJyb3IpOwogICAgZXhwZWN0KHNweSkudG9IYXZlQmVlbkNhbGxlZFRpbWVz
-KDEpOwogIH0pOwoKICBkZXNjcmliZSgnYmFzZVVybCcsICgpID0+IHsKICAg
-IHRlc3QoJ3RyYWlsaW5nIHNsYXNoJywgKCkgPT4gewogICAgICBjb25zdCBj
-bGllbnQgPSBuZXcgTWVvcnBoaXNUZXN0NCh7CiAgICAgICAgYmFzZVVSTDog
-J2h0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9jdXN0b20vcGF0aC8nLAogICAgICAg
-IGFwaUtleTogJ015IEFQSSBLZXknLAogICAgICB9KTsKICAgICAgZXhwZWN0
-KGNsaWVudC5idWlsZFVSTCgnL2ZvbycsIG51bGwpKS50b0VxdWFsKCdodHRw
-Oi8vbG9jYWxob3N0OjUwMDAvY3VzdG9tL3BhdGgvZm9vJyk7CiAgICB9KTsK
-CiAgICB0ZXN0KCdubyB0cmFpbGluZyBzbGFzaCcsICgpID0+IHsKICAgICAg
-Y29uc3QgY2xpZW50ID0gbmV3IE1lb3JwaGlzVGVzdDQoewogICAgICAgIGJh
-c2VVUkw6ICdodHRwOi8vbG9jYWxob3N0OjUwMDAvY3VzdG9tL3BhdGgnLAog
-ICAgICAgIGFwaUtleTogJ015IEFQSSBLZXknLAogICAgICB9KTsKICAgICAg
-ZXhwZWN0KGNsaWVudC5idWlsZFVSTCgnL2ZvbycsIG51bGwpKS50b0VxdWFs
-KCdodHRwOi8vbG9jYWxob3N0OjUwMDAvY3VzdG9tL3BhdGgvZm9vJyk7CiAg
-ICB9KTsKCiAgICBhZnRlckVhY2goKCkgPT4gewogICAgICBwcm9jZXNzLmVu
-dlsnTUVPUlBISVNfVEVTVF80X0JBU0VfVVJMJ10gPSB1bmRlZmluZWQ7CiAg
-ICB9KTsKCiAgICB0ZXN0KCdleHBsaWNpdCBvcHRpb24nLCAoKSA9PiB7CiAg
-ICAgIGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhpc1Rlc3Q0KHsgYmFzZVVS
-TDogJ2h0dHBzOi8vZXhhbXBsZS5jb20nLCBhcGlLZXk6ICdNeSBBUEkgS2V5
-JyB9KTsKICAgICAgZXhwZWN0KGNsaWVudC5iYXNlVVJMKS50b0VxdWFsKCdo
-dHRwczovL2V4YW1wbGUuY29tJyk7CiAgICB9KTsKCiAgICB0ZXN0KCdlbnYg
-dmFyaWFibGUnLCAoKSA9PiB7CiAgICAgIHByb2Nlc3MuZW52WydNRU9SUEhJ
-U19URVNUXzRfQkFTRV9VUkwnXSA9ICdodHRwczovL2V4YW1wbGUuY29tL2Zy
-b21fZW52JzsKICAgICAgY29uc3QgY2xpZW50ID0gbmV3IE1lb3JwaGlzVGVz
-dDQoeyBhcGlLZXk6ICdNeSBBUEkgS2V5JyB9KTsKICAgICAgZXhwZWN0KGNs
-aWVudC5iYXNlVVJMKS50b0VxdWFsKCdodHRwczovL2V4YW1wbGUuY29tL2Zy
-b21fZW52Jyk7CiAgICB9KTsKCiAgICB0ZXN0KCdlbXB0eSBlbnYgdmFyaWFi
-bGUnLCAoKSA9PiB7CiAgICAgIHByb2Nlc3MuZW52WydNRU9SUEhJU19URVNU
-XzRfQkFTRV9VUkwnXSA9ICcnOyAvLyBlbXB0eQogICAgICBjb25zdCBjbGll
-bnQgPSBuZXcgTWVvcnBoaXNUZXN0NCh7IGFwaUtleTogJ015IEFQSSBLZXkn
-IH0pOwogICAgICBleHBlY3QoY2xpZW50LmJhc2VVUkwpLnRvRXF1YWwoJ2h0
-dHBzOi8vYXBpLmFjbWUuY29tL3YxJyk7CiAgICB9KTsKCiAgICB0ZXN0KCdi
-bGFuayBlbnYgdmFyaWFibGUnLCAoKSA9PiB7CiAgICAgIHByb2Nlc3MuZW52
-WydNRU9SUEhJU19URVNUXzRfQkFTRV9VUkwnXSA9ICcgICc7IC8vIGJsYW5r
-CiAgICAgIGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhpc1Rlc3Q0KHsgYXBp
-S2V5OiAnTXkgQVBJIEtleScgfSk7CiAgICAgIGV4cGVjdChjbGllbnQuYmFz
-ZVVSTCkudG9FcXVhbCgnaHR0cHM6Ly9hcGkuYWNtZS5jb20vdjEnKTsKICAg
-IH0pOwoKICAgIHRlc3QoJ2VudiB2YXJpYWJsZSB3aXRoIGVudmlyb25tZW50
-JywgKCkgPT4gewogICAgICBwcm9jZXNzLmVudlsnTUVPUlBISVNfVEVTVF80
-X0JBU0VfVVJMJ10gPSAnaHR0cHM6Ly9leGFtcGxlLmNvbS9mcm9tX2Vudic7
-CgogICAgICBleHBlY3QoCiAgICAgICAgKCkgPT4gbmV3IE1lb3JwaGlzVGVz
-dDQoeyBhcGlLZXk6ICdNeSBBUEkgS2V5JywgZW52aXJvbm1lbnQ6ICdwcm9k
-dWN0aW9uJyB9KSwKICAgICAgKS50b1Rocm93RXJyb3JNYXRjaGluZ0lubGlu
-ZVNuYXBzaG90KAogICAgICAgIGAiQW1iaWd1b3VzIFVSTDsgVGhlIFxgYmFz
-ZVVSTFxgIG9wdGlvbiAob3IgTUVPUlBISVNfVEVTVF80X0JBU0VfVVJMIGVu
-diB2YXIpIGFuZCB0aGUgXGBlbnZpcm9ubWVudFxgIG9wdGlvbiBhcmUgZ2l2
-ZW4uIElmIHlvdSB3YW50IHRvIHVzZSB0aGUgZW52aXJvbm1lbnQgeW91IG11
-c3QgcGFzcyBiYXNlVVJMOiBudWxsImAsCiAgICAgICk7CgogICAgICBjb25z
-dCBjbGllbnQgPSBuZXcgTWVvcnBoaXNUZXN0NCh7IGFwaUtleTogJ015IEFQ
-SSBLZXknLCBiYXNlVVJMOiBudWxsLCBlbnZpcm9ubWVudDogJ3Byb2R1Y3Rp
-b24nIH0pOwogICAgICBleHBlY3QoY2xpZW50LmJhc2VVUkwpLnRvRXF1YWwo
-J2h0dHBzOi8vYXBpLmFjbWUuY29tL3YxJyk7CiAgICB9KTsKICB9KTsKCiAg
-dGVzdCgnbWF4UmV0cmllcyBvcHRpb24gaXMgY29ycmVjdGx5IHNldCcsICgp
-ID0+IHsKICAgIGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhpc1Rlc3Q0KHsg
-bWF4UmV0cmllczogNCwgYXBpS2V5OiAnTXkgQVBJIEtleScgfSk7CiAgICBl
-eHBlY3QoY2xpZW50Lm1heFJldHJpZXMpLnRvRXF1YWwoNCk7CgogICAgLy8g
-ZGVmYXVsdAogICAgY29uc3QgY2xpZW50MiA9IG5ldyBNZW9ycGhpc1Rlc3Q0
-KHsgYXBpS2V5OiAnTXkgQVBJIEtleScgfSk7CiAgICBleHBlY3QoY2xpZW50
-Mi5tYXhSZXRyaWVzKS50b0VxdWFsKDIpOwogIH0pOwoKICB0ZXN0KCd3aXRo
-IGVudmlyb25tZW50IHZhcmlhYmxlIGFyZ3VtZW50cycsICgpID0+IHsKICAg
-IC8vIHNldCBvcHRpb25zIHZpYSBlbnYgdmFyCiAgICBwcm9jZXNzLmVudlsn
-TUVPUlBISVNfVEVTVF80X0FQSV9LRVknXSA9ICdNeSBBUEkgS2V5JzsKICAg
-IGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhpc1Rlc3Q0KCk7CiAgICBleHBl
-Y3QoY2xpZW50LmFwaUtleSkudG9CZSgnTXkgQVBJIEtleScpOwogIH0pOwoK
-ICB0ZXN0KCd3aXRoIG92ZXJyaWRlbiBlbnZpcm9ubWVudCB2YXJpYWJsZSBh
-cmd1bWVudHMnLCAoKSA9PiB7CiAgICAvLyBzZXQgb3B0aW9ucyB2aWEgZW52
-IHZhcgogICAgcHJvY2Vzcy5lbnZbJ01FT1JQSElTX1RFU1RfNF9BUElfS0VZ
-J10gPSAnYW5vdGhlciBNeSBBUEkgS2V5JzsKICAgIGNvbnN0IGNsaWVudCA9
-IG5ldyBNZW9ycGhpc1Rlc3Q0KHsgYXBpS2V5OiAnTXkgQVBJIEtleScgfSk7
-CiAgICBleHBlY3QoY2xpZW50LmFwaUtleSkudG9CZSgnTXkgQVBJIEtleScp
-OwogIH0pOwp9KTsKCmRlc2NyaWJlKCdyZXF1ZXN0IGJ1aWxkaW5nJywgKCkg
-PT4gewogIGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhpc1Rlc3Q0KHsgYXBp
-S2V5OiAnTXkgQVBJIEtleScgfSk7CgogIGRlc2NyaWJlKCdDb250ZW50LUxl
-bmd0aCcsICgpID0+IHsKICAgIHRlc3QoJ2hhbmRsZXMgbXVsdGktYnl0ZSBj
-aGFyYWN0ZXJzJywgKCkgPT4gewogICAgICBjb25zdCB7IHJlcSB9ID0gY2xp
-ZW50LmJ1aWxkUmVxdWVzdCh7IHBhdGg6ICcvZm9vJywgbWV0aG9kOiAncG9z
-dCcsIGJvZHk6IHsgdmFsdWU6ICfigJQnIH0gfSk7CiAgICAgIGV4cGVjdCgo
-cmVxLmhlYWRlcnMgYXMgUmVjb3JkPHN0cmluZywgc3RyaW5nPilbJ2NvbnRl
-bnQtbGVuZ3RoJ10pLnRvRXF1YWwoJzIwJyk7CiAgICB9KTsKCiAgICB0ZXN0
-KCdoYW5kbGVzIHN0YW5kYXJkIGNoYXJhY3RlcnMnLCAoKSA9PiB7CiAgICAg
-IGNvbnN0IHsgcmVxIH0gPSBjbGllbnQuYnVpbGRSZXF1ZXN0KHsgcGF0aDog
-Jy9mb28nLCBtZXRob2Q6ICdwb3N0JywgYm9keTogeyB2YWx1ZTogJ2hlbGxv
-JyB9IH0pOwogICAgICBleHBlY3QoKHJlcS5oZWFkZXJzIGFzIFJlY29yZDxz
-dHJpbmcsIHN0cmluZz4pWydjb250ZW50LWxlbmd0aCddKS50b0VxdWFsKCcy
-MicpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdjdXN0b20gaGVhZGVy
-cycsICgpID0+IHsKICAgIHRlc3QoJ2hhbmRsZXMgdW5kZWZpbmVkJywgKCkg
-PT4gewogICAgICBjb25zdCB7IHJlcSB9ID0gY2xpZW50LmJ1aWxkUmVxdWVz
-dCh7CiAgICAgICAgcGF0aDogJy9mb28nLAogICAgICAgIG1ldGhvZDogJ3Bv
-c3QnLAogICAgICAgIGJvZHk6IHsgdmFsdWU6ICdoZWxsbycgfSwKICAgICAg
-ICBoZWFkZXJzOiB7ICdYLUZvbyc6ICdiYXonLCAneC1mb28nOiAnYmFyJywg
-J3gtRm9vJzogdW5kZWZpbmVkLCAneC1iYXonOiAnYmFtJywgJ1gtQmF6Jzog
-bnVsbCB9LAogICAgICB9KTsKICAgICAgZXhwZWN0KChyZXEuaGVhZGVycyBh
-cyBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+KVsneC1mb28nXSkudG9FcXVhbCgn
-YmFyJyk7CiAgICAgIGV4cGVjdCgocmVxLmhlYWRlcnMgYXMgUmVjb3JkPHN0
-cmluZywgc3RyaW5nPilbJ3gtRm9vJ10pLnRvRXF1YWwodW5kZWZpbmVkKTsK
-ICAgICAgZXhwZWN0KChyZXEuaGVhZGVycyBhcyBSZWNvcmQ8c3RyaW5nLCBz
-dHJpbmc+KVsnWC1Gb28nXSkudG9FcXVhbCh1bmRlZmluZWQpOwogICAgICBl
-eHBlY3QoKHJlcS5oZWFkZXJzIGFzIFJlY29yZDxzdHJpbmcsIHN0cmluZz4p
-Wyd4LWJheiddKS50b0VxdWFsKHVuZGVmaW5lZCk7CiAgICB9KTsKICB9KTsK
-fSk7CgpkZXNjcmliZSgncmV0cmllcycsICgpID0+IHsKICB0ZXN0KCdyZXRy
-eSBvbiB0aW1lb3V0JywgYXN5bmMgKCkgPT4gewogICAgbGV0IGNvdW50ID0g
-MDsKICAgIGNvbnN0IHRlc3RGZXRjaCA9IGFzeW5jICh1cmw6IFJlcXVlc3RJ
-bmZvLCB7IHNpZ25hbCB9OiBSZXF1ZXN0SW5pdCA9IHt9KTogUHJvbWlzZTxS
-ZXNwb25zZT4gPT4gewogICAgICBpZiAoY291bnQrKyA9PT0gMCkgewogICAg
-ICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9Pgog
-ICAgICAgICAgc2lnbmFsPy5hZGRFdmVudExpc3RlbmVyKCdhYm9ydCcsICgp
-ID0+IHJlamVjdChuZXcgRXJyb3IoJ3RpbWVkIG91dCcpKSksCiAgICAgICAg
-KTsKICAgICAgfQogICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3Ry
-aW5naWZ5KHsgYTogMSB9KSwgeyBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUn
-OiAnYXBwbGljYXRpb24vanNvbicgfSB9KTsKICAgIH07CgogICAgY29uc3Qg
-Y2xpZW50ID0gbmV3IE1lb3JwaGlzVGVzdDQoeyBhcGlLZXk6ICdNeSBBUEkg
-S2V5JywgdGltZW91dDogMTAsIGZldGNoOiB0ZXN0RmV0Y2ggfSk7CgogICAg
-ZXhwZWN0KGF3YWl0IGNsaWVudC5yZXF1ZXN0KHsgcGF0aDogJy9mb28nLCBt
-ZXRob2Q6ICdnZXQnIH0pKS50b0VxdWFsKHsgYTogMSB9KTsKICAgIGV4cGVj
-dChjb3VudCkudG9FcXVhbCgyKTsKICAgIGV4cGVjdCgKICAgICAgYXdhaXQg
-Y2xpZW50CiAgICAgICAgLnJlcXVlc3QoeyBwYXRoOiAnL2ZvbycsIG1ldGhv
-ZDogJ2dldCcgfSkKICAgICAgICAuYXNSZXNwb25zZSgpCiAgICAgICAgLnRo
-ZW4oKHIpID0+IHIudGV4dCgpKSwKICAgICkudG9FcXVhbChKU09OLnN0cmlu
-Z2lmeSh7IGE6IDEgfSkpOwogICAgZXhwZWN0KGNvdW50KS50b0VxdWFsKDMp
-OwogIH0pOwoKICB0ZXN0KCdyZXRyeSBvbiA0Mjkgd2l0aCByZXRyeS1hZnRl
-cicsIGFzeW5jICgpID0+IHsKICAgIGxldCBjb3VudCA9IDA7CiAgICBjb25z
-dCB0ZXN0RmV0Y2ggPSBhc3luYyAodXJsOiBSZXF1ZXN0SW5mbywgeyBzaWdu
-YWwgfTogUmVxdWVzdEluaXQgPSB7fSk6IFByb21pc2U8UmVzcG9uc2U+ID0+
-IHsKICAgICAgaWYgKGNvdW50KysgPT09IDApIHsKICAgICAgICByZXR1cm4g
-bmV3IFJlc3BvbnNlKHVuZGVmaW5lZCwgewogICAgICAgICAgc3RhdHVzOiA0
-MjksCiAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICdSZXRyeS1B
-ZnRlcic6ICcwLjEnLAogICAgICAgICAgfSwKICAgICAgICB9KTsKICAgICAg
-fQogICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KHsg
-YTogMSB9KSwgeyBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGlj
-YXRpb24vanNvbicgfSB9KTsKICAgIH07CgogICAgY29uc3QgY2xpZW50ID0g
-bmV3IE1lb3JwaGlzVGVzdDQoeyBhcGlLZXk6ICdNeSBBUEkgS2V5JywgZmV0
-Y2g6IHRlc3RGZXRjaCB9KTsKCiAgICBleHBlY3QoYXdhaXQgY2xpZW50LnJl
-cXVlc3QoeyBwYXRoOiAnL2ZvbycsIG1ldGhvZDogJ2dldCcgfSkpLnRvRXF1
-YWwoeyBhOiAxIH0pOwogICAgZXhwZWN0KGNvdW50KS50b0VxdWFsKDIpOwog
-ICAgZXhwZWN0KAogICAgICBhd2FpdCBjbGllbnQKICAgICAgICAucmVxdWVz
-dCh7IHBhdGg6ICcvZm9vJywgbWV0aG9kOiAnZ2V0JyB9KQogICAgICAgIC5h
-c1Jlc3BvbnNlKCkKICAgICAgICAudGhlbigocikgPT4gci50ZXh0KCkpLAog
-ICAgKS50b0VxdWFsKEpTT04uc3RyaW5naWZ5KHsgYTogMSB9KSk7CiAgICBl
-eHBlY3QoY291bnQpLnRvRXF1YWwoMyk7CiAgfSk7CgogIHRlc3QoJ3JldHJ5
-IG9uIDQyOSB3aXRoIHJldHJ5LWFmdGVyLW1zJywgYXN5bmMgKCkgPT4gewog
-ICAgbGV0IGNvdW50ID0gMDsKICAgIGNvbnN0IHRlc3RGZXRjaCA9IGFzeW5j
-ICh1cmw6IFJlcXVlc3RJbmZvLCB7IHNpZ25hbCB9OiBSZXF1ZXN0SW5pdCA9
-IHt9KTogUHJvbWlzZTxSZXNwb25zZT4gPT4gewogICAgICBpZiAoY291bnQr
-KyA9PT0gMCkgewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UodW5kZWZp
-bmVkLCB7CiAgICAgICAgICBzdGF0dXM6IDQyOSwKICAgICAgICAgIGhlYWRl
-cnM6IHsKICAgICAgICAgICAgJ1JldHJ5LUFmdGVyLU1zJzogJzEwJywKICAg
-ICAgICAgIH0sCiAgICAgICAgfSk7CiAgICAgIH0KICAgICAgcmV0dXJuIG5l
-dyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGE6IDEgfSksIHsgaGVhZGVy
-czogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0gfSk7
-CiAgICB9OwoKICAgIGNvbnN0IGNsaWVudCA9IG5ldyBNZW9ycGhpc1Rlc3Q0
-KHsgYXBpS2V5OiAnTXkgQVBJIEtleScsIGZldGNoOiB0ZXN0RmV0Y2ggfSk7
-CgogICAgZXhwZWN0KGF3YWl0IGNsaWVudC5yZXF1ZXN0KHsgcGF0aDogJy9m
-b28nLCBtZXRob2Q6ICdnZXQnIH0pKS50b0VxdWFsKHsgYTogMSB9KTsKICAg
-IGV4cGVjdChjb3VudCkudG9FcXVhbCgyKTsKICAgIGV4cGVjdCgKICAgICAg
-YXdhaXQgY2xpZW50CiAgICAgICAgLnJlcXVlc3QoeyBwYXRoOiAnL2Zvbycs
-IG1ldGhvZDogJ2dldCcgfSkKICAgICAgICAuYXNSZXNwb25zZSgpCiAgICAg
-ICAgLnRoZW4oKHIpID0+IHIudGV4dCgpKSwKICAgICkudG9FcXVhbChKU09O
-LnN0cmluZ2lmeSh7IGE6IDEgfSkpOwogICAgZXhwZWN0KGNvdW50KS50b0Vx
-dWFsKDMpOwogIH0pOwp9KTsK
+// File generated from our OpenAPI spec by Stainless.
+
+import MeorphisTest4 from 'meorphis-test-4';
+import { APIUserAbortError } from 'meorphis-test-4';
+import { Headers } from 'meorphis-test-4/core';
+import defaultFetch, { Response, type RequestInit, type RequestInfo } from 'node-fetch';
+
+describe('instantiate client', () => {
+  const env = process.env;
+
+  beforeEach(() => {
+    jest.resetModules();
+    process.env = { ...env };
+
+    console.warn = jest.fn();
+  });
+
+  afterEach(() => {
+    process.env = env;
+  });
+
+  describe('defaultHeaders', () => {
+    const client = new MeorphisTest4({
+      baseURL: 'http://localhost:5000/',
+      defaultHeaders: { 'X-My-Default-Header': '2' },
+      apiKey: 'My API Key',
+    });
+
+    test('they are used in the request', () => {
+      const { req } = client.buildRequest({ path: '/foo', method: 'post' });
+      expect((req.headers as Headers)['x-my-default-header']).toEqual('2');
+    });
+
+    test('can ignore `undefined` and leave the default', () => {
+      const { req } = client.buildRequest({
+        path: '/foo',
+        method: 'post',
+        headers: { 'X-My-Default-Header': undefined },
+      });
+      expect((req.headers as Headers)['x-my-default-header']).toEqual('2');
+    });
+
+    test('can be removed with `null`', () => {
+      const { req } = client.buildRequest({
+        path: '/foo',
+        method: 'post',
+        headers: { 'X-My-Default-Header': null },
+      });
+      expect(req.headers as Headers).not.toHaveProperty('x-my-default-header');
+    });
+  });
+
+  describe('defaultQuery', () => {
+    test('with null query params given', () => {
+      const client = new MeorphisTest4({
+        baseURL: 'http://localhost:5000/',
+        defaultQuery: { apiVersion: 'foo' },
+        apiKey: 'My API Key',
+      });
+      expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/foo?apiVersion=foo');
+    });
+
+    test('multiple default query params', () => {
+      const client = new MeorphisTest4({
+        baseURL: 'http://localhost:5000/',
+        defaultQuery: { apiVersion: 'foo', hello: 'world' },
+        apiKey: 'My API Key',
+      });
+      expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/foo?apiVersion=foo&hello=world');
+    });
+
+    test('overriding with `undefined`', () => {
+      const client = new MeorphisTest4({
+        baseURL: 'http://localhost:5000/',
+        defaultQuery: { hello: 'world' },
+        apiKey: 'My API Key',
+      });
+      expect(client.buildURL('/foo', { hello: undefined })).toEqual('http://localhost:5000/foo');
+    });
+  });
+
+  test('custom fetch', async () => {
+    const client = new MeorphisTest4({
+      baseURL: 'http://localhost:5000/',
+      apiKey: 'My API Key',
+      fetch: (url) => {
+        return Promise.resolve(
+          new Response(JSON.stringify({ url, custom: true }), {
+            headers: { 'Content-Type': 'application/json' },
+          }),
+        );
+      },
+    });
+
+    const response = await client.get('/foo');
+    expect(response).toEqual({ url: 'http://localhost:5000/foo', custom: true });
+  });
+
+  test('custom signal', async () => {
+    const client = new MeorphisTest4({
+      baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010',
+      apiKey: 'My API Key',
+      fetch: (...args) => {
+        return new Promise((resolve, reject) =>
+          setTimeout(
+            () =>
+              defaultFetch(...args)
+                .then(resolve)
+                .catch(reject),
+            300,
+          ),
+        );
+      },
+    });
+
+    const controller = new AbortController();
+    setTimeout(() => controller.abort(), 200);
+
+    const spy = jest.spyOn(client, 'request');
+
+    await expect(client.get('/foo', { signal: controller.signal })).rejects.toThrowError(APIUserAbortError);
+    expect(spy).toHaveBeenCalledTimes(1);
+  });
+
+  describe('baseUrl', () => {
+    test('trailing slash', () => {
+      const client = new MeorphisTest4({
+        baseURL: 'http://localhost:5000/custom/path/',
+        apiKey: 'My API Key',
+      });
+      expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/custom/path/foo');
+    });
+
+    test('no trailing slash', () => {
+      const client = new MeorphisTest4({
+        baseURL: 'http://localhost:5000/custom/path',
+        apiKey: 'My API Key',
+      });
+      expect(client.buildURL('/foo', null)).toEqual('http://localhost:5000/custom/path/foo');
+    });
+
+    afterEach(() => {
+      process.env['MEORPHIS_TEST_4_BASE_URL'] = undefined;
+    });
+
+    test('explicit option', () => {
+      const client = new MeorphisTest4({ baseURL: 'https://example.com', apiKey: 'My API Key' });
+      expect(client.baseURL).toEqual('https://example.com');
+    });
+
+    test('env variable', () => {
+      process.env['MEORPHIS_TEST_4_BASE_URL'] = 'https://example.com/from_env';
+      const client = new MeorphisTest4({ apiKey: 'My API Key' });
+      expect(client.baseURL).toEqual('https://example.com/from_env');
+    });
+
+    test('empty env variable', () => {
+      process.env['MEORPHIS_TEST_4_BASE_URL'] = ''; // empty
+      const client = new MeorphisTest4({ apiKey: 'My API Key' });
+      expect(client.baseURL).toEqual('https://api.acme.com/v1');
+    });
+
+    test('blank env variable', () => {
+      process.env['MEORPHIS_TEST_4_BASE_URL'] = '  '; // blank
+      const client = new MeorphisTest4({ apiKey: 'My API Key' });
+      expect(client.baseURL).toEqual('https://api.acme.com/v1');
+    });
+
+    test('env variable with environment', () => {
+      process.env['MEORPHIS_TEST_4_BASE_URL'] = 'https://example.com/from_env';
+
+      expect(
+        () => new MeorphisTest4({ apiKey: 'My API Key', environment: 'production' }),
+      ).toThrowErrorMatchingInlineSnapshot(
+        `"Ambiguous URL; The \`baseURL\` option (or MEORPHIS_TEST_4_BASE_URL env var) and the \`environment\` option are given. If you want to use the environment you must pass baseURL: null"`,
+      );
+
+      const client = new MeorphisTest4({ apiKey: 'My API Key', baseURL: null, environment: 'production' });
+      expect(client.baseURL).toEqual('https://api.acme.com/v1');
+    });
+  });
+
+  test('maxRetries option is correctly set', () => {
+    const client = new MeorphisTest4({ maxRetries: 4, apiKey: 'My API Key' });
+    expect(client.maxRetries).toEqual(4);
+
+    // default
+    const client2 = new MeorphisTest4({ apiKey: 'My API Key' });
+    expect(client2.maxRetries).toEqual(2);
+  });
+
+  test('with environment variable arguments', () => {
+    // set options via env var
+    process.env['MEORPHIS_TEST_4_API_KEY'] = 'My API Key';
+    const client = new MeorphisTest4();
+    expect(client.apiKey).toBe('My API Key');
+  });
+
+  test('with overriden environment variable arguments', () => {
+    // set options via env var
+    process.env['MEORPHIS_TEST_4_API_KEY'] = 'another My API Key';
+    const client = new MeorphisTest4({ apiKey: 'My API Key' });
+    expect(client.apiKey).toBe('My API Key');
+  });
+});
+
+describe('request building', () => {
+  const client = new MeorphisTest4({ apiKey: 'My API Key' });
+
+  describe('Content-Length', () => {
+    test('handles multi-byte characters', () => {
+      const { req } = client.buildRequest({ path: '/foo', method: 'post', body: { value: '—' } });
+      expect((req.headers as Record<string, string>)['content-length']).toEqual('20');
+    });
+
+    test('handles standard characters', () => {
+      const { req } = client.buildRequest({ path: '/foo', method: 'post', body: { value: 'hello' } });
+      expect((req.headers as Record<string, string>)['content-length']).toEqual('22');
+    });
+  });
+
+  describe('custom headers', () => {
+    test('handles undefined', () => {
+      const { req } = client.buildRequest({
+        path: '/foo',
+        method: 'post',
+        body: { value: 'hello' },
+        headers: { 'X-Foo': 'baz', 'x-foo': 'bar', 'x-Foo': undefined, 'x-baz': 'bam', 'X-Baz': null },
+      });
+      expect((req.headers as Record<string, string>)['x-foo']).toEqual('bar');
+      expect((req.headers as Record<string, string>)['x-Foo']).toEqual(undefined);
+      expect((req.headers as Record<string, string>)['X-Foo']).toEqual(undefined);
+      expect((req.headers as Record<string, string>)['x-baz']).toEqual(undefined);
+    });
+  });
+});
+
+describe('retries', () => {
+  test('retry on timeout', async () => {
+    let count = 0;
+    const testFetch = async (url: RequestInfo, { signal }: RequestInit = {}): Promise<Response> => {
+      if (count++ === 0) {
+        return new Promise((resolve, reject) =>
+          signal?.addEventListener('abort', () => reject(new Error('timed out'))),
+        );
+      }
+      return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
+    };
+
+    const client = new MeorphisTest4({ apiKey: 'My API Key', timeout: 10, fetch: testFetch });
+
+    expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
+    expect(count).toEqual(2);
+    expect(
+      await client
+        .request({ path: '/foo', method: 'get' })
+        .asResponse()
+        .then((r) => r.text()),
+    ).toEqual(JSON.stringify({ a: 1 }));
+    expect(count).toEqual(3);
+  });
+
+  test('retry on 429 with retry-after', async () => {
+    let count = 0;
+    const testFetch = async (url: RequestInfo, { signal }: RequestInit = {}): Promise<Response> => {
+      if (count++ === 0) {
+        return new Response(undefined, {
+          status: 429,
+          headers: {
+            'Retry-After': '0.1',
+          },
+        });
+      }
+      return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
+    };
+
+    const client = new MeorphisTest4({ apiKey: 'My API Key', fetch: testFetch });
+
+    expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
+    expect(count).toEqual(2);
+    expect(
+      await client
+        .request({ path: '/foo', method: 'get' })
+        .asResponse()
+        .then((r) => r.text()),
+    ).toEqual(JSON.stringify({ a: 1 }));
+    expect(count).toEqual(3);
+  });
+
+  test('retry on 429 with retry-after-ms', async () => {
+    let count = 0;
+    const testFetch = async (url: RequestInfo, { signal }: RequestInit = {}): Promise<Response> => {
+      if (count++ === 0) {
+        return new Response(undefined, {
+          status: 429,
+          headers: {
+            'Retry-After-Ms': '10',
+          },
+        });
+      }
+      return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
+    };
+
+    const client = new MeorphisTest4({ apiKey: 'My API Key', fetch: testFetch });
+
+    expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
+    expect(count).toEqual(2);
+    expect(
+      await client
+        .request({ path: '/foo', method: 'get' })
+        .asResponse()
+        .then((r) => r.text()),
+    ).toEqual(JSON.stringify({ a: 1 }));
+    expect(count).toEqual(3);
+  });
+});

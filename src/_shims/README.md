@@ -1,62 +1,46 @@
-IyDwn5GLIFdvbmRlcmluZyB3aGF0IGV2ZXJ5dGhpbmcgaW4gaGVyZSBkb2Vz
-PwoKYG1lb3JwaGlzLXRlc3QtNGAgc3VwcG9ydHMgYSB3aWRlIHZhcmlldHkg
-b2YgcnVudGltZSBlbnZpcm9ubWVudHMgbGlrZSBOb2RlLmpzLCBEZW5vLCBC
-dW4sIGJyb3dzZXJzLCBhbmQgdmFyaW91cwplZGdlIHJ1bnRpbWVzLCBhcyB3
-ZWxsIGFzIGJvdGggQ29tbW9uSlMgKENKUykgYW5kIEVjbWFTY3JpcHQgTW9k
-dWxlcyAoRVNNKS4KClRvIGRvIHRoaXMsIGBtZW9ycGhpcy10ZXN0LTRgIHBy
-b3ZpZGVzIHNoaW1zIGZvciBlaXRoZXIgdXNpbmcgYG5vZGUtZmV0Y2hgIHdo
-ZW4gaW4gTm9kZSAoYmVjYXVzZSBgZmV0Y2hgIGlzIHN0aWxsIGV4cGVyaW1l
-bnRhbCB0aGVyZSkgb3IgdGhlIGdsb2JhbCBgZmV0Y2hgIEFQSSBidWlsdCBp
-bnRvIHRoZSBlbnZpcm9ubWVudCB3aGVuIG5vdCBpbiBOb2RlLgoKSXQgdXNl
-cyBbY29uZGl0aW9uYWwgZXhwb3J0c10oaHR0cHM6Ly9ub2RlanMub3JnL2Fw
-aS9wYWNrYWdlcy5odG1sI2NvbmRpdGlvbmFsLWV4cG9ydHMpIHRvCmF1dG9t
-YXRpY2FsbHkgc2VsZWN0IHRoZSBjb3JyZWN0IHNoaW1zIGZvciBlYWNoIGVu
-dmlyb25tZW50LiBIb3dldmVyLCBjb25kaXRpb25hbCBleHBvcnRzIGFyZSBh
-IGZhaXJseSBuZXcKZmVhdHVyZSBhbmQgbm90IHN1cHBvcnRlZCBldmVyeXdo
-ZXJlLiBGb3IgaW5zdGFuY2UsIHRoZSBUeXBlU2NyaXB0IGAibW9kdWxlUmVz
-b2x1dGlvbiI6ICJub2RlImAKCnNldHRpbmcgZG9lc24ndCBjb25zdWx0IHRo
-ZSBgZXhwb3J0c2AgbWFwLCBjb21wYXJlZCB0byBgIm1vZHVsZVJlc29sdXRp
-b24iOiAibm9kZU5leHQiYCwgd2hpY2ggZG9lcy4KVW5mb3J0dW5hdGVseSB0
-aGF0J3Mgc3RpbGwgdGhlIGRlZmF1bHQgc2V0dGluZywgYW5kIGl0IGNhbiBy
-ZXN1bHQgaW4gZXJyb3JzIGxpa2UKZ2V0dGluZyB0aGUgd3JvbmcgcmF3IGBS
-ZXNwb25zZWAgdHlwZSBmcm9tIGAuYXNSZXNwb25zZSgpYCwgZm9yIGV4YW1w
-bGUuCgpUaGUgdXNlciBjYW4gd29yayBhcm91bmQgdGhlc2UgaXNzdWVzIGJ5
-IG1hbnVhbGx5IGltcG9ydGluZyBvbmUgb2Y6CgotIGBpbXBvcnQgJ21lb3Jw
-aGlzLXRlc3QtNC9zaGltcy9ub2RlJ2AKLSBgaW1wb3J0ICdtZW9ycGhpcy10
-ZXN0LTQvc2hpbXMvd2ViJ2AKCkFsbCBvZiB0aGUgY29kZSBoZXJlIGluIGBf
-c2hpbXNgIGhhbmRsZXMgc2VsZWN0aW5nIHRoZSBhdXRvbWF0aWMgZGVmYXVs
-dCBzaGltcyBvciBtYW51YWwgb3ZlcnJpZGVzLgoKIyMjIEhvdyBpdCB3b3Jr
-cyAtIFJ1bnRpbWUKClJ1bnRpbWUgc2hpbXMgZ2V0IGluc3RhbGxlZCBieSBj
-YWxsaW5nIGBzZXRTaGltc2AgZXhwb3J0ZWQgYnkgYG1lb3JwaGlzLXRlc3Qt
-NC9fc2hpbXMvcmVnaXN0cnlgLgoKTWFudWFsbHkgaW1wb3J0aW5nIGBtZW9y
-cGhpcy10ZXN0LTQvc2hpbXMvbm9kZWAgb3IgYG1lb3JwaGlzLXRlc3QtNC9z
-aGltcy93ZWJgLCBjYWxscyBgc2V0U2hpbXNgIHdpdGggdGhlIHJlc3BlY3Rp
-dmUgcnVudGltZSBzaGltcy4KCkFsbCBjbGllbnQgY29kZSBpbXBvcnRzIHNo
-aW1zIGZyb20gYG1lb3JwaGlzLXRlc3QtNC9fc2hpbXMvaW5kZXhgLCB3aGlj
-aDoKCi0gY2hlY2tzIGlmIHNoaW1zIGhhdmUgYmVlbiBzZXQgbWFudWFsbHkK
-LSBpZiBub3QsIGNhbGxzIGBzZXRTaGltc2Agd2l0aCB0aGUgc2hpbXMgZnJv
-bSBgbWVvcnBoaXMtdGVzdC00L19zaGltcy9hdXRvL3J1bnRpbWVgCi0gcmUt
-ZXhwb3J0cyB0aGUgaW5zdGFsbGVkIHNoaW1zIGZyb20gYG1lb3JwaGlzLXRl
-c3QtNC9fc2hpbXMvcmVnaXN0cnlgLgoKYG1lb3JwaGlzLXRlc3QtNC9fc2hp
-bXMvYXV0by9ydW50aW1lYCBleHBvcnRzIHdlYiBydW50aW1lIHNoaW1zLgpJ
-ZiB0aGUgYG5vZGVgIGV4cG9ydCBjb25kaXRpb24gaXMgc2V0LCB0aGUgZXhw
-b3J0IG1hcCByZXBsYWNlcyBpdCB3aXRoIGBtZW9ycGhpcy10ZXN0LTQvX3No
-aW1zL2F1dG8vcnVudGltZS1ub2RlYC4KCiMjIyBIb3cgaXQgd29ya3MgLSBU
-eXBlIHRpbWUKCkFsbCBjbGllbnQgY29kZSBpbXBvcnRzIHNoaW0gdHlwZXMg
-ZnJvbSBgbWVvcnBoaXMtdGVzdC00L19zaGltcy9pbmRleGAsIHdoaWNoIHNl
-bGVjdHMgdGhlIG1hbnVhbCB0eXBlcyBmcm9tIGBtZW9ycGhpcy10ZXN0LTQv
-X3NoaW1zL21hbnVhbC10eXBlc2AgaWYgdGhleSBoYXZlIGJlZW4gZGVjbGFy
-ZWQsIG90aGVyd2lzZSBpdCBleHBvcnRzIHRoZSBhdXRvIHR5cGVzIGZyb20g
-YG1lb3JwaGlzLXRlc3QtNC9fc2hpbXMvYXV0by90eXBlc2AuCgpgbWVvcnBo
-aXMtdGVzdC00L19zaGltcy9tYW51YWwtdHlwZXNgIGV4cG9ydHMgYW4gZW1w
-dHkgbmFtZXNwYWNlLgpNYW51YWxseSBpbXBvcnRpbmcgYG1lb3JwaGlzLXRl
-c3QtNC9zaGltcy9ub2RlYCBvciBgbWVvcnBoaXMtdGVzdC00L3NoaW1zL3dl
-YmAgbWVyZ2VzIGRlY2xhcmF0aW9ucyBpbnRvIHRoaXMgZW1wdHkgbmFtZXNw
-YWNlLCBzbyB0aGV5IGdldCBwaWNrZWQgdXAgYnkgYG1lb3JwaGlzLXRlc3Qt
-NC9fc2hpbXMvaW5kZXhgLgoKYG1lb3JwaGlzLXRlc3QtNC9fc2hpbXMvYXV0
-by90eXBlc2AgZXhwb3J0cyB3ZWIgdHlwZSBkZWZpbml0aW9ucy4KSWYgdGhl
-IGBub2RlYCBleHBvcnQgY29uZGl0aW9uIGlzIHNldCwgdGhlIGV4cG9ydCBt
-YXAgcmVwbGFjZXMgaXQgd2l0aCBgbWVvcnBoaXMtdGVzdC00L19zaGltcy9h
-dXRvL3R5cGVzLW5vZGVgLCB0aG91Z2ggVFMgb25seSBwaWNrcyB0aGlzIHVw
-IGlmIGAibW9kdWxlUmVzb2x1dGlvbiI6ICJub2RlbmV4dCJgIG9yIGAibW9k
-dWxlUmVzb2x1dGlvbiI6ICJidW5kbGVyImAuCg==
+# 👋 Wondering what everything in here does?
+
+`meorphis-test-4` supports a wide variety of runtime environments like Node.js, Deno, Bun, browsers, and various
+edge runtimes, as well as both CommonJS (CJS) and EcmaScript Modules (ESM).
+
+To do this, `meorphis-test-4` provides shims for either using `node-fetch` when in Node (because `fetch` is still experimental there) or the global `fetch` API built into the environment when not in Node.
+
+It uses [conditional exports](https://nodejs.org/api/packages.html#conditional-exports) to
+automatically select the correct shims for each environment. However, conditional exports are a fairly new
+feature and not supported everywhere. For instance, the TypeScript `"moduleResolution": "node"`
+
+setting doesn't consult the `exports` map, compared to `"moduleResolution": "nodeNext"`, which does.
+Unfortunately that's still the default setting, and it can result in errors like
+getting the wrong raw `Response` type from `.asResponse()`, for example.
+
+The user can work around these issues by manually importing one of:
+
+- `import 'meorphis-test-4/shims/node'`
+- `import 'meorphis-test-4/shims/web'`
+
+All of the code here in `_shims` handles selecting the automatic default shims or manual overrides.
+
+### How it works - Runtime
+
+Runtime shims get installed by calling `setShims` exported by `meorphis-test-4/_shims/registry`.
+
+Manually importing `meorphis-test-4/shims/node` or `meorphis-test-4/shims/web`, calls `setShims` with the respective runtime shims.
+
+All client code imports shims from `meorphis-test-4/_shims/index`, which:
+
+- checks if shims have been set manually
+- if not, calls `setShims` with the shims from `meorphis-test-4/_shims/auto/runtime`
+- re-exports the installed shims from `meorphis-test-4/_shims/registry`.
+
+`meorphis-test-4/_shims/auto/runtime` exports web runtime shims.
+If the `node` export condition is set, the export map replaces it with `meorphis-test-4/_shims/auto/runtime-node`.
+
+### How it works - Type time
+
+All client code imports shim types from `meorphis-test-4/_shims/index`, which selects the manual types from `meorphis-test-4/_shims/manual-types` if they have been declared, otherwise it exports the auto types from `meorphis-test-4/_shims/auto/types`.
+
+`meorphis-test-4/_shims/manual-types` exports an empty namespace.
+Manually importing `meorphis-test-4/shims/node` or `meorphis-test-4/shims/web` merges declarations into this empty namespace, so they get picked up by `meorphis-test-4/_shims/index`.
+
+`meorphis-test-4/_shims/auto/types` exports web type definitions.
+If the `node` export condition is set, the export map replaces it with `meorphis-test-4/_shims/auto/types-node`, though TS only picks this up if `"moduleResolution": "nodenext"` or `"moduleResolution": "bundler"`.

@@ -1,12 +1,30 @@
-bmFtZTogQ0kKb246CiAgcHVzaDoKICAgIGJyYW5jaGVzOgogICAgICAtIG1h
-aW4KICBwdWxsX3JlcXVlc3Q6CiAgICBicmFuY2hlczoKICAgICAgLSBtYWlu
-Cgpqb2JzOgogIGxpbnQ6CiAgICBuYW1lOiBsaW50CiAgICBydW5zLW9uOiB1
-YnVudHUtbGF0ZXN0CiAgICBpZjogZ2l0aHViLnJlcG9zaXRvcnkgPT0gJ21l
-b3JwaGlzLXRlc3QtNC9tZW9ycGhpcy10ZXN0LTQtbm9kZScKCiAgICBzdGVw
-czoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHYzCgogICAgICAt
-IG5hbWU6IFNldCB1cCBOb2RlCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1
-cC1ub2RlQHYzCiAgICAgICAgd2l0aDoKICAgICAgICAgIG5vZGUtdmVyc2lv
-bjogJzE4JwoKICAgICAgLSBuYW1lOiBJbnN0YWxsIGRlcGVuZGVuY2llcwog
-ICAgICAgIHJ1bjogfAogICAgICAgICAgeWFybiBpbnN0YWxsCgogICAgICAt
-IG5hbWU6IENoZWNrIHR5cGVzCiAgICAgICAgcnVuOiB8CiAgICAgICAgICB5
-YXJuIGJ1aWxkCg==
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    if: github.repository == 'meorphis/test-repo-2'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Check types
+        run: |
+          yarn build

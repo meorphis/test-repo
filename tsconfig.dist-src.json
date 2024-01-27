@@ -1,8 +1,11 @@
-ewogIC8vIHRoaXMgY29uZmlnIGlzIGluY2x1ZGVkIGluIHRoZSBwdWJsaXNo
-ZWQgc3JjIGRpcmVjdG9yeSB0byBwcmV2ZW50IFRTIGVycm9ycwogIC8vIGZy
-b20gYXBwZWFyaW5nIHdoZW4gdXNlcnMgZ28gdG8gc291cmNlLCBhbmQgVlND
-b2RlIG9wZW5zIHRoZSBzb3VyY2UgLnRzIGZpbGUKICAvLyB2aWEgZGVjbGFy
-YXRpb24gbWFwcwogICJpbmNsdWRlIjogWyJpbmRleC50cyJdLAogICJjb21w
-aWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogImVzMjAxNSIsCiAgICAi
-bGliIjogWyJET00iXSwKICAgICJtb2R1bGVSZXNvbHV0aW9uIjogIm5vZGUi
-CiAgfQp9Cg==
+{
+  // this config is included in the published src directory to prevent TS errors
+  // from appearing when users go to source, and VSCode opens the source .ts file
+  // via declaration maps
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["DOM"],
+    "moduleResolution": "node"
+  }
+}

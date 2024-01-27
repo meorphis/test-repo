@@ -1,1 +1,1 @@
-ZXhwb3J0IGNvbnN0IFZFUlNJT04gPSAnMC4wLjEnOwo=
+export const VERSION = '0.0.1';

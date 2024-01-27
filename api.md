@@ -1,54 +1,52 @@
-IyBBY2NvdW50cwoKVHlwZXM6CgotIDxjb2RlPjxhIGhyZWY9Ii4vc3JjL3Jl
-c291cmNlcy9hY2NvdW50cy9hY2NvdW50cy50cyI+QWNjb3VudGNvbmZpZ3Vy
-YXRpb248L2E+PC9jb2RlPgoKTWV0aG9kczoKCi0gPGNvZGUgdGl0bGU9Imdl
-dCAvYWNjb3VudHMve2FjY291bnRfdG9rZW59Ij5jbGllbnQuYWNjb3VudHMu
-PGEgaHJlZj0iLi9zcmMvcmVzb3VyY2VzL2FjY291bnRzL2FjY291bnRzLnRz
-Ij5yZXRyaWV2ZTwvYT4oYWNjb3VudFRva2VuKSAtPiBBY2NvdW50Y29uZmln
-dXJhdGlvbjwvY29kZT4KLSA8Y29kZSB0aXRsZT0icGF0Y2ggL2FjY291bnRz
-L3thY2NvdW50X3Rva2VufSI+Y2xpZW50LmFjY291bnRzLjxhIGhyZWY9Ii4v
-c3JjL3Jlc291cmNlcy9hY2NvdW50cy9hY2NvdW50cy50cyI+dXBkYXRlPC9h
-PihhY2NvdW50VG9rZW4sIHsgLi4ucGFyYW1zIH0pIC0+IEFjY291bnRjb25m
-aWd1cmF0aW9uPC9jb2RlPgoKIyMgQ3JlZGl0Q29uZmlndXJhdGlvbgoKVHlw
-ZXM6CgotIDxjb2RlPjxhIGhyZWY9Ii4vc3JjL3Jlc291cmNlcy9hY2NvdW50
-cy9jcmVkaXQtY29uZmlndXJhdGlvbi50cyI+QnVzaW5lc3NhY2NvdW50PC9h
-PjwvY29kZT4KCk1ldGhvZHM6CgotIDxjb2RlIHRpdGxlPSJnZXQgL2FjY291
-bnRzL3thY2NvdW50X3Rva2VufS9jcmVkaXRfY29uZmlndXJhdGlvbiI+Y2xp
-ZW50LmFjY291bnRzLmNyZWRpdENvbmZpZ3VyYXRpb24uPGEgaHJlZj0iLi9z
-cmMvcmVzb3VyY2VzL2FjY291bnRzL2NyZWRpdC1jb25maWd1cmF0aW9uLnRz
-Ij5yZXRyaWV2ZTwvYT4oYWNjb3VudFRva2VuKSAtPiBCdXNpbmVzc2FjY291
-bnQ8L2NvZGU+Ci0gPGNvZGUgdGl0bGU9InBhdGNoIC9hY2NvdW50cy97YWNj
-b3VudF90b2tlbn0vY3JlZGl0X2NvbmZpZ3VyYXRpb24iPmNsaWVudC5hY2Nv
-dW50cy5jcmVkaXRDb25maWd1cmF0aW9uLjxhIGhyZWY9Ii4vc3JjL3Jlc291
-cmNlcy9hY2NvdW50cy9jcmVkaXQtY29uZmlndXJhdGlvbi50cyI+dXBkYXRl
-PC9hPihhY2NvdW50VG9rZW4sIHsgLi4ucGFyYW1zIH0pIC0+IEJ1c2luZXNz
-YWNjb3VudDwvY29kZT4KCiMgQ2FyZHMKClR5cGVzOgoKLSA8Y29kZT48YSBo
-cmVmPSIuL3NyYy9yZXNvdXJjZXMvY2FyZHMvY2FyZHMudHMiPkNhcmQ8L2E+
-PC9jb2RlPgotIDxjb2RlPjxhIGhyZWY9Ii4vc3JjL3Jlc291cmNlcy9jYXJk
-cy9jYXJkcy50cyI+RmluYW5jaWFsdHJhbnNhY3Rpb248L2E+PC9jb2RlPgot
-IDxjb2RlPjxhIGhyZWY9Ii4vc3JjL3Jlc291cmNlcy9jYXJkcy9jYXJkcy50
-cyI+Q2FyZFByb3Zpc2lvblJlc3BvbnNlPC9hPjwvY29kZT4KCk1ldGhvZHM6
-CgotIDxjb2RlIHRpdGxlPSJwb3N0IC9jYXJkcyI+Y2xpZW50LmNhcmRzLjxh
-IGhyZWY9Ii4vc3JjL3Jlc291cmNlcy9jYXJkcy9jYXJkcy50cyI+Y3JlYXRl
-PC9hPih7IC4uLnBhcmFtcyB9KSAtPiBDYXJkPC9jb2RlPgotIDxjb2RlIHRp
-dGxlPSJnZXQgL2NhcmRzL3tjYXJkX3Rva2VufSI+Y2xpZW50LmNhcmRzLjxh
-IGhyZWY9Ii4vc3JjL3Jlc291cmNlcy9jYXJkcy9jYXJkcy50cyI+cmV0cmll
-dmU8L2E+KGNhcmRUb2tlbikgLT4gQ2FyZDwvY29kZT4KLSA8Y29kZSB0aXRs
-ZT0icGF0Y2ggL2NhcmRzL3tjYXJkX3Rva2VufSI+Y2xpZW50LmNhcmRzLjxh
-IGhyZWY9Ii4vc3JjL3Jlc291cmNlcy9jYXJkcy9jYXJkcy50cyI+dXBkYXRl
-PC9hPihjYXJkVG9rZW4sIHsgLi4ucGFyYW1zIH0pIC0+IENhcmQ8L2NvZGU+
-Ci0gPGNvZGUgdGl0bGU9InBvc3QgL2NhcmRzL3tjYXJkX3Rva2VufS9wcm92
-aXNpb24iPmNsaWVudC5jYXJkcy48YSBocmVmPSIuL3NyYy9yZXNvdXJjZXMv
-Y2FyZHMvY2FyZHMudHMiPnByb3Zpc2lvbjwvYT4oY2FyZFRva2VuLCB7IC4u
-LnBhcmFtcyB9KSAtPiBDYXJkUHJvdmlzaW9uUmVzcG9uc2U8L2NvZGU+Cgoj
-IyBGaW5hbmNpYWxUcmFuc2FjdGlvbnMKCk1ldGhvZHM6CgotIDxjb2RlIHRp
-dGxlPSJnZXQgL2NhcmRzL3tjYXJkX3Rva2VufS9maW5hbmNpYWxfdHJhbnNh
-Y3Rpb25zL3tmaW5hbmNpYWxfdHJhbnNhY3Rpb25fdG9rZW59Ij5jbGllbnQu
-Y2FyZHMuZmluYW5jaWFsVHJhbnNhY3Rpb25zLjxhIGhyZWY9Ii4vc3JjL3Jl
-c291cmNlcy9jYXJkcy9maW5hbmNpYWwtdHJhbnNhY3Rpb25zLnRzIj5yZXRy
-aWV2ZTwvYT4oY2FyZFRva2VuLCBmaW5hbmNpYWxUcmFuc2FjdGlvblRva2Vu
-KSAtPiBGaW5hbmNpYWx0cmFuc2FjdGlvbjwvY29kZT4KCiMgU3RhdHVzCgpU
-eXBlczoKCi0gPGNvZGU+PGEgaHJlZj0iLi9zcmMvcmVzb3VyY2VzL3N0YXR1
-cy50cyI+U3RhdHVzUmV0cmlldmVSZXNwb25zZTwvYT48L2NvZGU+CgpNZXRo
-b2RzOgoKLSA8Y29kZSB0aXRsZT0iZ2V0IC9zdGF0dXMiPmNsaWVudC5zdGF0
-dXMuPGEgaHJlZj0iLi9zcmMvcmVzb3VyY2VzL3N0YXR1cy50cyI+cmV0cmll
-dmU8L2E+KCkgLT4gU3RhdHVzUmV0cmlldmVSZXNwb25zZTwvY29kZT4K
+# Accounts
+
+Types:
+
+- <code><a href="./src/resources/accounts/accounts.ts">Accountconfiguration</a></code>
+
+Methods:
+
+- <code title="get /accounts/{account_token}">client.accounts.<a href="./src/resources/accounts/accounts.ts">retrieve</a>(accountToken) -> Accountconfiguration</code>
+- <code title="patch /accounts/{account_token}">client.accounts.<a href="./src/resources/accounts/accounts.ts">update</a>(accountToken, { ...params }) -> Accountconfiguration</code>
+
+## CreditConfiguration
+
+Types:
+
+- <code><a href="./src/resources/accounts/credit-configuration.ts">Businessaccount</a></code>
+
+Methods:
+
+- <code title="get /accounts/{account_token}/credit_configuration">client.accounts.creditConfiguration.<a href="./src/resources/accounts/credit-configuration.ts">retrieve</a>(accountToken) -> Businessaccount</code>
+- <code title="patch /accounts/{account_token}/credit_configuration">client.accounts.creditConfiguration.<a href="./src/resources/accounts/credit-configuration.ts">update</a>(accountToken, { ...params }) -> Businessaccount</code>
+
+# Cards
+
+Types:
+
+- <code><a href="./src/resources/cards/cards.ts">Card</a></code>
+- <code><a href="./src/resources/cards/cards.ts">Financialtransaction</a></code>
+- <code><a href="./src/resources/cards/cards.ts">CardProvisionResponse</a></code>
+
+Methods:
+
+- <code title="post /cards">client.cards.<a href="./src/resources/cards/cards.ts">create</a>({ ...params }) -> Card</code>
+- <code title="get /cards/{card_token}">client.cards.<a href="./src/resources/cards/cards.ts">retrieve</a>(cardToken) -> Card</code>
+- <code title="patch /cards/{card_token}">client.cards.<a href="./src/resources/cards/cards.ts">update</a>(cardToken, { ...params }) -> Card</code>
+- <code title="post /cards/{card_token}/provision">client.cards.<a href="./src/resources/cards/cards.ts">provision</a>(cardToken, { ...params }) -> CardProvisionResponse</code>
+
+## FinancialTransactions
+
+Methods:
+
+- <code title="get /cards/{card_token}/financial_transactions/{financial_transaction_token}">client.cards.financialTransactions.<a href="./src/resources/cards/financial-transactions.ts">retrieve</a>(cardToken, financialTransactionToken) -> Financialtransaction</code>
+
+# Status
+
+Types:
+
+- <code><a href="./src/resources/status.ts">StatusRetrieveResponse</a></code>
+
+Methods:
+
+- <code title="get /status">client.status.<a href="./src/resources/status.ts">retrieve</a>() -> StatusRetrieveResponse</code>

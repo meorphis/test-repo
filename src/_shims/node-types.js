@@ -1,2 +1,3 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwo=
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */

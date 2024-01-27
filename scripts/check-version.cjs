@@ -1,16 +1,20 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWly
-ZSgncGF0aCcpOwoKY29uc3QgbWFpbiA9ICgpID0+IHsKICBjb25zdCBwa2cg
-PSByZXF1aXJlKCcuLi9wYWNrYWdlLmpzb24nKTsKICBjb25zdCB2ZXJzaW9u
-ID0gcGtnWyd2ZXJzaW9uJ107CiAgaWYgKCF2ZXJzaW9uKSB0aHJvdyAnVGhl
-IHZlcnNpb24gcHJvcGVydHkgaXMgbm90IHNldCBpbiB0aGUgcGFja2FnZS5q
-c29uIGZpbGUnOwogIGlmICh0eXBlb2YgdmVyc2lvbiAhPT0gJ3N0cmluZycp
-IHsKICAgIHRocm93IGBVbmV4cGVjdGVkIHR5cGUgZm9yIHRoZSBwYWNrYWdl
-Lmpzb24gdmVyc2lvbiBmaWVsZDsgZ290ICR7dHlwZW9mIHZlcnNpb259LCBl
-eHBlY3RlZCBzdHJpbmdgOwogIH0KCiAgY29uc3QgdmVyc2lvbkZpbGUgPSBw
-YXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi4nLCAnc3JjJywgJ3ZlcnNpb24u
-dHMnKTsKICBjb25zdCBjb250ZW50cyA9IGZzLnJlYWRGaWxlU3luYyh2ZXJz
-aW9uRmlsZSwgJ3V0ZjgnKTsKICBjb25zdCBvdXRwdXQgPSBjb250ZW50cy5y
-ZXBsYWNlKC8oZXhwb3J0IGNvbnN0IFZFUlNJT04gPSAnKSguKikoJykvZywg
-YCQxJHt2ZXJzaW9ufSQzYCk7CiAgZnMud3JpdGVGaWxlU3luYyh2ZXJzaW9u
-RmlsZSwgb3V0cHV0KTsKfTsKCmlmIChyZXF1aXJlLm1haW4gPT09IG1vZHVs
-ZSkgewogIG1haW4oKTsKfQo=
+const fs = require('fs');
+const path = require('path');
+
+const main = () => {
+  const pkg = require('../package.json');
+  const version = pkg['version'];
+  if (!version) throw 'The version property is not set in the package.json file';
+  if (typeof version !== 'string') {
+    throw `Unexpected type for the package.json version field; got ${typeof version}, expected string`;
+  }
+
+  const versionFile = path.resolve(__dirname, '..', 'src', 'version.ts');
+  const contents = fs.readFileSync(versionFile, 'utf8');
+  const output = contents.replace(/(export const VERSION = ')(.*)(')/g, `$1${version}$3`);
+  fs.writeFileSync(versionFile, output);
+};
+
+if (require.main === module) {
+  main();
+}

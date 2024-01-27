@@ -1,8 +1,19 @@
-IyBzeW50YXg9ZG9ja2VyL2RvY2tlcmZpbGU6MQpGUk9NIGRlYmlhbjpib29r
-d29ybS1zbGltIEFTIHN0YWlubGVzcwoKUlVOIGFwdC1nZXQgdXBkYXRlICYm
-IGFwdC1nZXQgaW5zdGFsbCAteSBcCiAgbm9kZWpzIFwKICBucG0gXAogIHlh
-cm5wa2cgXAogICYmIGFwdC1nZXQgY2xlYW4gYXV0b2NsZWFuCgojIFlhcm4K
-UlVOIGxuIC1zZiAvdXNyL2Jpbi95YXJucGtnIC91c3IvYmluL3lhcm4KCldP
-UktESVIgL3dvcmtzcGFjZQoKQ09QWSBwYWNrYWdlLmpzb24geWFybi5sb2Nr
-IC93b3Jrc3BhY2UvCgpSVU4geWFybiBpbnN0YWxsCgpDT1BZIC4gL3dvcmtz
-cGFjZQo=
+# syntax=docker/dockerfile:1
+FROM debian:bookworm-slim AS stainless
+
+RUN apt-get update && apt-get install -y \
+  nodejs \
+  npm \
+  yarnpkg \
+  && apt-get clean autoclean
+
+# Yarn
+RUN ln -sf /usr/bin/yarnpkg /usr/bin/yarn
+
+WORKDIR /workspace
+
+COPY package.json yarn.lock /workspace/
+
+RUN yarn install
+
+COPY . /workspace

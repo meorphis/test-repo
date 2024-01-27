@@ -1,24 +1,39 @@
-ewogICJpbmNsdWRlIjogWyJzcmMiLCAidGVzdHMiLCAiZXhhbXBsZXMiXSwK
-ICAiZXhjbHVkZSI6IFsic3JjL19zaGltcy8qKi8qLWRlbm8udHMiXSwKICAi
-Y29tcGlsZXJPcHRpb25zIjogewogICAgInRhcmdldCI6ICJlczIwMjAiLAog
-ICAgImxpYiI6IFsiZXMyMDIwIl0sCiAgICAibW9kdWxlIjogImNvbW1vbmpz
-IiwKICAgICJtb2R1bGVSZXNvbHV0aW9uIjogIm5vZGUiLAogICAgImVzTW9k
-dWxlSW50ZXJvcCI6IHRydWUsCiAgICAiYmFzZVVybCI6ICIuLyIsCiAgICAi
-cGF0aHMiOiB7CiAgICAgICJtZW9ycGhpcy10ZXN0LTQvX3NoaW1zL2F1dG8v
-KiI6IFsic3JjL19zaGltcy9hdXRvLyotbm9kZSJdLAogICAgICAibWVvcnBo
-aXMtdGVzdC00LyoiOiBbInNyYy8qIl0sCiAgICAgICJtZW9ycGhpcy10ZXN0
-LTQiOiBbInNyYy9pbmRleC50cyJdLAogICAgICAiZGlnZXN0LWZldGNoIjog
-WyIuL3R5cGluZ3MvZGlnZXN0LWZldGNoIl0KICAgIH0sCiAgICAibm9FbWl0
-IjogdHJ1ZSwKCiAgICAicmVzb2x2ZUpzb25Nb2R1bGUiOiB0cnVlLAoKICAg
-ICJmb3JjZUNvbnNpc3RlbnRDYXNpbmdJbkZpbGVOYW1lcyI6IHRydWUsCgog
-ICAgInN0cmljdCI6IHRydWUsCiAgICAibm9JbXBsaWNpdEFueSI6IHRydWUs
-CiAgICAic3RyaWN0TnVsbENoZWNrcyI6IHRydWUsCiAgICAic3RyaWN0RnVu
-Y3Rpb25UeXBlcyI6IHRydWUsCiAgICAic3RyaWN0QmluZENhbGxBcHBseSI6
-IHRydWUsCiAgICAic3RyaWN0UHJvcGVydHlJbml0aWFsaXphdGlvbiI6IHRy
-dWUsCiAgICAibm9JbXBsaWNpdFRoaXMiOiB0cnVlLAogICAgIm5vSW1wbGlj
-aXRSZXR1cm5zIjogdHJ1ZSwKICAgICJhbHdheXNTdHJpY3QiOiB0cnVlLAog
-ICAgImV4YWN0T3B0aW9uYWxQcm9wZXJ0eVR5cGVzIjogdHJ1ZSwKICAgICJu
-b1VuY2hlY2tlZEluZGV4ZWRBY2Nlc3MiOiB0cnVlLAogICAgIm5vSW1wbGlj
-aXRPdmVycmlkZSI6IHRydWUsCiAgICAibm9Qcm9wZXJ0eUFjY2Vzc0Zyb21J
-bmRleFNpZ25hdHVyZSI6IHRydWUsCgogICAgInNraXBMaWJDaGVjayI6IHRy
-dWUKICB9Cn0K
+{
+  "include": ["src", "tests", "examples"],
+  "exclude": ["src/_shims/**/*-deno.ts"],
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "meorphis-test-4/_shims/auto/*": ["src/_shims/auto/*-node"],
+      "meorphis-test-4/*": ["src/*"],
+      "meorphis-test-4": ["src/index.ts"],
+      "digest-fetch": ["./typings/digest-fetch"]
+    },
+    "noEmit": true,
+
+    "resolveJsonModule": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    "skipLibCheck": true
+  }
+}

@@ -1,14 +1,22 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCAqIGFzIENvcmUgZnJvbSAnbWVvcnBoaXMtdGVz
-dC00L2NvcmUnOwppbXBvcnQgeyBBUElSZXNvdXJjZSB9IGZyb20gJ21lb3Jw
-aGlzLXRlc3QtNC9yZXNvdXJjZSc7CmltcG9ydCAqIGFzIFN0YXR1c0FQSSBm
-cm9tICdtZW9ycGhpcy10ZXN0LTQvcmVzb3VyY2VzL3N0YXR1cyc7CgpleHBv
-cnQgY2xhc3MgU3RhdHVzIGV4dGVuZHMgQVBJUmVzb3VyY2UgewogIC8qKgog
-ICAqIEFQSSBzdGF0dXMgY2hlY2sKICAgKi8KICByZXRyaWV2ZShvcHRpb25z
-PzogQ29yZS5SZXF1ZXN0T3B0aW9ucyk6IENvcmUuQVBJUHJvbWlzZTxTdGF0
-dXNSZXRyaWV2ZVJlc3BvbnNlPiB7CiAgICByZXR1cm4gdGhpcy5fY2xpZW50
-LmdldCgnL3N0YXR1cycsIG9wdGlvbnMpOwogIH0KfQoKZXhwb3J0IGludGVy
-ZmFjZSBTdGF0dXNSZXRyaWV2ZVJlc3BvbnNlIHsKICBtZXNzYWdlPzogc3Ry
-aW5nOwp9CgpleHBvcnQgbmFtZXNwYWNlIFN0YXR1cyB7CiAgZXhwb3J0IGlt
-cG9ydCBTdGF0dXNSZXRyaWV2ZVJlc3BvbnNlID0gU3RhdHVzQVBJLlN0YXR1
-c1JldHJpZXZlUmVzcG9uc2U7Cn0K
+// File generated from our OpenAPI spec by Stainless.
+
+import * as Core from 'meorphis-test-4/core';
+import { APIResource } from 'meorphis-test-4/resource';
+import * as StatusAPI from 'meorphis-test-4/resources/status';
+
+export class Status extends APIResource {
+  /**
+   * API status check
+   */
+  retrieve(options?: Core.RequestOptions): Core.APIPromise<StatusRetrieveResponse> {
+    return this._client.get('/status', options);
+  }
+}
+
+export interface StatusRetrieveResponse {
+  message?: string;
+}
+
+export namespace Status {
+  export import StatusRetrieveResponse = StatusAPI.StatusRetrieveResponse;
+}

@@ -1,5 +1,4 @@
-RmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0YWlu
-bGVzcy4KClRoaXMgZGlyZWN0b3J5IGNhbiBiZSB1c2VkIHRvIHN0b3JlIGN1
-c3RvbSBmaWxlcyB0byBleHBhbmQgdGhlIFNESy4KSXQgaXMgaWdub3JlZCBi
-eSBTdGFpbmxlc3MgY29kZSBnZW5lcmF0aW9uIGFuZCBpdHMgY29udGVudCAo
-b3RoZXIgdGhhbiB0aGlzIGtlZXAgZmlsZSkgd29uJ3QgYmUgdG91Y2hlZC4K
+File generated from our OpenAPI spec by Stainless.
+
+This directory can be used to store custom files to expand the SDK.
+It is ignored by Stainless code generation and its content (other than this keep file) won't be touched.

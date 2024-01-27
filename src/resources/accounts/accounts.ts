@@ -1,145 +1,219 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCAqIGFzIENvcmUgZnJvbSAnbWVvcnBoaXMtdGVz
-dC00L2NvcmUnOwppbXBvcnQgeyBBUElSZXNvdXJjZSB9IGZyb20gJ21lb3Jw
-aGlzLXRlc3QtNC9yZXNvdXJjZSc7CmltcG9ydCAqIGFzIEFjY291bnRzQVBJ
-IGZyb20gJ21lb3JwaGlzLXRlc3QtNC9yZXNvdXJjZXMvYWNjb3VudHMvYWNj
-b3VudHMnOwppbXBvcnQgKiBhcyBDcmVkaXRDb25maWd1cmF0aW9uQVBJIGZy
-b20gJ21lb3JwaGlzLXRlc3QtNC9yZXNvdXJjZXMvYWNjb3VudHMvY3JlZGl0
-LWNvbmZpZ3VyYXRpb24nOwoKZXhwb3J0IGNsYXNzIEFjY291bnRzIGV4dGVu
-ZHMgQVBJUmVzb3VyY2UgewogIGNyZWRpdENvbmZpZ3VyYXRpb246IENyZWRp
-dENvbmZpZ3VyYXRpb25BUEkuQ3JlZGl0Q29uZmlndXJhdGlvbiA9CiAgICBu
-ZXcgQ3JlZGl0Q29uZmlndXJhdGlvbkFQSS5DcmVkaXRDb25maWd1cmF0aW9u
-KHRoaXMuX2NsaWVudCk7CgogIC8qKgogICAqIEdldCBhY2NvdW50IGNvbmZp
-Z3VyYXRpb24gc3VjaCBhcyBzcGVuZCBsaW1pdHMuCiAgICovCiAgcmV0cmll
-dmUoYWNjb3VudFRva2VuOiBzdHJpbmcsIG9wdGlvbnM/OiBDb3JlLlJlcXVl
-c3RPcHRpb25zKTogQ29yZS5BUElQcm9taXNlPEFjY291bnRjb25maWd1cmF0
-aW9uPiB7CiAgICByZXR1cm4gdGhpcy5fY2xpZW50LmdldChgL2FjY291bnRz
-LyR7YWNjb3VudFRva2VufWAsIG9wdGlvbnMpOwogIH0KCiAgLyoqCiAgICog
-VXBkYXRlIGFjY291bnQgY29uZmlndXJhdGlvbiBzdWNoIGFzIHNwZW5kIGxp
-bWl0cyBhbmQgdmVyaWZpY2F0aW9uIGFkZHJlc3MuIENhbgogICAqIG9ubHkg
-YmUgcnVuIG9uIGFjY291bnRzIHRoYXQgYXJlIHBhcnQgb2YgdGhlIHByb2dy
-YW0gbWFuYWdlZCBieSB0aGlzIEFQSSBrZXkuCiAgICoKICAgKiBBY2NvdW50
-cyB0aGF0IGFyZSBpbiB0aGUgYFBBVVNFRGAgc3RhdGUgd2lsbCBub3QgYmUg
-YWJsZSB0byB0cmFuc2FjdCBvciBjcmVhdGUKICAgKiBuZXcgY2FyZHMuCiAg
-ICovCiAgdXBkYXRlKAogICAgYWNjb3VudFRva2VuOiBzdHJpbmcsCiAgICBi
-b2R5OiBBY2NvdW50VXBkYXRlUGFyYW1zLAogICAgb3B0aW9ucz86IENvcmUu
-UmVxdWVzdE9wdGlvbnMsCiAgKTogQ29yZS5BUElQcm9taXNlPEFjY291bnRj
-b25maWd1cmF0aW9uPiB7CiAgICByZXR1cm4gdGhpcy5fY2xpZW50LnBhdGNo
-KGAvYWNjb3VudHMvJHthY2NvdW50VG9rZW59YCwgeyBib2R5LCAuLi5vcHRp
-b25zIH0pOwogIH0KfQoKZXhwb3J0IGludGVyZmFjZSBBY2NvdW50Y29uZmln
-dXJhdGlvbiB7CiAgLyoqCiAgICogR2xvYmFsbHkgdW5pcXVlIGlkZW50aWZp
-ZXIgZm9yIHRoZSBhY2NvdW50LiBUaGlzIGlzIHRoZSBzYW1lIGFzIHRoZQog
-ICAqIGFjY291bnRfdG9rZW4gcmV0dXJuZWQgYnkgdGhlIGVucm9sbCBlbmRw
-b2ludC4gSWYgdXNpbmcgdGhpcyBwYXJhbWV0ZXIsIGRvIG5vdAogICAqIGlu
-Y2x1ZGUgcGFnaW5hdGlvbi4KICAgKi8KICB0b2tlbjogc3RyaW5nOwoKICAv
-KioKICAgKiBTcGVuZCBsaW1pdCBpbmZvcm1hdGlvbiBmb3IgdGhlIHVzZXIg
-Y29udGFpbmluZyB0aGUgZGFpbHksIG1vbnRobHksIGFuZCBsaWZldGltZQog
-ICAqIHNwZW5kIGxpbWl0IG9mIHRoZSBhY2NvdW50LiBBbnkgY2hhcmdlcyB0
-byBhIGNhcmQgb3duZWQgYnkgdGhpcyBhY2NvdW50IHdpbGwgYmUKICAgKiBk
-ZWNsaW5lZCBvbmNlIHRoZWlyIHRyYW5zYWN0aW9uIHZvbHVtZSBoYXMgc3Vy
-cGFzc2VkIHRoZSB2YWx1ZSBpbiB0aGUgYXBwbGljYWJsZQogICAqIHRpbWUg
-bGltaXQgKHJvbGxpbmcpLiBBIGxpZmV0aW1lIGxpbWl0IG9mIDAgaW5kaWNh
-dGVzIHRoYXQgdGhlIGxpZmV0aW1lIGxpbWl0CiAgICogZmVhdHVyZSBpcyBk
-aXNhYmxlZC4KICAgKi8KICBzcGVuZF9saW1pdDogQWNjb3VudGNvbmZpZ3Vy
-YXRpb24uU3BlbmRMaW1pdDsKCiAgLyoqCiAgICogQWNjb3VudCBzdGF0ZToK
-ICAgKgogICAqIC0gYEFDVElWRWAgLSBBY2NvdW50IGlzIGFibGUgdG8gdHJh
-bnNhY3QgYW5kIGNyZWF0ZSBuZXcgY2FyZHMuCiAgICogLSBgUEFVU0VEYCAt
-IEFjY291bnQgd2lsbCBub3QgYmUgYWJsZSB0byB0cmFuc2FjdCBvciBjcmVh
-dGUgbmV3IGNhcmRzLiBJdCBjYW4gYmUKICAgKiAgIHNldCBiYWNrIHRvIGBB
-Q1RJVkVgLgogICAqIC0gYENMT1NFRGAgLSBBY2NvdW50IHdpbGwgcGVybWFu
-ZW50bHkgbm90IGJlIGFibGUgdG8gdHJhbnNhY3Qgb3IgY3JlYXRlIG5ldwog
-ICAqICAgY2FyZHMuCiAgICovCiAgc3RhdGU6ICdBQ1RJVkUnIHwgJ1BBVVNF
-RCcgfCAnQ0xPU0VEJzsKCiAgYWNjb3VudF9ob2xkZXI/OiBBY2NvdW50Y29u
-ZmlndXJhdGlvbi5BY2NvdW50SG9sZGVyOwoKICAvKioKICAgKiBMaXN0IG9m
-IGlkZW50aWZpZXJzIGZvciB0aGUgQXV0aCBSdWxlKHMpIHRoYXQgYXJlIGFw
-cGxpZWQgb24gdGhlIGFjY291bnQuCiAgICovCiAgYXV0aF9ydWxlX3Rva2Vu
-cz86IEFycmF5PHN0cmluZz47CgogIHZlcmlmaWNhdGlvbl9hZGRyZXNzPzog
-QWNjb3VudGNvbmZpZ3VyYXRpb24uVmVyaWZpY2F0aW9uQWRkcmVzczsKfQoK
-ZXhwb3J0IG5hbWVzcGFjZSBBY2NvdW50Y29uZmlndXJhdGlvbiB7CiAgLyoq
-CiAgICogU3BlbmQgbGltaXQgaW5mb3JtYXRpb24gZm9yIHRoZSB1c2VyIGNv
-bnRhaW5pbmcgdGhlIGRhaWx5LCBtb250aGx5LCBhbmQgbGlmZXRpbWUKICAg
-KiBzcGVuZCBsaW1pdCBvZiB0aGUgYWNjb3VudC4gQW55IGNoYXJnZXMgdG8g
-YSBjYXJkIG93bmVkIGJ5IHRoaXMgYWNjb3VudCB3aWxsIGJlCiAgICogZGVj
-bGluZWQgb25jZSB0aGVpciB0cmFuc2FjdGlvbiB2b2x1bWUgaGFzIHN1cnBh
-c3NlZCB0aGUgdmFsdWUgaW4gdGhlIGFwcGxpY2FibGUKICAgKiB0aW1lIGxp
-bWl0IChyb2xsaW5nKS4gQSBsaWZldGltZSBsaW1pdCBvZiAwIGluZGljYXRl
-cyB0aGF0IHRoZSBsaWZldGltZSBsaW1pdAogICAqIGZlYXR1cmUgaXMgZGlz
-YWJsZWQuCiAgICovCiAgZXhwb3J0IGludGVyZmFjZSBTcGVuZExpbWl0IHsK
-ICAgIC8qKgogICAgICogRGFpbHkgc3BlbmQgbGltaXQgKGluIGNlbnRzKS4K
-ICAgICAqLwogICAgZGFpbHk6IG51bWJlcjsKCiAgICAvKioKICAgICAqIFRv
-dGFsIHNwZW5kIGxpbWl0IG92ZXIgYWNjb3VudCBsaWZldGltZSAoaW4gY2Vu
-dHMpLgogICAgICovCiAgICBsaWZldGltZTogbnVtYmVyOwoKICAgIC8qKgog
-ICAgICogTW9udGhseSBzcGVuZCBsaW1pdCAoaW4gY2VudHMpLgogICAgICov
-CiAgICBtb250aGx5OiBudW1iZXI7CiAgfQoKICBleHBvcnQgaW50ZXJmYWNl
-IEFjY291bnRIb2xkZXIgewogICAgLyoqCiAgICAgKiBHbG9iYWxseSB1bmlx
-dWUgaWRlbnRpZmllciBmb3IgdGhlIGFjY291bnQgaG9sZGVyLgogICAgICov
-CiAgICB0b2tlbjogc3RyaW5nOwoKICAgIC8qKgogICAgICogT25seSBhcHBs
-aWNhYmxlIGZvciBjdXN0b21lcnMgdXNpbmcgdGhlIEtZQy1FeGVtcHQgd29y
-a2Zsb3cgdG8gZW5yb2xsIGF1dGhvcml6ZWQKICAgICAqIHVzZXJzIG9mIGJ1
-c2luZXNzZXMuIEFjY291bnRfdG9rZW4gb2YgdGhlIGVucm9sbGVkIGJ1c2lu
-ZXNzIGFzc29jaWF0ZWQgd2l0aCBhbgogICAgICogZW5yb2xsZWQgQVVUSE9S
-SVpFRF9VU0VSIGluZGl2aWR1YWwuCiAgICAgKi8KICAgIGJ1c2luZXNzX2Fj
-Y291bnRfdG9rZW46IHN0cmluZzsKCiAgICAvKioKICAgICAqIEVtYWlsIGFk
-ZHJlc3MuCiAgICAgKi8KICAgIGVtYWlsOiBzdHJpbmc7CgogICAgLyoqCiAg
-ICAgKiBQaG9uZSBudW1iZXIgb2YgdGhlIGluZGl2aWR1YWwuCiAgICAgKi8K
-ICAgIHBob25lX251bWJlcjogc3RyaW5nOwogIH0KCiAgZXhwb3J0IGludGVy
-ZmFjZSBWZXJpZmljYXRpb25BZGRyZXNzIHsKICAgIC8qKgogICAgICogVmFs
-aWQgZGVsaXZlcmFibGUgYWRkcmVzcyAobm8gUE8gYm94ZXMpLgogICAgICov
-CiAgICBhZGRyZXNzMTogc3RyaW5nOwoKICAgIC8qKgogICAgICogQ2l0eSBu
-YW1lLgogICAgICovCiAgICBjaXR5OiBzdHJpbmc7CgogICAgLyoqCiAgICAg
-KiBDb3VudHJ5IG5hbWUuIE9ubHkgVVNBIGlzIGN1cnJlbnRseSBzdXBwb3J0
-ZWQuCiAgICAgKi8KICAgIGNvdW50cnk6IHN0cmluZzsKCiAgICAvKioKICAg
-ICAqIFZhbGlkIHBvc3RhbCBjb2RlLiBPbmx5IFVTQSBaSVAgY29kZXMgYXJl
-IGN1cnJlbnRseSBzdXBwb3J0ZWQsIGVudGVyZWQgYXMgYQogICAgICogZml2
-ZS1kaWdpdCBaSVAgb3IgbmluZS1kaWdpdCBaSVArNC4KICAgICAqLwogICAg
-cG9zdGFsX2NvZGU6IHN0cmluZzsKCiAgICAvKioKICAgICAqIFZhbGlkIHN0
-YXRlIGNvZGUuIE9ubHkgVVNBIHN0YXRlIGNvZGVzIGFyZSBjdXJyZW50bHkg
-c3VwcG9ydGVkLCBlbnRlcmVkIGluCiAgICAgKiB1cHBlcmNhc2UgSVNPIDMx
-NjYtMiB0d28tY2hhcmFjdGVyIGZvcm1hdC4KICAgICAqLwogICAgc3RhdGU6
-IHN0cmluZzsKCiAgICAvKioKICAgICAqIFVuaXQgb3IgYXBhcnRtZW50IG51
-bWJlciAoaWYgYXBwbGljYWJsZSkuCiAgICAgKi8KICAgIGFkZHJlc3MyPzog
-c3RyaW5nOwogIH0KfQoKZXhwb3J0IGludGVyZmFjZSBBY2NvdW50VXBkYXRl
-UGFyYW1zIHsKICAvKioKICAgKiBBbW91bnQgKGluIGNlbnRzKSBmb3IgdGhl
-IGFjY291bnQncyBkYWlseSBzcGVuZCBsaW1pdC4gQnkgZGVmYXVsdCB0aGUg
-ZGFpbHkKICAgKiBzcGVuZCBsaW1pdCBpcyBzZXQgdG8gJDEsMjUwLgogICAq
-LwogIGRhaWx5X3NwZW5kX2xpbWl0PzogbnVtYmVyOwoKICAvKioKICAgKiBB
-bW91bnQgKGluIGNlbnRzKSBmb3IgdGhlIGFjY291bnQncyBsaWZldGltZSBz
-cGVuZCBsaW1pdC4gT25jZSB0aGlzIGxpbWl0IGlzCiAgICogcmVhY2hlZCwg
-bm8gdHJhbnNhY3Rpb25zIHdpbGwgYmUgYWNjZXB0ZWQgb24gYW55IGNhcmQg
-Y3JlYXRlZCBmb3IgdGhpcyBhY2NvdW50CiAgICogdW50aWwgdGhlIGxpbWl0
-IGlzIHVwZGF0ZWQuIE5vdGUgdGhhdCBhIHNwZW5kIGxpbWl0IG9mIDAgaXMg
-ZWZmZWN0aXZlbHkgbm8KICAgKiBsaW1pdCwgYW5kIHNob3VsZCBvbmx5IGJl
-IHVzZWQgdG8gcmVzZXQgb3IgcmVtb3ZlIGEgcHJpb3IgbGltaXQuIE9ubHkg
-YSBsaW1pdCBvZgogICAqIDEgb3IgYWJvdmUgd2lsbCByZXN1bHQgaW4gZGVj
-bGluZWQgdHJhbnNhY3Rpb25zIGR1ZSB0byBjaGVja3MgYWdhaW5zdCB0aGUK
-ICAgKiBhY2NvdW50IGxpbWl0LiBUaGlzIGJlaGF2aW9yIGRpZmZlcnMgZnJv
-bSB0aGUgZGFpbHkgc3BlbmQgbGltaXQgYW5kIHRoZSBtb250aGx5CiAgICog
-c3BlbmQgbGltaXQuCiAgICovCiAgbGlmZXRpbWVfc3BlbmRfbGltaXQ/OiBu
-dW1iZXI7CgogIC8qKgogICAqIEFtb3VudCAoaW4gY2VudHMpIGZvciB0aGUg
-YWNjb3VudCdzIG1vbnRobHkgc3BlbmQgbGltaXQuIEJ5IGRlZmF1bHQgdGhl
-IG1vbnRobHkKICAgKiBzcGVuZCBsaW1pdCBpcyBzZXQgdG8gJDUsMDAwLgog
-ICAqLwogIG1vbnRobHlfc3BlbmRfbGltaXQ/OiBudW1iZXI7CgogIC8qKgog
-ICAqIEFjY291bnQgc3RhdGVzLgogICAqLwogIHN0YXRlPzogJ0FDVElWRScg
-fCAnUEFVU0VEJzsKCiAgLyoqCiAgICogQWRkcmVzcyB1c2VkIGR1cmluZyBB
-ZGRyZXNzIFZlcmlmaWNhdGlvbiBTZXJ2aWNlIChBVlMpIGNoZWNrcyBkdXJp
-bmcKICAgKiB0cmFuc2FjdGlvbnMgaWYgZW5hYmxlZCB2aWEgQXV0aCBSdWxl
-cy4KICAgKi8KICB2ZXJpZmljYXRpb25fYWRkcmVzcz86IEFjY291bnRVcGRh
-dGVQYXJhbXMuVmVyaWZpY2F0aW9uQWRkcmVzczsKfQoKZXhwb3J0IG5hbWVz
-cGFjZSBBY2NvdW50VXBkYXRlUGFyYW1zIHsKICAvKioKICAgKiBBZGRyZXNz
-IHVzZWQgZHVyaW5nIEFkZHJlc3MgVmVyaWZpY2F0aW9uIFNlcnZpY2UgKEFW
-UykgY2hlY2tzIGR1cmluZwogICAqIHRyYW5zYWN0aW9ucyBpZiBlbmFibGVk
-IHZpYSBBdXRoIFJ1bGVzLgogICAqLwogIGV4cG9ydCBpbnRlcmZhY2UgVmVy
-aWZpY2F0aW9uQWRkcmVzcyB7CiAgICBhZGRyZXNzMT86IHN0cmluZzsKCiAg
-ICBhZGRyZXNzMj86IHN0cmluZzsKCiAgICBjaXR5Pzogc3RyaW5nOwoKICAg
-IGNvdW50cnk/OiBzdHJpbmc7CgogICAgcG9zdGFsX2NvZGU/OiBzdHJpbmc7
-CgogICAgc3RhdGU/OiBzdHJpbmc7CiAgfQp9CgpleHBvcnQgbmFtZXNwYWNl
-IEFjY291bnRzIHsKICBleHBvcnQgaW1wb3J0IEFjY291bnRjb25maWd1cmF0
-aW9uID0gQWNjb3VudHNBUEkuQWNjb3VudGNvbmZpZ3VyYXRpb247CiAgZXhw
-b3J0IGltcG9ydCBBY2NvdW50VXBkYXRlUGFyYW1zID0gQWNjb3VudHNBUEku
-QWNjb3VudFVwZGF0ZVBhcmFtczsKICBleHBvcnQgaW1wb3J0IENyZWRpdENv
-bmZpZ3VyYXRpb24gPSBDcmVkaXRDb25maWd1cmF0aW9uQVBJLkNyZWRpdENv
-bmZpZ3VyYXRpb247CiAgZXhwb3J0IGltcG9ydCBCdXNpbmVzc2FjY291bnQg
-PSBDcmVkaXRDb25maWd1cmF0aW9uQVBJLkJ1c2luZXNzYWNjb3VudDsKICBl
-eHBvcnQgaW1wb3J0IENyZWRpdENvbmZpZ3VyYXRpb25VcGRhdGVQYXJhbXMg
-PSBDcmVkaXRDb25maWd1cmF0aW9uQVBJLkNyZWRpdENvbmZpZ3VyYXRpb25V
-cGRhdGVQYXJhbXM7Cn0K
+// File generated from our OpenAPI spec by Stainless.
+
+import * as Core from 'meorphis-test-4/core';
+import { APIResource } from 'meorphis-test-4/resource';
+import * as AccountsAPI from 'meorphis-test-4/resources/accounts/accounts';
+import * as CreditConfigurationAPI from 'meorphis-test-4/resources/accounts/credit-configuration';
+
+export class Accounts extends APIResource {
+  creditConfiguration: CreditConfigurationAPI.CreditConfiguration =
+    new CreditConfigurationAPI.CreditConfiguration(this._client);
+
+  /**
+   * Get account configuration such as spend limits.
+   */
+  retrieve(accountToken: string, options?: Core.RequestOptions): Core.APIPromise<Accountconfiguration> {
+    return this._client.get(`/accounts/${accountToken}`, options);
+  }
+
+  /**
+   * Update account configuration such as spend limits and verification address. Can
+   * only be run on accounts that are part of the program managed by this API key.
+   *
+   * Accounts that are in the `PAUSED` state will not be able to transact or create
+   * new cards.
+   */
+  update(
+    accountToken: string,
+    body: AccountUpdateParams,
+    options?: Core.RequestOptions,
+  ): Core.APIPromise<Accountconfiguration> {
+    return this._client.patch(`/accounts/${accountToken}`, { body, ...options });
+  }
+}
+
+export interface Accountconfiguration {
+  /**
+   * Globally unique identifier for the account. This is the same as the
+   * account_token returned by the enroll endpoint. If using this parameter, do not
+   * include pagination.
+   */
+  token: string;
+
+  /**
+   * Spend limit information for the user containing the daily, monthly, and lifetime
+   * spend limit of the account. Any charges to a card owned by this account will be
+   * declined once their transaction volume has surpassed the value in the applicable
+   * time limit (rolling). A lifetime limit of 0 indicates that the lifetime limit
+   * feature is disabled.
+   */
+  spend_limit: Accountconfiguration.SpendLimit;
+
+  /**
+   * Account state:
+   *
+   * - `ACTIVE` - Account is able to transact and create new cards.
+   * - `PAUSED` - Account will not be able to transact or create new cards. It can be
+   *   set back to `ACTIVE`.
+   * - `CLOSED` - Account will permanently not be able to transact or create new
+   *   cards.
+   */
+  state: 'ACTIVE' | 'PAUSED' | 'CLOSED';
+
+  account_holder?: Accountconfiguration.AccountHolder;
+
+  /**
+   * List of identifiers for the Auth Rule(s) that are applied on the account.
+   */
+  auth_rule_tokens?: Array<string>;
+
+  verification_address?: Accountconfiguration.VerificationAddress;
+}
+
+export namespace Accountconfiguration {
+  /**
+   * Spend limit information for the user containing the daily, monthly, and lifetime
+   * spend limit of the account. Any charges to a card owned by this account will be
+   * declined once their transaction volume has surpassed the value in the applicable
+   * time limit (rolling). A lifetime limit of 0 indicates that the lifetime limit
+   * feature is disabled.
+   */
+  export interface SpendLimit {
+    /**
+     * Daily spend limit (in cents).
+     */
+    daily: number;
+
+    /**
+     * Total spend limit over account lifetime (in cents).
+     */
+    lifetime: number;
+
+    /**
+     * Monthly spend limit (in cents).
+     */
+    monthly: number;
+  }
+
+  export interface AccountHolder {
+    /**
+     * Globally unique identifier for the account holder.
+     */
+    token: string;
+
+    /**
+     * Only applicable for customers using the KYC-Exempt workflow to enroll authorized
+     * users of businesses. Account_token of the enrolled business associated with an
+     * enrolled AUTHORIZED_USER individual.
+     */
+    business_account_token: string;
+
+    /**
+     * Email address.
+     */
+    email: string;
+
+    /**
+     * Phone number of the individual.
+     */
+    phone_number: string;
+  }
+
+  export interface VerificationAddress {
+    /**
+     * Valid deliverable address (no PO boxes).
+     */
+    address1: string;
+
+    /**
+     * City name.
+     */
+    city: string;
+
+    /**
+     * Country name. Only USA is currently supported.
+     */
+    country: string;
+
+    /**
+     * Valid postal code. Only USA ZIP codes are currently supported, entered as a
+     * five-digit ZIP or nine-digit ZIP+4.
+     */
+    postal_code: string;
+
+    /**
+     * Valid state code. Only USA state codes are currently supported, entered in
+     * uppercase ISO 3166-2 two-character format.
+     */
+    state: string;
+
+    /**
+     * Unit or apartment number (if applicable).
+     */
+    address2?: string;
+  }
+}
+
+export interface AccountUpdateParams {
+  /**
+   * Amount (in cents) for the account's daily spend limit. By default the daily
+   * spend limit is set to $1,250.
+   */
+  daily_spend_limit?: number;
+
+  /**
+   * Amount (in cents) for the account's lifetime spend limit. Once this limit is
+   * reached, no transactions will be accepted on any card created for this account
+   * until the limit is updated. Note that a spend limit of 0 is effectively no
+   * limit, and should only be used to reset or remove a prior limit. Only a limit of
+   * 1 or above will result in declined transactions due to checks against the
+   * account limit. This behavior differs from the daily spend limit and the monthly
+   * spend limit.
+   */
+  lifetime_spend_limit?: number;
+
+  /**
+   * Amount (in cents) for the account's monthly spend limit. By default the monthly
+   * spend limit is set to $5,000.
+   */
+  monthly_spend_limit?: number;
+
+  /**
+   * Account states.
+   */
+  state?: 'ACTIVE' | 'PAUSED';
+
+  /**
+   * Address used during Address Verification Service (AVS) checks during
+   * transactions if enabled via Auth Rules.
+   */
+  verification_address?: AccountUpdateParams.VerificationAddress;
+}
+
+export namespace AccountUpdateParams {
+  /**
+   * Address used during Address Verification Service (AVS) checks during
+   * transactions if enabled via Auth Rules.
+   */
+  export interface VerificationAddress {
+    address1?: string;
+
+    address2?: string;
+
+    city?: string;
+
+    country?: string;
+
+    postal_code?: string;
+
+    state?: string;
+  }
+}
+
+export namespace Accounts {
+  export import Accountconfiguration = AccountsAPI.Accountconfiguration;
+  export import AccountUpdateParams = AccountsAPI.AccountUpdateParams;
+  export import CreditConfiguration = CreditConfigurationAPI.CreditConfiguration;
+  export import Businessaccount = CreditConfigurationAPI.Businessaccount;
+  export import CreditConfigurationUpdateParams = CreditConfigurationAPI.CreditConfigurationUpdateParams;
+}

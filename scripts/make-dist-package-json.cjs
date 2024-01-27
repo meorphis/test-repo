@@ -1,15 +1,21 @@
-Y29uc3QgcGtnSnNvbiA9IHJlcXVpcmUocHJvY2Vzcy5lbnZbJ1BLR19KU09O
-X1BBVEgnXSB8fCAnLi4vcGFja2FnZS5qc29uJyk7CgpmdW5jdGlvbiBwcm9j
-ZXNzRXhwb3J0TWFwKG0pIHsKICBmb3IgKGNvbnN0IGtleSBpbiBtKSB7CiAg
-ICBjb25zdCB2YWx1ZSA9IG1ba2V5XTsKICAgIGlmICh0eXBlb2YgdmFsdWUg
-PT09ICdzdHJpbmcnKSBtW2tleV0gPSB2YWx1ZS5yZXBsYWNlKC9eXC5cL2Rp
-c3RcLy8sICcuLycpOwogICAgZWxzZSBwcm9jZXNzRXhwb3J0TWFwKHZhbHVl
-KTsKICB9Cn0KcHJvY2Vzc0V4cG9ydE1hcChwa2dKc29uLmV4cG9ydHMpOwoK
-Zm9yIChjb25zdCBrZXkgb2YgWyd0eXBlcycsICdtYWluJywgJ21vZHVsZSdd
-KSB7CiAgaWYgKHR5cGVvZiBwa2dKc29uW2tleV0gPT09ICdzdHJpbmcnKSBw
-a2dKc29uW2tleV0gPSBwa2dKc29uW2tleV0ucmVwbGFjZSgvXihcLlwvKT9k
-aXN0XC8vLCAnLi8nKTsKfQoKZGVsZXRlIHBrZ0pzb24uZGV2RGVwZW5kZW5j
-aWVzOwpkZWxldGUgcGtnSnNvbi5zY3JpcHRzLnByZXBhY2s7CmRlbGV0ZSBw
-a2dKc29uLnNjcmlwdHMucHJlcHVibGlzaE9ubHk7CmRlbGV0ZSBwa2dKc29u
-LnNjcmlwdHMucHJlcGFyZTsKCmNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5
-KHBrZ0pzb24sIG51bGwsIDIpKTsK
+const pkgJson = require(process.env['PKG_JSON_PATH'] || '../package.json');
+
+function processExportMap(m) {
+  for (const key in m) {
+    const value = m[key];
+    if (typeof value === 'string') m[key] = value.replace(/^\.\/dist\//, './');
+    else processExportMap(value);
+  }
+}
+processExportMap(pkgJson.exports);
+
+for (const key of ['types', 'main', 'module']) {
+  if (typeof pkgJson[key] === 'string') pkgJson[key] = pkgJson[key].replace(/^(\.\/)?dist\//, './');
+}
+
+delete pkgJson.devDependencies;
+delete pkgJson.scripts.prepack;
+delete pkgJson.scripts.prepublishOnly;
+delete pkgJson.scripts.prepare;
+
+console.log(JSON.stringify(pkgJson, null, 2));

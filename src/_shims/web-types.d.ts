@@ -1,47 +1,83 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwpleHBv
-cnQgdHlwZSBBZ2VudCA9IGFueTsKCmRlY2xhcmUgY29uc3QgX2ZldGNoOiB0
-eXBlb2YgZmV0Y2g7CmV4cG9ydCB7IF9mZXRjaCBhcyBmZXRjaCB9OwoKdHlw
-ZSBfUmVxdWVzdCA9IFJlcXVlc3Q7CmV4cG9ydCB7IF9SZXF1ZXN0IGFzIFJl
-cXVlc3QgfTsKCnR5cGUgX1JlcXVlc3RJbmZvID0gUmVxdWVzdEluZm87CmV4
-cG9ydCB7IHR5cGUgX1JlcXVlc3RJbmZvIGFzIFJlcXVlc3RJbmZvIH07Cgp0
-eXBlIF9SZXF1ZXN0SW5pdCA9IFJlcXVlc3RJbml0OwpleHBvcnQgeyB0eXBl
-IF9SZXF1ZXN0SW5pdCBhcyBSZXF1ZXN0SW5pdCB9OwoKdHlwZSBfUmVzcG9u
-c2UgPSBSZXNwb25zZTsKZXhwb3J0IHsgX1Jlc3BvbnNlIGFzIFJlc3BvbnNl
-IH07Cgp0eXBlIF9SZXNwb25zZUluaXQgPSBSZXNwb25zZUluaXQ7CmV4cG9y
-dCB7IHR5cGUgX1Jlc3BvbnNlSW5pdCBhcyBSZXNwb25zZUluaXQgfTsKCnR5
-cGUgX1Jlc3BvbnNlVHlwZSA9IFJlc3BvbnNlVHlwZTsKZXhwb3J0IHsgdHlw
-ZSBfUmVzcG9uc2VUeXBlIGFzIFJlc3BvbnNlVHlwZSB9OwoKdHlwZSBfQm9k
-eUluaXQgPSBCb2R5SW5pdDsKZXhwb3J0IHsgdHlwZSBfQm9keUluaXQgYXMg
-Qm9keUluaXQgfTsKCnR5cGUgX0hlYWRlcnMgPSBIZWFkZXJzOwpleHBvcnQg
-eyBfSGVhZGVycyBhcyBIZWFkZXJzIH07Cgp0eXBlIF9IZWFkZXJzSW5pdCA9
-IEhlYWRlcnNJbml0OwpleHBvcnQgeyB0eXBlIF9IZWFkZXJzSW5pdCBhcyBI
-ZWFkZXJzSW5pdCB9OwoKdHlwZSBFbmRpbmdUeXBlID0gJ25hdGl2ZScgfCAn
-dHJhbnNwYXJlbnQnOwoKZXhwb3J0IGludGVyZmFjZSBCbG9iUHJvcGVydHlC
-YWcgewogIGVuZGluZ3M/OiBFbmRpbmdUeXBlOwogIHR5cGU/OiBzdHJpbmc7
-Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRmlsZVByb3BlcnR5QmFnIGV4dGVuZHMg
-QmxvYlByb3BlcnR5QmFnIHsKICBsYXN0TW9kaWZpZWQ/OiBudW1iZXI7Cn0K
-CmV4cG9ydCB0eXBlIEZpbGVGcm9tUGF0aE9wdGlvbnMgPSBPbWl0PEZpbGVQ
-cm9wZXJ0eUJhZywgJ2xhc3RNb2RpZmllZCc+OwoKdHlwZSBfRm9ybURhdGEg
-PSBGb3JtRGF0YTsKZGVjbGFyZSBjb25zdCBfRm9ybURhdGE6IHR5cGVvZiBG
-b3JtRGF0YTsKZXhwb3J0IHsgX0Zvcm1EYXRhIGFzIEZvcm1EYXRhIH07Cgp0
-eXBlIF9GaWxlID0gRmlsZTsKZGVjbGFyZSBjb25zdCBfRmlsZTogdHlwZW9m
-IEZpbGU7CmV4cG9ydCB7IF9GaWxlIGFzIEZpbGUgfTsKCnR5cGUgX0Jsb2Ig
-PSBCbG9iOwpkZWNsYXJlIGNvbnN0IF9CbG9iOiB0eXBlb2YgQmxvYjsKZXhw
-b3J0IHsgX0Jsb2IgYXMgQmxvYiB9OwoKZXhwb3J0IGRlY2xhcmUgY2xhc3Mg
-UmVhZGFibGUgewogIHJlYWRhYmxlOiBib29sZWFuOwogIHJlYWRvbmx5IHJl
-YWRhYmxlRW5kZWQ6IGJvb2xlYW47CiAgcmVhZG9ubHkgcmVhZGFibGVGbG93
-aW5nOiBib29sZWFuIHwgbnVsbDsKICByZWFkb25seSByZWFkYWJsZUhpZ2hX
-YXRlck1hcms6IG51bWJlcjsKICByZWFkb25seSByZWFkYWJsZUxlbmd0aDog
-bnVtYmVyOwogIHJlYWRvbmx5IHJlYWRhYmxlT2JqZWN0TW9kZTogYm9vbGVh
-bjsKICBkZXN0cm95ZWQ6IGJvb2xlYW47CiAgcmVhZChzaXplPzogbnVtYmVy
-KTogYW55OwogIHBhdXNlKCk6IHRoaXM7CiAgcmVzdW1lKCk6IHRoaXM7CiAg
-aXNQYXVzZWQoKTogYm9vbGVhbjsKICBkZXN0cm95KGVycm9yPzogRXJyb3Ip
-OiB0aGlzOwogIFtTeW1ib2wuYXN5bmNJdGVyYXRvcl0oKTogQXN5bmNJdGVy
-YWJsZUl0ZXJhdG9yPGFueT47Cn0KCmV4cG9ydCBkZWNsYXJlIGNsYXNzIEZz
-UmVhZFN0cmVhbSBleHRlbmRzIFJlYWRhYmxlIHsKICBwYXRoOiB7fTsgLy8g
-bm9kZSB0eXBlIGlzIHN0cmluZyB8IEJ1ZmZlcgp9Cgp0eXBlIF9SZWFkYWJs
-ZVN0cmVhbTxSID0gYW55PiA9IFJlYWRhYmxlU3RyZWFtPFI+OwpkZWNsYXJl
-IGNvbnN0IF9SZWFkYWJsZVN0cmVhbTogdHlwZW9mIFJlYWRhYmxlU3RyZWFt
-OwpleHBvcnQgeyBfUmVhZGFibGVTdHJlYW0gYXMgUmVhZGFibGVTdHJlYW0g
-fTsK
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */
+export type Agent = any;
+
+declare const _fetch: typeof fetch;
+export { _fetch as fetch };
+
+type _Request = Request;
+export { _Request as Request };
+
+type _RequestInfo = RequestInfo;
+export { type _RequestInfo as RequestInfo };
+
+type _RequestInit = RequestInit;
+export { type _RequestInit as RequestInit };
+
+type _Response = Response;
+export { _Response as Response };
+
+type _ResponseInit = ResponseInit;
+export { type _ResponseInit as ResponseInit };
+
+type _ResponseType = ResponseType;
+export { type _ResponseType as ResponseType };
+
+type _BodyInit = BodyInit;
+export { type _BodyInit as BodyInit };
+
+type _Headers = Headers;
+export { _Headers as Headers };
+
+type _HeadersInit = HeadersInit;
+export { type _HeadersInit as HeadersInit };
+
+type EndingType = 'native' | 'transparent';
+
+export interface BlobPropertyBag {
+  endings?: EndingType;
+  type?: string;
+}
+
+export interface FilePropertyBag extends BlobPropertyBag {
+  lastModified?: number;
+}
+
+export type FileFromPathOptions = Omit<FilePropertyBag, 'lastModified'>;
+
+type _FormData = FormData;
+declare const _FormData: typeof FormData;
+export { _FormData as FormData };
+
+type _File = File;
+declare const _File: typeof File;
+export { _File as File };
+
+type _Blob = Blob;
+declare const _Blob: typeof Blob;
+export { _Blob as Blob };
+
+export declare class Readable {
+  readable: boolean;
+  readonly readableEnded: boolean;
+  readonly readableFlowing: boolean | null;
+  readonly readableHighWaterMark: number;
+  readonly readableLength: number;
+  readonly readableObjectMode: boolean;
+  destroyed: boolean;
+  read(size?: number): any;
+  pause(): this;
+  resume(): this;
+  isPaused(): boolean;
+  destroy(error?: Error): this;
+  [Symbol.asyncIterator](): AsyncIterableIterator<any>;
+}
+
+export declare class FsReadStream extends Readable {
+  path: {}; // node type is string | Buffer
+}
+
+type _ReadableStream<R = any> = ReadableStream<R>;
+declare const _ReadableStream: typeof ReadableStream;
+export { _ReadableStream as ReadableStream };

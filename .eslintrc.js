@@ -1,6 +1,10 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgcGFyc2VyOiAnQHR5cGVzY3JpcHQtZXNs
-aW50L3BhcnNlcicsCiAgcGx1Z2luczogWydAdHlwZXNjcmlwdC1lc2xpbnQn
-LCAndW51c2VkLWltcG9ydHMnLCAncHJldHRpZXInXSwKICBydWxlczogewog
-ICAgJ25vLXVudXNlZC12YXJzJzogJ29mZicsCiAgICAncHJldHRpZXIvcHJl
-dHRpZXInOiAnZXJyb3InLAogICAgJ3VudXNlZC1pbXBvcnRzL25vLXVudXNl
-ZC1pbXBvcnRzJzogJ2Vycm9yJywKICB9LAogIHJvb3Q6IHRydWUsCn07Cg==
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint', 'unused-imports', 'prettier'],
+  rules: {
+    'no-unused-vars': 'off',
+    'prettier/prettier': 'error',
+    'unused-imports/no-unused-imports': 'error',
+  },
+  root: true,
+};

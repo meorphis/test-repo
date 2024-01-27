@@ -1,61 +1,110 @@
-aW1wb3J0IHsgTXVsdGlwYXJ0Qm9keSB9IGZyb20gJy4vTXVsdGlwYXJ0Qm9k
-eSc7CmltcG9ydCB7IHR5cGUgUmVxdWVzdE9wdGlvbnMgfSBmcm9tICcuLi9j
-b3JlJzsKCmV4cG9ydCBjb25zdCBraW5kOiBzdHJpbmcgPSAnd2ViJzsKCmV4
-cG9ydCB0eXBlIEFnZW50ID0gYW55OwoKY29uc3QgX2ZldGNoID0gZmV0Y2g7
-CnR5cGUgX2ZldGNoID0gdHlwZW9mIGZldGNoOwpleHBvcnQgeyBfZmV0Y2gg
-YXMgZmV0Y2ggfTsKCmNvbnN0IF9SZXF1ZXN0ID0gUmVxdWVzdDsKdHlwZSBf
-UmVxdWVzdCA9IFJlcXVlc3Q7CmV4cG9ydCB7IF9SZXF1ZXN0IGFzIFJlcXVl
-c3QgfTsKCnR5cGUgX1JlcXVlc3RJbmZvID0gUmVxdWVzdEluZm87CmV4cG9y
-dCB7IHR5cGUgX1JlcXVlc3RJbmZvIGFzIFJlcXVlc3RJbmZvIH07Cgp0eXBl
-IF9SZXF1ZXN0SW5pdCA9IFJlcXVlc3RJbml0OwpleHBvcnQgeyB0eXBlIF9S
-ZXF1ZXN0SW5pdCBhcyBSZXF1ZXN0SW5pdCB9OwoKY29uc3QgX1Jlc3BvbnNl
-ID0gUmVzcG9uc2U7CnR5cGUgX1Jlc3BvbnNlID0gUmVzcG9uc2U7CmV4cG9y
-dCB7IF9SZXNwb25zZSBhcyBSZXNwb25zZSB9OwoKdHlwZSBfUmVzcG9uc2VJ
-bml0ID0gUmVzcG9uc2VJbml0OwpleHBvcnQgeyB0eXBlIF9SZXNwb25zZUlu
-aXQgYXMgUmVzcG9uc2VJbml0IH07Cgp0eXBlIF9SZXNwb25zZVR5cGUgPSBS
-ZXNwb25zZVR5cGU7CmV4cG9ydCB7IHR5cGUgX1Jlc3BvbnNlVHlwZSBhcyBS
-ZXNwb25zZVR5cGUgfTsKCnR5cGUgX0JvZHlJbml0ID0gQm9keUluaXQ7CmV4
-cG9ydCB7IHR5cGUgX0JvZHlJbml0IGFzIEJvZHlJbml0IH07Cgpjb25zdCBf
-SGVhZGVycyA9IEhlYWRlcnM7CnR5cGUgX0hlYWRlcnMgPSBIZWFkZXJzOwpl
-eHBvcnQgeyBfSGVhZGVycyBhcyBIZWFkZXJzIH07Cgp0eXBlIF9IZWFkZXJz
-SW5pdCA9IEhlYWRlcnNJbml0OwpleHBvcnQgeyB0eXBlIF9IZWFkZXJzSW5p
-dCBhcyBIZWFkZXJzSW5pdCB9OwoKdHlwZSBFbmRpbmdUeXBlID0gJ25hdGl2
-ZScgfCAndHJhbnNwYXJlbnQnOwoKZXhwb3J0IGludGVyZmFjZSBCbG9iUHJv
-cGVydHlCYWcgewogIGVuZGluZ3M/OiBFbmRpbmdUeXBlOwogIHR5cGU/OiBz
-dHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRmlsZVByb3BlcnR5QmFnIGV4
-dGVuZHMgQmxvYlByb3BlcnR5QmFnIHsKICBsYXN0TW9kaWZpZWQ/OiBudW1i
-ZXI7Cn0KCmV4cG9ydCB0eXBlIEZpbGVGcm9tUGF0aE9wdGlvbnMgPSBPbWl0
-PEZpbGVQcm9wZXJ0eUJhZywgJ2xhc3RNb2RpZmllZCc+OwoKY29uc3QgX0Zv
-cm1EYXRhID0gRm9ybURhdGE7CnR5cGUgX0Zvcm1EYXRhID0gRm9ybURhdGE7
-CmV4cG9ydCB7IF9Gb3JtRGF0YSBhcyBGb3JtRGF0YSB9OwoKY29uc3QgX0Zp
-bGUgPSBGaWxlOwp0eXBlIF9GaWxlID0gRmlsZTsKZXhwb3J0IHsgX0ZpbGUg
-YXMgRmlsZSB9OwoKY29uc3QgX0Jsb2IgPSBCbG9iOwp0eXBlIF9CbG9iID0g
-QmxvYjsKZXhwb3J0IHsgX0Jsb2IgYXMgQmxvYiB9OwoKZXhwb3J0IGFzeW5j
-IGZ1bmN0aW9uIGdldE11bHRpcGFydFJlcXVlc3RPcHRpb25zPFQgPSBSZWNv
-cmQ8c3RyaW5nLCB1bmtub3duPj4oCiAgZm9ybTogRm9ybURhdGEsCiAgb3B0
-czogUmVxdWVzdE9wdGlvbnM8VD4sCik6IFByb21pc2U8UmVxdWVzdE9wdGlv
-bnM8VD4+IHsKICByZXR1cm4gewogICAgLi4ub3B0cywKICAgIGJvZHk6IG5l
-dyBNdWx0aXBhcnRCb2R5KGZvcm0pIGFzIGFueSwKICB9Owp9CgpleHBvcnQg
-ZnVuY3Rpb24gZ2V0RGVmYXVsdEFnZW50KHVybDogc3RyaW5nKSB7CiAgcmV0
-dXJuIHVuZGVmaW5lZDsKfQpleHBvcnQgZnVuY3Rpb24gZmlsZUZyb21QYXRo
-KCkgewogIHRocm93IG5ldyBFcnJvcigKICAgICdUaGUgYGZpbGVGcm9tUGF0
-aGAgZnVuY3Rpb24gaXMgb25seSBzdXBwb3J0ZWQgaW4gTm9kZS4gU2VlIHRo
-ZSBSRUFETUUgZm9yIG1vcmUgZGV0YWlsczogaHR0cHM6Ly93d3cuZ2l0aHVi
-LmNvbS9tZW9ycGhpcy10ZXN0LTQvbWVvcnBoaXMtdGVzdC00LW5vZGUjZmls
-ZS11cGxvYWRzJywKICApOwp9CgpleHBvcnQgY29uc3QgaXNGc1JlYWRTdHJl
-YW0gPSAodmFsdWU6IGFueSkgPT4gZmFsc2U7CgpleHBvcnQgZGVjbGFyZSBj
-bGFzcyBSZWFkYWJsZSB7CiAgcmVhZGFibGU6IGJvb2xlYW47CiAgcmVhZG9u
-bHkgcmVhZGFibGVFbmRlZDogYm9vbGVhbjsKICByZWFkb25seSByZWFkYWJs
-ZUZsb3dpbmc6IGJvb2xlYW4gfCBudWxsOwogIHJlYWRvbmx5IHJlYWRhYmxl
-SGlnaFdhdGVyTWFyazogbnVtYmVyOwogIHJlYWRvbmx5IHJlYWRhYmxlTGVu
-Z3RoOiBudW1iZXI7CiAgcmVhZG9ubHkgcmVhZGFibGVPYmplY3RNb2RlOiBi
-b29sZWFuOwogIGRlc3Ryb3llZDogYm9vbGVhbjsKICByZWFkKHNpemU/OiBu
-dW1iZXIpOiBhbnk7CiAgcGF1c2UoKTogdGhpczsKICByZXN1bWUoKTogdGhp
-czsKICBpc1BhdXNlZCgpOiBib29sZWFuOwogIGRlc3Ryb3koZXJyb3I/OiBF
-cnJvcik6IHRoaXM7CiAgW1N5bWJvbC5hc3luY0l0ZXJhdG9yXSgpOiBBc3lu
-Y0l0ZXJhYmxlSXRlcmF0b3I8YW55PjsKfQoKZXhwb3J0IGRlY2xhcmUgY2xh
-c3MgRnNSZWFkU3RyZWFtIGV4dGVuZHMgUmVhZGFibGUgewogIHBhdGg6IHt9
-OyAvLyBub2RlIHR5cGUgaXMgc3RyaW5nIHwgQnVmZmVyCn0KCmNvbnN0IF9S
-ZWFkYWJsZVN0cmVhbSA9IFJlYWRhYmxlU3RyZWFtOwp0eXBlIF9SZWFkYWJs
-ZVN0cmVhbSA9IFJlYWRhYmxlU3RyZWFtOwpleHBvcnQgeyBfUmVhZGFibGVT
-dHJlYW0gYXMgUmVhZGFibGVTdHJlYW0gfTsK
+import { MultipartBody } from './MultipartBody';
+import { type RequestOptions } from '../core';
+
+export const kind: string = 'web';
+
+export type Agent = any;
+
+const _fetch = fetch;
+type _fetch = typeof fetch;
+export { _fetch as fetch };
+
+const _Request = Request;
+type _Request = Request;
+export { _Request as Request };
+
+type _RequestInfo = RequestInfo;
+export { type _RequestInfo as RequestInfo };
+
+type _RequestInit = RequestInit;
+export { type _RequestInit as RequestInit };
+
+const _Response = Response;
+type _Response = Response;
+export { _Response as Response };
+
+type _ResponseInit = ResponseInit;
+export { type _ResponseInit as ResponseInit };
+
+type _ResponseType = ResponseType;
+export { type _ResponseType as ResponseType };
+
+type _BodyInit = BodyInit;
+export { type _BodyInit as BodyInit };
+
+const _Headers = Headers;
+type _Headers = Headers;
+export { _Headers as Headers };
+
+type _HeadersInit = HeadersInit;
+export { type _HeadersInit as HeadersInit };
+
+type EndingType = 'native' | 'transparent';
+
+export interface BlobPropertyBag {
+  endings?: EndingType;
+  type?: string;
+}
+
+export interface FilePropertyBag extends BlobPropertyBag {
+  lastModified?: number;
+}
+
+export type FileFromPathOptions = Omit<FilePropertyBag, 'lastModified'>;
+
+const _FormData = FormData;
+type _FormData = FormData;
+export { _FormData as FormData };
+
+const _File = File;
+type _File = File;
+export { _File as File };
+
+const _Blob = Blob;
+type _Blob = Blob;
+export { _Blob as Blob };
+
+export async function getMultipartRequestOptions<T = Record<string, unknown>>(
+  form: FormData,
+  opts: RequestOptions<T>,
+): Promise<RequestOptions<T>> {
+  return {
+    ...opts,
+    body: new MultipartBody(form) as any,
+  };
+}
+
+export function getDefaultAgent(url: string) {
+  return undefined;
+}
+export function fileFromPath() {
+  throw new Error(
+    'The `fileFromPath` function is only supported in Node. See the README for more details: https://www.github.com/meorphis/test-repo-2#file-uploads',
+  );
+}
+
+export const isFsReadStream = (value: any) => false;
+
+export declare class Readable {
+  readable: boolean;
+  readonly readableEnded: boolean;
+  readonly readableFlowing: boolean | null;
+  readonly readableHighWaterMark: number;
+  readonly readableLength: number;
+  readonly readableObjectMode: boolean;
+  destroyed: boolean;
+  read(size?: number): any;
+  pause(): this;
+  resume(): this;
+  isPaused(): boolean;
+  destroy(error?: Error): this;
+  [Symbol.asyncIterator](): AsyncIterableIterator<any>;
+}
+
+export declare class FsReadStream extends Readable {
+  path: {}; // node type is string | Buffer
+}
+
+const _ReadableStream = ReadableStream;
+type _ReadableStream = ReadableStream;
+export { _ReadableStream as ReadableStream };

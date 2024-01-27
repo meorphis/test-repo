@@ -1,86 +1,97 @@
-Ly8gRmlsZSBnZW5lcmF0ZWQgZnJvbSBvdXIgT3BlbkFQSSBzcGVjIGJ5IFN0
-YWlubGVzcy4KCmltcG9ydCBNZW9ycGhpc1Rlc3Q0IGZyb20gJ21lb3JwaGlz
-LXRlc3QtNCc7CmltcG9ydCB7IFJlc3BvbnNlIH0gZnJvbSAnbm9kZS1mZXRj
-aCc7Cgpjb25zdCBtZW9ycGhpc1Rlc3Q0ID0gbmV3IE1lb3JwaGlzVGVzdDQo
-ewogIGFwaUtleTogJ015IEFQSSBLZXknLAogIGJhc2VVUkw6IHByb2Nlc3Mu
-ZW52WydURVNUX0FQSV9CQVNFX1VSTCddID8/ICdodHRwOi8vMTI3LjAuMC4x
-OjQwMTAnLAp9KTsKCmRlc2NyaWJlKCdyZXNvdXJjZSBjYXJkcycsICgpID0+
-IHsKICB0ZXN0KCdjcmVhdGU6IG9ubHkgcmVxdWlyZWQgcGFyYW1zJywgYXN5
-bmMgKCkgPT4gewogICAgY29uc3QgcmVzcG9uc2VQcm9taXNlID0gbWVvcnBo
-aXNUZXN0NC5jYXJkcy5jcmVhdGUoeyB0eXBlOiAnVklSVFVBTCcgfSk7CiAg
-ICBjb25zdCByYXdSZXNwb25zZSA9IGF3YWl0IHJlc3BvbnNlUHJvbWlzZS5h
-c1Jlc3BvbnNlKCk7CiAgICBleHBlY3QocmF3UmVzcG9uc2UpLnRvQmVJbnN0
-YW5jZU9mKFJlc3BvbnNlKTsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQg
-cmVzcG9uc2VQcm9taXNlOwogICAgZXhwZWN0KHJlc3BvbnNlKS5ub3QudG9C
-ZUluc3RhbmNlT2YoUmVzcG9uc2UpOwogICAgY29uc3QgZGF0YUFuZFJlc3Bv
-bnNlID0gYXdhaXQgcmVzcG9uc2VQcm9taXNlLndpdGhSZXNwb25zZSgpOwog
-ICAgZXhwZWN0KGRhdGFBbmRSZXNwb25zZS5kYXRhKS50b0JlKHJlc3BvbnNl
-KTsKICAgIGV4cGVjdChkYXRhQW5kUmVzcG9uc2UucmVzcG9uc2UpLnRvQmUo
-cmF3UmVzcG9uc2UpOwogIH0pOwoKICB0ZXN0KCdjcmVhdGU6IHJlcXVpcmVk
-IGFuZCBvcHRpb25hbCBwYXJhbXMnLCBhc3luYyAoKSA9PiB7CiAgICBjb25z
-dCByZXNwb25zZSA9IGF3YWl0IG1lb3JwaGlzVGVzdDQuY2FyZHMuY3JlYXRl
-KHsKICAgICAgdHlwZTogJ1ZJUlRVQUwnLAogICAgICBhY2NvdW50X3Rva2Vu
-OiAnMTgyYmQ1ZTUtNmUxYS00ZmU0LWE3OTktYWE2ZDlhNmFiMjZlJywKICAg
-ICAgY2FyZF9wcm9ncmFtX3Rva2VuOiAnMDAwMDAwMDAtMDAwMC0wMDAwLTEw
-MDAtMDAwMDAwMDAwMDAwJywKICAgICAgY2FycmllcjogeyBxcl9jb2RlX3Vy
-bDogJ3N0cmluZycgfSwKICAgICAgZGlnaXRhbF9jYXJkX2FydF90b2tlbjog
-JzAwMDAwMDAwLTAwMDAtMDAwMC0xMDAwLTAwMDAwMDAwMDAwMCcsCiAgICAg
-IGV4cF9tb250aDogJzA2JywKICAgICAgZXhwX3llYXI6ICcyMDI3JywKICAg
-ICAgbWVtbzogJ05ldyBDYXJkJywKICAgICAgcGluOiAnc3RyaW5nJywKICAg
-ICAgcHJvZHVjdF9pZDogJzEnLAogICAgICBzaGlwcGluZ19hZGRyZXNzOiB7
-CiAgICAgICAgZmlyc3RfbmFtZTogJ01pY2hhZWwnLAogICAgICAgIGxhc3Rf
-bmFtZTogJ0JsdXRoJywKICAgICAgICBsaW5lMl90ZXh0OiAnVGhlIEJsdXRo
-IENvbXBhbnknLAogICAgICAgIGFkZHJlc3MxOiAnNSBCcm9hZCBTdHJlZXQn
-LAogICAgICAgIGFkZHJlc3MyOiAnVW5pdCAyNUEnLAogICAgICAgIGNpdHk6
-ICdORVcgWU9SSycsCiAgICAgICAgc3RhdGU6ICdOWScsCiAgICAgICAgcG9z
-dGFsX2NvZGU6ICcxMDAwMS0xODA5JywKICAgICAgICBjb3VudHJ5OiAnVVNB
-JywKICAgICAgICBlbWFpbDogJ2pvaG5ueUBhcHBsZXNlZWQuY29tJywKICAg
-ICAgICBwaG9uZV9udW1iZXI6ICcrMTIxMjQwMDc2NzYnLAogICAgICB9LAog
-ICAgICBzaGlwcGluZ19tZXRob2Q6ICdTVEFOREFSRCcsCiAgICAgIHNwZW5k
-X2xpbWl0OiAxMDAwLAogICAgICBzcGVuZF9saW1pdF9kdXJhdGlvbjogJ1RS
-QU5TQUNUSU9OJywKICAgICAgc3RhdGU6ICdPUEVOJywKICAgICAgJ0lkZW1w
-b3RlbmN5LUtleSc6ICdzdHJpbmcnLAogICAgfSk7CiAgfSk7CgogIHRlc3Qo
-J3JldHJpZXZlJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVzcG9uc2VQ
-cm9taXNlID0gbWVvcnBoaXNUZXN0NC5jYXJkcy5yZXRyaWV2ZSgnMTgyYmQ1
-ZTUtNmUxYS00ZmU0LWE3OTktYWE2ZDlhNmFiMjZlJyk7CiAgICBjb25zdCBy
-YXdSZXNwb25zZSA9IGF3YWl0IHJlc3BvbnNlUHJvbWlzZS5hc1Jlc3BvbnNl
-KCk7CiAgICBleHBlY3QocmF3UmVzcG9uc2UpLnRvQmVJbnN0YW5jZU9mKFJl
-c3BvbnNlKTsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgcmVzcG9uc2VQ
-cm9taXNlOwogICAgZXhwZWN0KHJlc3BvbnNlKS5ub3QudG9CZUluc3RhbmNl
-T2YoUmVzcG9uc2UpOwogICAgY29uc3QgZGF0YUFuZFJlc3BvbnNlID0gYXdh
-aXQgcmVzcG9uc2VQcm9taXNlLndpdGhSZXNwb25zZSgpOwogICAgZXhwZWN0
-KGRhdGFBbmRSZXNwb25zZS5kYXRhKS50b0JlKHJlc3BvbnNlKTsKICAgIGV4
-cGVjdChkYXRhQW5kUmVzcG9uc2UucmVzcG9uc2UpLnRvQmUocmF3UmVzcG9u
-c2UpOwogIH0pOwoKICB0ZXN0KCdyZXRyaWV2ZTogcmVxdWVzdCBvcHRpb25z
-IGluc3RlYWQgb2YgcGFyYW1zIGFyZSBwYXNzZWQgY29ycmVjdGx5JywgYXN5
-bmMgKCkgPT4gewogICAgLy8gZW5zdXJlIHRoZSByZXF1ZXN0IG9wdGlvbnMg
-YXJlIGJlaW5nIHBhc3NlZCBjb3JyZWN0bHkgYnkgcGFzc2luZyBhbiBpbnZh
-bGlkIEhUVFAgbWV0aG9kIGluIG9yZGVyIHRvIGNhdXNlIGFuIGVycm9yCiAg
-ICBhd2FpdCBleHBlY3QoCiAgICAgIG1lb3JwaGlzVGVzdDQuY2FyZHMucmV0
-cmlldmUoJzE4MmJkNWU1LTZlMWEtNGZlNC1hNzk5LWFhNmQ5YTZhYjI2ZScs
-IHsKICAgICAgICBwYXRoOiAnL19zdGFpbmxlc3NfdW5rbm93bl9wYXRoJywK
-ICAgICAgfSksCiAgICApLnJlamVjdHMudG9UaHJvdyhNZW9ycGhpc1Rlc3Q0
-Lk5vdEZvdW5kRXJyb3IpOwogIH0pOwoKICB0ZXN0KCd1cGRhdGUnLCBhc3lu
-YyAoKSA9PiB7CiAgICBjb25zdCByZXNwb25zZVByb21pc2UgPSBtZW9ycGhp
-c1Rlc3Q0LmNhcmRzLnVwZGF0ZSgnMTgyYmQ1ZTUtNmUxYS00ZmU0LWE3OTkt
-YWE2ZDlhNmFiMjZlJywge30pOwogICAgY29uc3QgcmF3UmVzcG9uc2UgPSBh
-d2FpdCByZXNwb25zZVByb21pc2UuYXNSZXNwb25zZSgpOwogICAgZXhwZWN0
-KHJhd1Jlc3BvbnNlKS50b0JlSW5zdGFuY2VPZihSZXNwb25zZSk7CiAgICBj
-b25zdCByZXNwb25zZSA9IGF3YWl0IHJlc3BvbnNlUHJvbWlzZTsKICAgIGV4
-cGVjdChyZXNwb25zZSkubm90LnRvQmVJbnN0YW5jZU9mKFJlc3BvbnNlKTsK
-ICAgIGNvbnN0IGRhdGFBbmRSZXNwb25zZSA9IGF3YWl0IHJlc3BvbnNlUHJv
-bWlzZS53aXRoUmVzcG9uc2UoKTsKICAgIGV4cGVjdChkYXRhQW5kUmVzcG9u
-c2UuZGF0YSkudG9CZShyZXNwb25zZSk7CiAgICBleHBlY3QoZGF0YUFuZFJl
-c3BvbnNlLnJlc3BvbnNlKS50b0JlKHJhd1Jlc3BvbnNlKTsKICB9KTsKCiAg
-dGVzdCgncHJvdmlzaW9uJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVz
-cG9uc2VQcm9taXNlID0gbWVvcnBoaXNUZXN0NC5jYXJkcy5wcm92aXNpb24o
-JzE4MmJkNWU1LTZlMWEtNGZlNC1hNzk5LWFhNmQ5YTZhYjI2ZScsIHt9KTsK
-ICAgIGNvbnN0IHJhd1Jlc3BvbnNlID0gYXdhaXQgcmVzcG9uc2VQcm9taXNl
-LmFzUmVzcG9uc2UoKTsKICAgIGV4cGVjdChyYXdSZXNwb25zZSkudG9CZUlu
-c3RhbmNlT2YoUmVzcG9uc2UpOwogICAgY29uc3QgcmVzcG9uc2UgPSBhd2Fp
-dCByZXNwb25zZVByb21pc2U7CiAgICBleHBlY3QocmVzcG9uc2UpLm5vdC50
-b0JlSW5zdGFuY2VPZihSZXNwb25zZSk7CiAgICBjb25zdCBkYXRhQW5kUmVz
-cG9uc2UgPSBhd2FpdCByZXNwb25zZVByb21pc2Uud2l0aFJlc3BvbnNlKCk7
-CiAgICBleHBlY3QoZGF0YUFuZFJlc3BvbnNlLmRhdGEpLnRvQmUocmVzcG9u
-c2UpOwogICAgZXhwZWN0KGRhdGFBbmRSZXNwb25zZS5yZXNwb25zZSkudG9C
-ZShyYXdSZXNwb25zZSk7CiAgfSk7Cn0pOwo=
+// File generated from our OpenAPI spec by Stainless.
+
+import MeorphisTest4 from 'meorphis-test-4';
+import { Response } from 'node-fetch';
+
+const meorphisTest4 = new MeorphisTest4({
+  apiKey: 'My API Key',
+  baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010',
+});
+
+describe('resource cards', () => {
+  test('create: only required params', async () => {
+    const responsePromise = meorphisTest4.cards.create({ type: 'VIRTUAL' });
+    const rawResponse = await responsePromise.asResponse();
+    expect(rawResponse).toBeInstanceOf(Response);
+    const response = await responsePromise;
+    expect(response).not.toBeInstanceOf(Response);
+    const dataAndResponse = await responsePromise.withResponse();
+    expect(dataAndResponse.data).toBe(response);
+    expect(dataAndResponse.response).toBe(rawResponse);
+  });
+
+  test('create: required and optional params', async () => {
+    const response = await meorphisTest4.cards.create({
+      type: 'VIRTUAL',
+      account_token: '182bd5e5-6e1a-4fe4-a799-aa6d9a6ab26e',
+      card_program_token: '00000000-0000-0000-1000-000000000000',
+      carrier: { qr_code_url: 'string' },
+      digital_card_art_token: '00000000-0000-0000-1000-000000000000',
+      exp_month: '06',
+      exp_year: '2027',
+      memo: 'New Card',
+      pin: 'string',
+      product_id: '1',
+      shipping_address: {
+        first_name: 'Michael',
+        last_name: 'Bluth',
+        line2_text: 'The Bluth Company',
+        address1: '5 Broad Street',
+        address2: 'Unit 25A',
+        city: 'NEW YORK',
+        state: 'NY',
+        postal_code: '10001-1809',
+        country: 'USA',
+        email: 'johnny@appleseed.com',
+        phone_number: '+12124007676',
+      },
+      shipping_method: 'STANDARD',
+      spend_limit: 1000,
+      spend_limit_duration: 'TRANSACTION',
+      state: 'OPEN',
+      'Idempotency-Key': 'string',
+    });
+  });
+
+  test('retrieve', async () => {
+    const responsePromise = meorphisTest4.cards.retrieve('182bd5e5-6e1a-4fe4-a799-aa6d9a6ab26e');
+    const rawResponse = await responsePromise.asResponse();
+    expect(rawResponse).toBeInstanceOf(Response);
+    const response = await responsePromise;
+    expect(response).not.toBeInstanceOf(Response);
+    const dataAndResponse = await responsePromise.withResponse();
+    expect(dataAndResponse.data).toBe(response);
+    expect(dataAndResponse.response).toBe(rawResponse);
+  });
+
+  test('retrieve: request options instead of params are passed correctly', async () => {
+    // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
+    await expect(
+      meorphisTest4.cards.retrieve('182bd5e5-6e1a-4fe4-a799-aa6d9a6ab26e', {
+        path: '/_stainless_unknown_path',
+      }),
+    ).rejects.toThrow(MeorphisTest4.NotFoundError);
+  });
+
+  test('update', async () => {
+    const responsePromise = meorphisTest4.cards.update('182bd5e5-6e1a-4fe4-a799-aa6d9a6ab26e', {});
+    const rawResponse = await responsePromise.asResponse();
+    expect(rawResponse).toBeInstanceOf(Response);
+    const response = await responsePromise;
+    expect(response).not.toBeInstanceOf(Response);
+    const dataAndResponse = await responsePromise.withResponse();
+    expect(dataAndResponse.data).toBe(response);
+    expect(dataAndResponse.response).toBe(rawResponse);
+  });
+
+  test('provision', async () => {
+    const responsePromise = meorphisTest4.cards.provision('182bd5e5-6e1a-4fe4-a799-aa6d9a6ab26e', {});
+    const rawResponse = await responsePromise.asResponse();
+    expect(rawResponse).toBeInstanceOf(Response);
+    const response = await responsePromise;
+    expect(response).not.toBeInstanceOf(Response);
+    const dataAndResponse = await responsePromise.withResponse();
+    expect(dataAndResponse.data).toBe(response);
+    expect(dataAndResponse.response).toBe(rawResponse);
+  });
+});

@@ -1,123 +1,165 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWly
-ZSgncGF0aCcpOwpjb25zdCB7IHBhcnNlIH0gPSByZXF1aXJlKCdAdHlwZXNj
-cmlwdC1lc2xpbnQvcGFyc2VyJyk7Cgpjb25zdCBwa2dJbXBvcnRQYXRoID0g
-cHJvY2Vzcy5lbnZbJ1BLR19JTVBPUlRfUEFUSCddID8/ICdtZW9ycGhpcy10
-ZXN0LTQvJwoKY29uc3QgZGlzdERpciA9CiAgcHJvY2Vzcy5lbnZbJ0RJU1Rf
-UEFUSCddID8KICAgIHBhdGgucmVzb2x2ZShwcm9jZXNzLmVudlsnRElTVF9Q
-QVRIJ10pCiAgOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi4nLCAnZGlz
-dCcpOwpjb25zdCBkaXN0U3JjRGlyID0gcGF0aC5qb2luKGRpc3REaXIsICdz
-cmMnKTsKCi8qKgogKiBRdWljayBhbmQgZGlydHkgQVNUIHRyYXZlcnNhbAog
-Ki8KZnVuY3Rpb24gdHJhdmVyc2Uobm9kZSwgdmlzaXRvcikgewogIGlmICgh
-bm9kZSB8fCB0eXBlb2Ygbm9kZS50eXBlICE9PSAnc3RyaW5nJykgcmV0dXJu
-OwogIHZpc2l0b3Iubm9kZT8uKG5vZGUpOwogIHZpc2l0b3Jbbm9kZS50eXBl
-XT8uKG5vZGUpOwogIGZvciAoY29uc3Qga2V5IGluIG5vZGUpIHsKICAgIGNv
-bnN0IHZhbHVlID0gbm9kZVtrZXldOwogICAgaWYgKEFycmF5LmlzQXJyYXko
-dmFsdWUpKSB7CiAgICAgIGZvciAoY29uc3QgZWxlbSBvZiB2YWx1ZSkgdHJh
-dmVyc2UoZWxlbSwgdmlzaXRvcik7CiAgICB9IGVsc2UgaWYgKHZhbHVlIGlu
-c3RhbmNlb2YgT2JqZWN0KSB7CiAgICAgIHRyYXZlcnNlKHZhbHVlLCB2aXNp
-dG9yKTsKICAgIH0KICB9Cn0KCi8qKgogKiBIZWxwZXIgbWV0aG9kIGZvciBy
-ZXBsYWNpbmcgYXJiaXRyYXJ5IHJhbmdlcyBvZiB0ZXh0IGluIGlucHV0IGNv
-ZGUuCiAqCiAqIFRoZSBgcmVwbGFjZXJgIGlzIGEgZnVuY3Rpb24gdGhhdCB3
-aWxsIGJlIGNhbGxlZCB3aXRoIGEgbWluaS1hcGkuICBGb3IgZXhhbXBsZToK
-ICoKICogcmVwbGFjZVJhbmdlcygnZm9vYmFyJywgKHsgcmVwbGFjZSB9KSA9
-PiByZXBsYWNlKFswLCAzXSwgJ2JheicpKSAvLyAnYmF6YmFyJwogKgogKiBU
-aGUgcmVwbGFjZWQgcmFuZ2VzIG11c3Qgbm90IGJlIG92ZXJsYXBwaW5nLgog
-Ki8KZnVuY3Rpb24gcmVwbGFjZVJhbmdlcyhjb2RlLCByZXBsYWNlcikgewog
-IGNvbnN0IHJlcGxhY2VtZW50cyA9IFtdOwogIHJlcGxhY2VyKHsgcmVwbGFj
-ZTogKHJhbmdlLCByZXBsYWNlbWVudCkgPT4gcmVwbGFjZW1lbnRzLnB1c2go
-eyByYW5nZSwgcmVwbGFjZW1lbnQgfSkgfSk7CgogIGlmICghcmVwbGFjZW1l
-bnRzLmxlbmd0aCkgcmV0dXJuIGNvZGU7CiAgcmVwbGFjZW1lbnRzLnNvcnQo
-KGEsIGIpID0+IGEucmFuZ2VbMF0gLSBiLnJhbmdlWzBdKTsKICBjb25zdCBv
-dmVybGFwSW5kZXggPSByZXBsYWNlbWVudHMuZmluZEluZGV4KAogICAgKHIs
-IGluZGV4KSA9PiBpbmRleCA+IDAgJiYgcmVwbGFjZW1lbnRzW2luZGV4IC0g
-MV0ucmFuZ2VbMV0gPiByLnJhbmdlWzBdLAogICk7CiAgaWYgKG92ZXJsYXBJ
-bmRleCA+PSAwKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgIGByZXBs
-YWNlbWVudHMgb3ZlcmxhcDogJHtKU09OLnN0cmluZ2lmeShyZXBsYWNlbWVu
-dHNbb3ZlcmxhcEluZGV4IC0gMV0pfSBhbmQgJHtKU09OLnN0cmluZ2lmeSgK
-ICAgICAgICByZXBsYWNlbWVudHNbb3ZlcmxhcEluZGV4XSwKICAgICAgKX1g
-LAogICAgKTsKICB9CgogIGNvbnN0IHBhcnRzID0gW107CiAgbGV0IGVuZCA9
-IDA7CiAgZm9yIChjb25zdCB7CiAgICByYW5nZTogW2Zyb20sIHRvXSwKICAg
-IHJlcGxhY2VtZW50LAogIH0gb2YgcmVwbGFjZW1lbnRzKSB7CiAgICBpZiAo
-ZnJvbSA+IGVuZCkgcGFydHMucHVzaChjb2RlLnN1YnN0cmluZyhlbmQsIGZy
-b20pKTsKICAgIHBhcnRzLnB1c2gocmVwbGFjZW1lbnQpOwogICAgZW5kID0g
-dG87CiAgfQogIGlmIChlbmQgPCBjb2RlLmxlbmd0aCkgcGFydHMucHVzaChj
-b2RlLnN1YnN0cmluZyhlbmQpKTsKICByZXR1cm4gcGFydHMuam9pbignJyk7
-Cn0KCi8qKgogKiBMaWtlIGNhbGxpbmcgLm1hcCgpLCB3aGVyZSB0aGUgaXRl
-cmF0ZWUgaXMgY2FsbGVkIG9uIHRoZSBwYXRoIGluIGV2ZXJ5IGltcG9ydCBv
-ciBleHBvcnQgZnJvbSBzdGF0ZW1lbnQuCiAqIEByZXR1cm5zIHRoZSB0cmFu
-c2Zvcm1lZCBjb2RlCiAqLwpmdW5jdGlvbiBtYXBNb2R1bGVQYXRocyhjb2Rl
-LCBpdGVyYXRlZSkgewogIGNvbnN0IGFzdCA9IHBhcnNlKGNvZGUsIHsgcmFu
-Z2U6IHRydWUgfSk7CiAgcmV0dXJuIHJlcGxhY2VSYW5nZXMoY29kZSwgKHsg
-cmVwbGFjZSB9KSA9PgogICAgdHJhdmVyc2UoYXN0LCB7CiAgICAgIG5vZGUo
-bm9kZSkgewogICAgICAgIHN3aXRjaCAobm9kZS50eXBlKSB7CiAgICAgICAg
-ICBjYXNlICdJbXBvcnREZWNsYXJhdGlvbic6CiAgICAgICAgICBjYXNlICdF
-eHBvcnROYW1lZERlY2xhcmF0aW9uJzoKICAgICAgICAgIGNhc2UgJ0V4cG9y
-dEFsbERlY2xhcmF0aW9uJzoKICAgICAgICAgIGNhc2UgJ0ltcG9ydEV4cHJl
-c3Npb24nOgogICAgICAgICAgICBpZiAobm9kZS5zb3VyY2UpIHsKICAgICAg
-ICAgICAgICBjb25zdCB7IHJhbmdlLCB2YWx1ZSB9ID0gbm9kZS5zb3VyY2U7
-CiAgICAgICAgICAgICAgY29uc3QgdHJhbnNmb3JtZWQgPSBpdGVyYXRlZSh2
-YWx1ZSk7CiAgICAgICAgICAgICAgaWYgKHRyYW5zZm9ybWVkICE9PSB2YWx1
-ZSkgewogICAgICAgICAgICAgICAgcmVwbGFjZShyYW5nZSwgSlNPTi5zdHJp
-bmdpZnkodHJhbnNmb3JtZWQpKTsKICAgICAgICAgICAgICB9CiAgICAgICAg
-ICAgIH0KICAgICAgICB9CiAgICAgIH0sCiAgICB9KSwKICApOwp9Cgphc3lu
-YyBmdW5jdGlvbiogd2FsayhkaXIpIHsKICBmb3IgYXdhaXQgKGNvbnN0IGQg
-b2YgYXdhaXQgZnMucHJvbWlzZXMub3BlbmRpcihkaXIpKSB7CiAgICBjb25z
-dCBlbnRyeSA9IHBhdGguam9pbihkaXIsIGQubmFtZSk7CiAgICBpZiAoZC5p
-c0RpcmVjdG9yeSgpKSB5aWVsZCogd2FsayhlbnRyeSk7CiAgICBlbHNlIGlm
-IChkLmlzRmlsZSgpKSB5aWVsZCBlbnRyeTsKICB9Cn0KCmFzeW5jIGZ1bmN0
-aW9uIHBvc3Rwcm9jZXNzKCkgewogIGZvciBhd2FpdCAoY29uc3QgZmlsZSBv
-ZiB3YWxrKHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICcuLicsICdkaXN0Jykp
-KSB7CiAgICBpZiAoIS9cLihbY21dP2pzfChcLmQpP1tjbV0/dHMpJC8udGVz
-dChmaWxlKSkgY29udGludWU7CgogICAgY29uc3QgY29kZSA9IGF3YWl0IGZz
-LnByb21pc2VzLnJlYWRGaWxlKGZpbGUsICd1dGY4Jyk7CgogICAgbGV0IHRy
-YW5zZm9ybWVkID0gbWFwTW9kdWxlUGF0aHMoY29kZSwgKGltcG9ydFBhdGgp
-ID0+IHsKICAgICAgaWYgKGZpbGUuc3RhcnRzV2l0aChkaXN0U3JjRGlyKSkg
-ewogICAgICAgIGlmIChpbXBvcnRQYXRoLnN0YXJ0c1dpdGgocGtnSW1wb3J0
-UGF0aCkpIHsKICAgICAgICAgIC8vIGNvbnZlcnQgc2VsZi1yZWZlcmVuY2Vz
-IGluIGRpc3Qvc3JjIHRvIHJlbGF0aXZlIHBhdGhzCiAgICAgICAgICBsZXQg
-cmVsYXRpdmVQYXRoID0gcGF0aC5yZWxhdGl2ZSgKICAgICAgICAgICAgcGF0
-aC5kaXJuYW1lKGZpbGUpLAogICAgICAgICAgICBwYXRoLmpvaW4oZGlzdFNy
-Y0RpciwgaW1wb3J0UGF0aC5zdWJzdHJpbmcocGtnSW1wb3J0UGF0aC5sZW5n
-dGgpKSwKICAgICAgICAgICk7CiAgICAgICAgICBpZiAoIXJlbGF0aXZlUGF0
-aC5zdGFydHNXaXRoKCcuJykpIHJlbGF0aXZlUGF0aCA9IGAuLyR7cmVsYXRp
-dmVQYXRofWA7CiAgICAgICAgICByZXR1cm4gcmVsYXRpdmVQYXRoOwogICAg
-ICAgIH0KICAgICAgICByZXR1cm4gaW1wb3J0UGF0aDsKICAgICAgfQogICAg
-ICBpZiAoaW1wb3J0UGF0aC5zdGFydHNXaXRoKCcuJykpIHsKICAgICAgICAv
-LyBhZGQgZXhwbGljaXQgZmlsZSBleHRlbnNpb25zIHRvIHJlbGF0aXZlIGlt
-cG9ydHMKICAgICAgICBjb25zdCB7IGRpciwgbmFtZSB9ID0gcGF0aC5wYXJz
-ZShpbXBvcnRQYXRoKTsKICAgICAgICBjb25zdCBleHQgPSAvXC5tanMkLy50
-ZXN0KGZpbGUpID8gJy5tanMnIDogJy5qcyc7CiAgICAgICAgcmV0dXJuIGAk
-e2Rpcn0vJHtuYW1lfSR7ZXh0fWA7CiAgICAgIH0KICAgICAgcmV0dXJuIGlt
-cG9ydFBhdGg7CiAgICB9KTsKCiAgICBpZiAoZmlsZS5zdGFydHNXaXRoKGRp
-c3RTcmNEaXIpICYmICFmaWxlLmVuZHNXaXRoKCdfc2hpbXMvaW5kZXguZC50
-cycpKSB7CiAgICAgIC8vIHN0cmlwIG91dCBgdW5rbm93biBleHRlbmRzIEZv
-byA/IG5ldmVyIDpgIHNoaW0gZ3VhcmRzIGluIGRpc3Qvc3JjCiAgICAgIC8v
-IHRvIHByZXZlbnQgZXJyb3JzIGZyb20gYXBwZWFyaW5nIGluIEdvIFRvIFNv
-dXJjZQogICAgICB0cmFuc2Zvcm1lZCA9IHRyYW5zZm9ybWVkLnJlcGxhY2Uo
-CiAgICAgICAgbmV3IFJlZ0V4cCgndW5rbm93biBleHRlbmRzICh0eXBlb2Yg
-KT9cXFMrIFxcPyBcXFMrIDpcXHMqJy5yZXBsYWNlKC9ccysvLCAnXFxzKycp
-LCAnZ20nKSwKICAgICAgICAvLyByZXBsYWNlIHdpdGggc2FtZSBudW1iZXIg
-b2YgY2hhcmFjdGVycyB0byBhdm9pZCBicmVha2luZyBzb3VyY2UgbWFwcwog
-ICAgICAgIChtYXRjaCkgPT4gJyAnLnJlcGVhdChtYXRjaC5sZW5ndGgpLAog
-ICAgICApOwogICAgfQoKICAgIGlmIChmaWxlLmVuZHNXaXRoKCcuZC50cycp
-KSB7CiAgICAgIC8vIHdvcmsgYXJvdW5kIGJhZCB0c2MgYmVoYXZpb3IKICAg
-ICAgLy8gaWYgd2UgaGF2ZSBgaW1wb3J0IHsgdHlwZSBSZWFkYWJsZSB9IGZy
-b20gJ21lb3JwaGlzLXRlc3QtNC9fc2hpbXMvaW5kZXgnYCwKICAgICAgLy8g
-dHNjIHNvbWV0aW1lcyByZXBsYWNlcyBgUmVhZGFibGVgIHdpdGggYGltcG9y
-dCgic3RyZWFtIikuUmVhZGFibGVgIGlubGluZQogICAgICAvLyBpbiB0aGUg
-b3V0cHV0IC5kLnRzCiAgICAgIHRyYW5zZm9ybWVkID0gdHJhbnNmb3JtZWQu
-cmVwbGFjZSgvaW1wb3J0XCgic3RyZWFtIlwpLlJlYWRhYmxlL2csICdSZWFk
-YWJsZScpOwogICAgfQoKICAgIC8vIHN0cmlwIG91dCBsaWI9ImRvbSIgYW5k
-IHR5cGVzPSJub2RlIiByZWZlcmVuY2VzOyB0aGVzZSBhcmUgbmVlZGVkIGF0
-IGJ1aWxkIHRpbWUsCiAgICAvLyBidXQgd291bGQgcG9sbHV0ZSB0aGUgdXNl
-cidzIFRTIGVudmlyb25tZW50CiAgICB0cmFuc2Zvcm1lZCA9IHRyYW5zZm9y
-bWVkLnJlcGxhY2UoCiAgICAgIC9eICpcL1wvXC8gKjxyZWZlcmVuY2UgKyhs
-aWI9ImRvbSJ8dHlwZXM9Im5vZGUiKS4qP1xuL2dtLAogICAgICAvLyByZXBs
-YWNlIHdpdGggc2FtZSBudW1iZXIgb2YgY2hhcmFjdGVycyB0byBhdm9pZCBi
-cmVha2luZyBzb3VyY2UgbWFwcwogICAgICAobWF0Y2gpID0+ICcgJy5yZXBl
-YXQobWF0Y2gubGVuZ3RoIC0gMSkgKyAnXG4nLAogICAgKTsKCiAgICBpZiAo
-dHJhbnNmb3JtZWQgIT09IGNvZGUpIHsKICAgICAgYXdhaXQgZnMucHJvbWlz
-ZXMud3JpdGVGaWxlKGZpbGUsIHRyYW5zZm9ybWVkLCAndXRmOCcpOwogICAg
-ICBjb25zb2xlLmVycm9yKGB3cm90ZSAke3BhdGgucmVsYXRpdmUocHJvY2Vz
-cy5jd2QoKSwgZmlsZSl9YCk7CiAgICB9CiAgfQp9CnBvc3Rwcm9jZXNzKCk7
-Cg==
+const fs = require('fs');
+const path = require('path');
+const { parse } = require('@typescript-eslint/parser');
+
+const pkgImportPath = process.env['PKG_IMPORT_PATH'] ?? 'meorphis-test-4/'
+
+const distDir =
+  process.env['DIST_PATH'] ?
+    path.resolve(process.env['DIST_PATH'])
+  : path.resolve(__dirname, '..', 'dist');
+const distSrcDir = path.join(distDir, 'src');
+
+/**
+ * Quick and dirty AST traversal
+ */
+function traverse(node, visitor) {
+  if (!node || typeof node.type !== 'string') return;
+  visitor.node?.(node);
+  visitor[node.type]?.(node);
+  for (const key in node) {
+    const value = node[key];
+    if (Array.isArray(value)) {
+      for (const elem of value) traverse(elem, visitor);
+    } else if (value instanceof Object) {
+      traverse(value, visitor);
+    }
+  }
+}
+
+/**
+ * Helper method for replacing arbitrary ranges of text in input code.
+ *
+ * The `replacer` is a function that will be called with a mini-api.  For example:
+ *
+ * replaceRanges('foobar', ({ replace }) => replace([0, 3], 'baz')) // 'bazbar'
+ *
+ * The replaced ranges must not be overlapping.
+ */
+function replaceRanges(code, replacer) {
+  const replacements = [];
+  replacer({ replace: (range, replacement) => replacements.push({ range, replacement }) });
+
+  if (!replacements.length) return code;
+  replacements.sort((a, b) => a.range[0] - b.range[0]);
+  const overlapIndex = replacements.findIndex(
+    (r, index) => index > 0 && replacements[index - 1].range[1] > r.range[0],
+  );
+  if (overlapIndex >= 0) {
+    throw new Error(
+      `replacements overlap: ${JSON.stringify(replacements[overlapIndex - 1])} and ${JSON.stringify(
+        replacements[overlapIndex],
+      )}`,
+    );
+  }
+
+  const parts = [];
+  let end = 0;
+  for (const {
+    range: [from, to],
+    replacement,
+  } of replacements) {
+    if (from > end) parts.push(code.substring(end, from));
+    parts.push(replacement);
+    end = to;
+  }
+  if (end < code.length) parts.push(code.substring(end));
+  return parts.join('');
+}
+
+/**
+ * Like calling .map(), where the iteratee is called on the path in every import or export from statement.
+ * @returns the transformed code
+ */
+function mapModulePaths(code, iteratee) {
+  const ast = parse(code, { range: true });
+  return replaceRanges(code, ({ replace }) =>
+    traverse(ast, {
+      node(node) {
+        switch (node.type) {
+          case 'ImportDeclaration':
+          case 'ExportNamedDeclaration':
+          case 'ExportAllDeclaration':
+          case 'ImportExpression':
+            if (node.source) {
+              const { range, value } = node.source;
+              const transformed = iteratee(value);
+              if (transformed !== value) {
+                replace(range, JSON.stringify(transformed));
+              }
+            }
+        }
+      },
+    }),
+  );
+}
+
+async function* walk(dir) {
+  for await (const d of await fs.promises.opendir(dir)) {
+    const entry = path.join(dir, d.name);
+    if (d.isDirectory()) yield* walk(entry);
+    else if (d.isFile()) yield entry;
+  }
+}
+
+async function postprocess() {
+  for await (const file of walk(path.resolve(__dirname, '..', 'dist'))) {
+    if (!/\.([cm]?js|(\.d)?[cm]?ts)$/.test(file)) continue;
+
+    const code = await fs.promises.readFile(file, 'utf8');
+
+    let transformed = mapModulePaths(code, (importPath) => {
+      if (file.startsWith(distSrcDir)) {
+        if (importPath.startsWith(pkgImportPath)) {
+          // convert self-references in dist/src to relative paths
+          let relativePath = path.relative(
+            path.dirname(file),
+            path.join(distSrcDir, importPath.substring(pkgImportPath.length)),
+          );
+          if (!relativePath.startsWith('.')) relativePath = `./${relativePath}`;
+          return relativePath;
+        }
+        return importPath;
+      }
+      if (importPath.startsWith('.')) {
+        // add explicit file extensions to relative imports
+        const { dir, name } = path.parse(importPath);
+        const ext = /\.mjs$/.test(file) ? '.mjs' : '.js';
+        return `${dir}/${name}${ext}`;
+      }
+      return importPath;
+    });
+
+    if (file.startsWith(distSrcDir) && !file.endsWith('_shims/index.d.ts')) {
+      // strip out `unknown extends Foo ? never :` shim guards in dist/src
+      // to prevent errors from appearing in Go To Source
+      transformed = transformed.replace(
+        new RegExp('unknown extends (typeof )?\\S+ \\? \\S+ :\\s*'.replace(/\s+/, '\\s+'), 'gm'),
+        // replace with same number of characters to avoid breaking source maps
+        (match) => ' '.repeat(match.length),
+      );
+    }
+
+    if (file.endsWith('.d.ts')) {
+      // work around bad tsc behavior
+      // if we have `import { type Readable } from 'meorphis-test-4/_shims/index'`,
+      // tsc sometimes replaces `Readable` with `import("stream").Readable` inline
+      // in the output .d.ts
+      transformed = transformed.replace(/import\("stream"\).Readable/g, 'Readable');
+    }
+
+    // strip out lib="dom" and types="node" references; these are needed at build time,
+    // but would pollute the user's TS environment
+    transformed = transformed.replace(
+      /^ *\/\/\/ *<reference +(lib="dom"|types="node").*?\n/gm,
+      // replace with same number of characters to avoid breaking source maps
+      (match) => ' '.repeat(match.length - 1) + '\n',
+    );
+
+    if (transformed !== code) {
+      await fs.promises.writeFile(file, transformed, 'utf8');
+      console.error(`wrote ${path.relative(process.cwd(), file)}`);
+    }
+  }
+}
+postprocess();

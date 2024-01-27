@@ -1,83 +1,121 @@
-ewogICJuYW1lIjogIm1lb3JwaGlzLXRlc3QtNCIsCiAgInZlcnNpb24iOiAi
-MC4wLjEiLAogICJkZXNjcmlwdGlvbiI6ICJUaGUgb2ZmaWNpYWwgVHlwZVNj
-cmlwdCBsaWJyYXJ5IGZvciB0aGUgTWVvcnBoaXMgVGVzdCA0IEFQSSIsCiAg
-ImF1dGhvciI6ICJNZW9ycGhpcyBUZXN0IDQgPHN1cHBvcnRAYWNtZS5jb20+
-IiwKICAidHlwZXMiOiAiZGlzdC9pbmRleC5kLnRzIiwKICAibWFpbiI6ICJk
-aXN0L2luZGV4LmpzIiwKICAidHlwZSI6ICJjb21tb25qcyIsCiAgInJlcG9z
-aXRvcnkiOiAiZ2l0aHViOm1lb3JwaGlzLXRlc3QtNC9tZW9ycGhpcy10ZXN0
-LTQtbm9kZSIsCiAgImxpY2Vuc2UiOiAiQXBhY2hlLTIuMCIsCiAgInBhY2th
-Z2VNYW5hZ2VyIjogInlhcm5AMS4yMi4yMSIsCiAgInByaXZhdGUiOiBmYWxz
-ZSwKICAic2NyaXB0cyI6IHsKICAgICJ0ZXN0IjogImJpbi9jaGVjay10ZXN0
-LXNlcnZlciAmJiB5YXJuIGplc3QiLAogICAgImJ1aWxkIjogImJhc2ggLi9i
-dWlsZCIsCiAgICAicHJlcGFjayI6ICJlY2hvICd0byBwYWNrLCBydW4geWFy
-biBidWlsZCAmJiAoY2QgZGlzdDsgeWFybiBwYWNrKScgJiYgZXhpdCAxIiwK
-ICAgICJwcmVwdWJsaXNoT25seSI6ICJlY2hvICd0byBwdWJsaXNoLCBydW4g
-eWFybiBidWlsZCAmJiAoY2QgZGlzdDsgeWFybiBwdWJsaXNoKScgJiYgZXhp
-dCAxIiwKICAgICJmb3JtYXQiOiAicHJldHRpZXIgLS13cml0ZSAtLWNhY2hl
-IC0tY2FjaGUtc3RyYXRlZ3kgbWV0YWRhdGEgLiAhZGlzdCIsCiAgICAicHJl
-cGFyZSI6ICJpZiBbICQoYmFzZW5hbWUgJChkaXJuYW1lICRQV0QpKSA9ICdu
-b2RlX21vZHVsZXMnIF07IHRoZW4gbnBtIHJ1biBidWlsZDsgZmkiLAogICAg
-InRzbiI6ICJ0cy1ub2RlIC1yIHRzY29uZmlnLXBhdGhzL3JlZ2lzdGVyIiwK
-ICAgICJsaW50IjogImVzbGludCAtLWV4dCB0cyxqcyAuIiwKICAgICJmaXgi
-OiAiZXNsaW50IC0tZml4IC0tZXh0IHRzLGpzIC4iCiAgfSwKICAiZGVwZW5k
-ZW5jaWVzIjogewogICAgIkB0eXBlcy9ub2RlIjogIl4xOC4xMS4xOCIsCiAg
-ICAiQHR5cGVzL25vZGUtZmV0Y2giOiAiXjIuNi40IiwKICAgICJhYm9ydC1j
-b250cm9sbGVyIjogIl4zLjAuMCIsCiAgICAiYWdlbnRrZWVwYWxpdmUiOiAi
-XjQuMi4xIiwKICAgICJkaWdlc3QtZmV0Y2giOiAiXjEuMy4wIiwKICAgICJm
-b3JtLWRhdGEtZW5jb2RlciI6ICIxLjcuMiIsCiAgICAiZm9ybWRhdGEtbm9k
-ZSI6ICJeNC4zLjIiLAogICAgIm5vZGUtZmV0Y2giOiAiXjIuNi43IiwKICAg
-ICJ3ZWItc3RyZWFtcy1wb2x5ZmlsbCI6ICJeMy4yLjEiCiAgfSwKICAiZGV2
-RGVwZW5kZW5jaWVzIjogewogICAgIkB0eXBlcy9qZXN0IjogIl4yOS40LjAi
-LAogICAgIkB0eXBlc2NyaXB0LWVzbGludC9lc2xpbnQtcGx1Z2luIjogIl42
-LjcuMCIsCiAgICAiQHR5cGVzY3JpcHQtZXNsaW50L3BhcnNlciI6ICJeNi43
-LjAiLAogICAgImVzbGludCI6ICJeOC40OS4wIiwKICAgICJlc2xpbnQtcGx1
-Z2luLXByZXR0aWVyIjogIl41LjAuMSIsCiAgICAiZXNsaW50LXBsdWdpbi11
-bnVzZWQtaW1wb3J0cyI6ICJeMy4wLjAiLAogICAgImplc3QiOiAiXjI5LjQu
-MCIsCiAgICAicHJldHRpZXIiOiAiXjMuMC4wIiwKICAgICJ0cy1qZXN0Ijog
-Il4yOS4xLjAiLAogICAgInRzLW1vcnBoIjogIl4xOS4wLjAiLAogICAgInRz
-LW5vZGUiOiAiXjEwLjUuMCIsCiAgICAidHNjLW11bHRpIjogIl4xLjEuMCIs
-CiAgICAidHNjb25maWctcGF0aHMiOiAiXjQuMC4wIiwKICAgICJ0eXBlc2Ny
-aXB0IjogIl40LjguMiIKICB9LAogICJzaWRlRWZmZWN0cyI6IFsKICAgICIu
-L19zaGltcy9pbmRleC5qcyIsCiAgICAiLi9fc2hpbXMvaW5kZXgubWpzIiwK
-ICAgICIuL3NoaW1zL25vZGUuanMiLAogICAgIi4vc2hpbXMvbm9kZS5tanMi
-LAogICAgIi4vc2hpbXMvd2ViLmpzIiwKICAgICIuL3NoaW1zL3dlYi5tanMi
-CiAgXSwKICAiaW1wb3J0cyI6IHsKICAgICJtZW9ycGhpcy10ZXN0LTQiOiAi
-LiIsCiAgICAibWVvcnBoaXMtdGVzdC00LyoiOiAiLi9zcmMvKiIKICB9LAog
-ICJleHBvcnRzIjogewogICAgIi4vX3NoaW1zL2F1dG8vKiI6IHsKICAgICAg
-ImRlbm8iOiB7CiAgICAgICAgInR5cGVzIjogIi4vZGlzdC9fc2hpbXMvYXV0
-by8qLmQudHMiLAogICAgICAgICJyZXF1aXJlIjogIi4vZGlzdC9fc2hpbXMv
-YXV0by8qLmpzIiwKICAgICAgICAiZGVmYXVsdCI6ICIuL2Rpc3QvX3NoaW1z
-L2F1dG8vKi5tanMiCiAgICAgIH0sCiAgICAgICJidW4iOiB7CiAgICAgICAg
-InR5cGVzIjogIi4vZGlzdC9fc2hpbXMvYXV0by8qLmQudHMiLAogICAgICAg
-ICJyZXF1aXJlIjogIi4vZGlzdC9fc2hpbXMvYXV0by8qLWJ1bi5qcyIsCiAg
-ICAgICAgImRlZmF1bHQiOiAiLi9kaXN0L19zaGltcy9hdXRvLyotYnVuLm1q
-cyIKICAgICAgfSwKICAgICAgImJyb3dzZXIiOiB7CiAgICAgICAgInR5cGVz
-IjogIi4vZGlzdC9fc2hpbXMvYXV0by8qLmQudHMiLAogICAgICAgICJyZXF1
-aXJlIjogIi4vZGlzdC9fc2hpbXMvYXV0by8qLmpzIiwKICAgICAgICAiZGVm
-YXVsdCI6ICIuL2Rpc3QvX3NoaW1zL2F1dG8vKi5tanMiCiAgICAgIH0sCiAg
-ICAgICJ3b3JrZXIiOiB7CiAgICAgICAgInR5cGVzIjogIi4vZGlzdC9fc2hp
-bXMvYXV0by8qLmQudHMiLAogICAgICAgICJyZXF1aXJlIjogIi4vZGlzdC9f
-c2hpbXMvYXV0by8qLmpzIiwKICAgICAgICAiZGVmYXVsdCI6ICIuL2Rpc3Qv
-X3NoaW1zL2F1dG8vKi5tanMiCiAgICAgIH0sCiAgICAgICJ3b3JrZXJkIjog
-ewogICAgICAgICJ0eXBlcyI6ICIuL2Rpc3QvX3NoaW1zL2F1dG8vKi5kLnRz
-IiwKICAgICAgICAicmVxdWlyZSI6ICIuL2Rpc3QvX3NoaW1zL2F1dG8vKi5q
-cyIsCiAgICAgICAgImRlZmF1bHQiOiAiLi9kaXN0L19zaGltcy9hdXRvLyou
-bWpzIgogICAgICB9LAogICAgICAibm9kZSI6IHsKICAgICAgICAidHlwZXMi
-OiAiLi9kaXN0L19zaGltcy9hdXRvLyotbm9kZS5kLnRzIiwKICAgICAgICAi
-cmVxdWlyZSI6ICIuL2Rpc3QvX3NoaW1zL2F1dG8vKi1ub2RlLmpzIiwKICAg
-ICAgICAiZGVmYXVsdCI6ICIuL2Rpc3QvX3NoaW1zL2F1dG8vKi1ub2RlLm1q
-cyIKICAgICAgfSwKICAgICAgInR5cGVzIjogIi4vZGlzdC9fc2hpbXMvYXV0
-by8qLmQudHMiLAogICAgICAicmVxdWlyZSI6ICIuL2Rpc3QvX3NoaW1zL2F1
-dG8vKi5qcyIsCiAgICAgICJkZWZhdWx0IjogIi4vZGlzdC9fc2hpbXMvYXV0
-by8qLm1qcyIKICAgIH0sCiAgICAiLiI6IHsKICAgICAgInJlcXVpcmUiOiB7
-CiAgICAgICAgInR5cGVzIjogIi4vZGlzdC9pbmRleC5kLnRzIiwKICAgICAg
-ICAiZGVmYXVsdCI6ICIuL2Rpc3QvaW5kZXguanMiCiAgICAgIH0sCiAgICAg
-ICJ0eXBlcyI6ICIuL2Rpc3QvaW5kZXguZC5tdHMiLAogICAgICAiZGVmYXVs
-dCI6ICIuL2Rpc3QvaW5kZXgubWpzIgogICAgfSwKICAgICIuLyoubWpzIjog
-ewogICAgICAidHlwZXMiOiAiLi9kaXN0LyouZC50cyIsCiAgICAgICJkZWZh
-dWx0IjogIi4vZGlzdC8qLm1qcyIKICAgIH0sCiAgICAiLi8qLmpzIjogewog
-ICAgICAidHlwZXMiOiAiLi9kaXN0LyouZC50cyIsCiAgICAgICJkZWZhdWx0
-IjogIi4vZGlzdC8qLmpzIgogICAgfSwKICAgICIuLyoiOiB7CiAgICAgICJ0
-eXBlcyI6ICIuL2Rpc3QvKi5kLnRzIiwKICAgICAgInJlcXVpcmUiOiAiLi9k
-aXN0LyouanMiLAogICAgICAiZGVmYXVsdCI6ICIuL2Rpc3QvKi5tanMiCiAg
-ICB9CiAgfQp9Cg==
+{
+  "name": "meorphis-test-4",
+  "version": "0.0.1",
+  "description": "The official TypeScript library for the Meorphis Test 4 API",
+  "author": "Meorphis Test 4 <support@acme.com>",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "repository": "github:meorphis/test-repo-2",
+  "license": "Apache-2.0",
+  "packageManager": "yarn@1.22.21",
+  "private": false,
+  "scripts": {
+    "test": "bin/check-test-server && yarn jest",
+    "build": "bash ./build",
+    "prepack": "echo 'to pack, run yarn build && (cd dist; yarn pack)' && exit 1",
+    "prepublishOnly": "echo 'to publish, run yarn build && (cd dist; yarn publish)' && exit 1",
+    "format": "prettier --write --cache --cache-strategy metadata . !dist",
+    "prepare": "if [ $(basename $(dirname $PWD)) = 'node_modules' ]; then npm run build; fi",
+    "tsn": "ts-node -r tsconfig-paths/register",
+    "lint": "eslint --ext ts,js .",
+    "fix": "eslint --fix --ext ts,js ."
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.4",
+    "abort-controller": "^3.0.0",
+    "agentkeepalive": "^4.2.1",
+    "digest-fetch": "^1.3.0",
+    "form-data-encoder": "1.7.2",
+    "formdata-node": "^4.3.2",
+    "node-fetch": "^2.6.7",
+    "web-streams-polyfill": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "jest": "^29.4.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.0",
+    "ts-morph": "^19.0.0",
+    "ts-node": "^10.5.0",
+    "tsc-multi": "^1.1.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.8.2"
+  },
+  "sideEffects": [
+    "./_shims/index.js",
+    "./_shims/index.mjs",
+    "./shims/node.js",
+    "./shims/node.mjs",
+    "./shims/web.js",
+    "./shims/web.mjs"
+  ],
+  "imports": {
+    "meorphis-test-4": ".",
+    "meorphis-test-4/*": "./src/*"
+  },
+  "exports": {
+    "./_shims/auto/*": {
+      "deno": {
+        "types": "./dist/_shims/auto/*.d.ts",
+        "require": "./dist/_shims/auto/*.js",
+        "default": "./dist/_shims/auto/*.mjs"
+      },
+      "bun": {
+        "types": "./dist/_shims/auto/*.d.ts",
+        "require": "./dist/_shims/auto/*-bun.js",
+        "default": "./dist/_shims/auto/*-bun.mjs"
+      },
+      "browser": {
+        "types": "./dist/_shims/auto/*.d.ts",
+        "require": "./dist/_shims/auto/*.js",
+        "default": "./dist/_shims/auto/*.mjs"
+      },
+      "worker": {
+        "types": "./dist/_shims/auto/*.d.ts",
+        "require": "./dist/_shims/auto/*.js",
+        "default": "./dist/_shims/auto/*.mjs"
+      },
+      "workerd": {
+        "types": "./dist/_shims/auto/*.d.ts",
+        "require": "./dist/_shims/auto/*.js",
+        "default": "./dist/_shims/auto/*.mjs"
+      },
+      "node": {
+        "types": "./dist/_shims/auto/*-node.d.ts",
+        "require": "./dist/_shims/auto/*-node.js",
+        "default": "./dist/_shims/auto/*-node.mjs"
+      },
+      "types": "./dist/_shims/auto/*.d.ts",
+      "require": "./dist/_shims/auto/*.js",
+      "default": "./dist/_shims/auto/*.mjs"
+    },
+    ".": {
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    },
+    "./*.mjs": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.mjs"
+    },
+    "./*.js": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "require": "./dist/*.js",
+      "default": "./dist/*.mjs"
+    }
+  }
+}

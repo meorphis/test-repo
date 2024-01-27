@@ -1,10 +1,14 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWly
-ZSgncGF0aCcpOwoKY29uc3QgaW5kZXhKcyA9CiAgcHJvY2Vzcy5lbnZbJ0RJ
-U1RfUEFUSCddID8KICAgIHBhdGgucmVzb2x2ZShwcm9jZXNzLmVudlsnRElT
-VF9QQVRIJ10sICdpbmRleC5qcycpCiAgOiBwYXRoLnJlc29sdmUoX19kaXJu
-YW1lLCAnLi4nLCAnZGlzdCcsICdpbmRleC5qcycpOwoKbGV0IGJlZm9yZSA9
-IGZzLnJlYWRGaWxlU3luYyhpbmRleEpzLCAndXRmOCcpOwpsZXQgYWZ0ZXIg
-PSBiZWZvcmUucmVwbGFjZSgKICAvXlxzKmV4cG9ydHNcLmRlZmF1bHRccyo9
-XHMqKFx3KykvbSwKICAnZXhwb3J0cyA9IG1vZHVsZS5leHBvcnRzID0gJDE7
-XG5leHBvcnRzLmRlZmF1bHQgPSAkMScsCik7CmZzLndyaXRlRmlsZVN5bmMo
-aW5kZXhKcywgYWZ0ZXIsICd1dGY4Jyk7Cg==
+const fs = require('fs');
+const path = require('path');
+
+const indexJs =
+  process.env['DIST_PATH'] ?
+    path.resolve(process.env['DIST_PATH'], 'index.js')
+  : path.resolve(__dirname, '..', 'dist', 'index.js');
+
+let before = fs.readFileSync(indexJs, 'utf8');
+let after = before.replace(
+  /^\s*exports\.default\s*=\s*(\w+)/m,
+  'exports = module.exports = $1;\nexports.default = $1',
+);
+fs.writeFileSync(indexJs, after, 'utf8');

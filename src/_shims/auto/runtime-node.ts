@@ -1,3 +1,4 @@
-LyoqCiAqIERpc2NsYWltZXI6IG1vZHVsZXMgaW4gX3NoaW1zIGFyZW4ndCBp
-bnRlbmRlZCB0byBiZSBpbXBvcnRlZCBieSBTREsgdXNlcnMuCiAqLwpleHBv
-cnQgKiBmcm9tICcuLi9ub2RlLXJ1bnRpbWUnOwo=
+/**
+ * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
+ */
+export * from '../node-runtime';
