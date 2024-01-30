@@ -2,6 +2,7 @@ gen
 
 # Meorphis Test 9 Go API Library
 
+custom
 <a href="https://pkg.go.dev/github.com/meorphis/test-repo"><img src="https://pkg.go.dev/badge/github.com/meorphis/test-repo.svg" alt="Go Reference"></a>
 
 The Meorphis Test 9 Go library provides convenient access to [the Meorphis Test 9 REST
