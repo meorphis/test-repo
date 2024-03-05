@@ -4,11 +4,12 @@
 
 This library provides convenient access to the Meorphis Test 1 REST API from server-side TypeScript or JavaScript.
 
-The API documentation can be found [here](https://docs.meorphis-test-1.com).
+The REST API documentation can be found [on docs.meorphis-test-1.com](https://docs.meorphis-test-1.com). The full API of this library can be found in [api.md](api.md).
 
 ## Installation
 
 ```sh
+# install from NPM
 npm install --save meorphis-test-1
 # or
 yarn add meorphis-test-1
@@ -16,7 +17,7 @@ yarn add meorphis-test-1
 
 ## Usage
 
-The full API of this library can be found in [api.md](https://www.github.com/meorphis-test-1/meorphis-test-1-node/blob/main/api.md).
+The full API of this library can be found in [api.md](api.md).
 
 <!-- prettier-ignore -->
 ```js
@@ -67,7 +68,7 @@ a subclass of `APIError` will be thrown:
 <!-- prettier-ignore -->
 ```ts
 async function main() {
-  const status = await meorphisTest1.status.retrieve().catch((err) => {
+  const statusRetrieveResponse = await meorphisTest1.status.retrieve().catch(async (err) => {
     if (err instanceof MeorphisTest1.APIError) {
       console.log(err.status); // 400
       console.log(err.name); // BadRequestError
@@ -173,7 +174,7 @@ import MeorphisTest1 from 'meorphis-test-1';
 ```
 
 To do the inverse, add `import "meorphis-test-1/shims/node"` (which does import polyfills).
-This can also be useful if you are getting the wrong TypeScript types for `Response` - more details [here](https://github.com/meorphis-test-1/tree/main/src/_shims#readme).
+This can also be useful if you are getting the wrong TypeScript types for `Response` ([more details](https://github.com/meorphis/test-repo/tree/main/src/_shims#readme)).
 
 You may also provide a custom `fetch` function when instantiating the client,
 which can be used to inspect or alter the `Request` or `Response` before/after each request:
@@ -183,8 +184,8 @@ import { fetch } from 'undici'; // as one example
 import MeorphisTest1 from 'meorphis-test-1';
 
 const client = new MeorphisTest1({
-  fetch: (url: RequestInfo, init?: RequestInfo): Response => {
-    console.log('About to make request', url, init);
+  fetch: async (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+    console.log('About to make a request', url, init);
     const response = await fetch(url, init);
     console.log('Got response', response);
     return response;
@@ -204,7 +205,7 @@ If you would like to disable or customize this behavior, for example to use the 
 <!-- prettier-ignore -->
 ```ts
 import http from 'http';
-import HttpsProxyAgent from 'https-proxy-agent';
+import { HttpsProxyAgent } from 'https-proxy-agent';
 
 // Configure the default for all requests:
 const meorphisTest1 = new MeorphisTest1({
@@ -213,9 +214,8 @@ const meorphisTest1 = new MeorphisTest1({
 
 // Override per-request:
 await meorphisTest1.status.retrieve({
-  baseURL: 'http://localhost:8080/test-api',
   httpAgent: new http.Agent({ keepAlive: false }),
-})
+});
 ```
 
 ## Semantic Versioning
@@ -228,7 +228,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/meorphis-test-1/meorphis-test-1-node/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/meorphis/test-repo/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 
