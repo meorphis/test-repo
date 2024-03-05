@@ -16,7 +16,7 @@ export interface ClientOptions {
   /**
    * Defaults to process.env['MEORPHIS_TEST_1_API_KEY'].
    */
-  apiKey?: string;
+  apiKey?: string | undefined;
 
   /**
    * Specifies the environment to use for the API.
@@ -93,7 +93,7 @@ export class MeorphisTest1 extends Core.APIClient {
   /**
    * API Client for interfacing with the Meorphis Test 1 API.
    *
-   * @param {string} [opts.apiKey=process.env['MEORPHIS_TEST_1_API_KEY'] ?? undefined]
+   * @param {string | undefined} [opts.apiKey=process.env['MEORPHIS_TEST_1_API_KEY'] ?? undefined]
    * @param {Environment} [opts.environment=production] - Specifies the environment URL to use for the API.
    * @param {string} [opts.baseURL=process.env['MEORPHIS_TEST_1_BASE_URL'] ?? https://api.acme.com/v1] - Override the default base URL for the API.
    * @param {number} [opts.timeout=1 minute] - The maximum amount of time (in milliseconds) the client will wait for a response before timing out.
